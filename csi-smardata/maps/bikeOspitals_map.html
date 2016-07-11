@@ -1,0 +1,354 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_4849ad8815ff4a1d99a08af95ef7ae7d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js"></script>
+        
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_4849ad8815ff4a1d99a08af95ef7ae7d" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_4849ad8815ff4a1d99a08af95ef7ae7d = L.map('map_4849ad8815ff4a1d99a08af95ef7ae7d', {
+                                           center:[45.06,7.65],
+                                           zoom: 12,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_0e404e3ff150413f87b9283a5e4e101f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+
+        
+        
+            
+            var regular_polygon_marker_fc92373f8bd5495da8596c2a39c07068 = new L.RegularPolygonMarker(
+                new L.LatLng(45.04266,7.654895),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+
+            var circle_marker_c671e41147a742e3897e22a6e4edc430 = L.circle(
+                [45.04266,7.654895],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+            var popup_7f1484c0e9984506a850d994f7cba4db = L.popup({maxWidth: '300'});
+
+            
+                var html_012e8078bf4a4034bdc39c9bd5681324 = $('         <div id="html_012e8078bf4a4034bdc39c9bd5681324"                 style="width: 100.0%; height: 100.0%;">                 Galileo Ferraris 6	1 ospitals at 160m on average</div>                 ')[0];
+                popup_7f1484c0e9984506a850d994f7cba4db.setContent(html_012e8078bf4a4034bdc39c9bd5681324);
+            
+
+            circle_marker_c671e41147a742e3897e22a6e4edc430.bindPopup(popup_7f1484c0e9984506a850d994f7cba4db);
+
+            
+        
+        
+            
+            var regular_polygon_marker_78f7bdc2255b4674ad0b1cd205f94d64 = new L.RegularPolygonMarker(
+                new L.LatLng(45.046765,7.67303),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+
+            var circle_marker_cad835815fb549a680400bb010aaecc9 = L.circle(
+                [45.046765,7.67303],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+            var popup_c2a033034f9d4c788cc4dd802c8f436f = L.popup({maxWidth: '300'});
+
+            
+                var html_24367605f5544e2ead61d4036bda0a37 = $('         <div id="html_24367605f5544e2ead61d4036bda0a37"                 style="width: 100.0%; height: 100.0%;">                 De Amicis	1 ospitals at 322m on average</div>                 ')[0];
+                popup_c2a033034f9d4c788cc4dd802c8f436f.setContent(html_24367605f5544e2ead61d4036bda0a37);
+            
+
+            circle_marker_cad835815fb549a680400bb010aaecc9.bindPopup(popup_c2a033034f9d4c788cc4dd802c8f436f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_9156310f7d614f118cd8c352b53a1a96 = new L.RegularPolygonMarker(
+                new L.LatLng(45.042325,7.67319),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+
+            var circle_marker_387b79b7a6a44718a24b4511ee71662d = L.circle(
+                [45.042325,7.67319],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+            var popup_bb2f2e22cfaf4e7ab368ec3055647047 = L.popup({maxWidth: '300'});
+
+            
+                var html_f73a42f56e6c4f75b21ce78f79d34e15 = $('         <div id="html_f73a42f56e6c4f75b21ce78f79d34e15"                 style="width: 100.0%; height: 100.0%;">                 Molinette 1	1 ospitals at 332m on average</div>                 ')[0];
+                popup_bb2f2e22cfaf4e7ab368ec3055647047.setContent(html_f73a42f56e6c4f75b21ce78f79d34e15);
+            
+
+            circle_marker_387b79b7a6a44718a24b4511ee71662d.bindPopup(popup_bb2f2e22cfaf4e7ab368ec3055647047);
+
+            
+        
+        
+            
+            var regular_polygon_marker_95158b93a807477fa91c21809b0bc873 = new L.RegularPolygonMarker(
+                new L.LatLng(45.042565,7.6709),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+
+            var circle_marker_5c27f2c8d3ab416f889f1deb7e33d2bb = L.circle(
+                [45.042565,7.6709],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_4849ad8815ff4a1d99a08af95ef7ae7d);
+            
+        
+            
+            var popup_e50d0197bf104906a2bff2845e0d3769 = L.popup({maxWidth: '300'});
+
+            
+                var html_dad9587bebf348f89825469634136a8a = $('         <div id="html_dad9587bebf348f89825469634136a8a"                 style="width: 100.0%; height: 100.0%;">                 Carducci	1 ospitals at 224m on average</div>                 ')[0];
+                popup_e50d0197bf104906a2bff2845e0d3769.setContent(html_dad9587bebf348f89825469634136a8a);
+            
+
+            circle_marker_5c27f2c8d3ab416f889f1deb7e33d2bb.bindPopup(popup_e50d0197bf104906a2bff2845e0d3769);
+
+            
+        
+        
+        
+        </script>
+        

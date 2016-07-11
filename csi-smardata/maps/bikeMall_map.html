@@ -1,0 +1,759 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_05b0c134be49457588d6446084776fc5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js"></script>
+        
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_05b0c134be49457588d6446084776fc5" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_05b0c134be49457588d6446084776fc5 = L.map('map_05b0c134be49457588d6446084776fc5', {
+                                           center:[45.06,7.65],
+                                           zoom: 12,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_f9e76fc1a19d4d7ca65e45f76fe4ce64 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_05b0c134be49457588d6446084776fc5);
+
+        
+        
+            
+            var regular_polygon_marker_d9641dd0aa6b47db9c418d462cf038b5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06609,7.682205),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_890fafcc60d84264b42d10435313affa = L.circle(
+                [45.06609,7.682205],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_628dd1aa31374c37ad4ded2de95c33d6 = L.popup({maxWidth: '300'});
+
+            
+                var html_645a605ff3c84e2a84ef7c8a6313617f = $('         <div id="html_645a605ff3c84e2a84ef7c8a6313617f"                 style="width: 100.0%; height: 100.0%;">                 CLN	1 malls at 62m on average</div>                 ')[0];
+                popup_628dd1aa31374c37ad4ded2de95c33d6.setContent(html_645a605ff3c84e2a84ef7c8a6313617f);
+            
+
+            circle_marker_890fafcc60d84264b42d10435313affa.bindPopup(popup_628dd1aa31374c37ad4ded2de95c33d6);
+
+            
+        
+        
+            
+            var regular_polygon_marker_b02b0f7055664aa5a62ed1eced1fc0fe = new L.RegularPolygonMarker(
+                new L.LatLng(45.064155,7.67881),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_9ece02f9c6fe4e298a37f02826a9660c = L.circle(
+                [45.064155,7.67881],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_678d15ed357049fb961aaafb93f2bf43 = L.popup({maxWidth: '300'});
+
+            
+                var html_b176ba659e4b416ab3f832926731eb9c = $('         <div id="html_b176ba659e4b416ab3f832926731eb9c"                 style="width: 100.0%; height: 100.0%;">                 Paleocapa	1 malls at 188m on average</div>                 ')[0];
+                popup_678d15ed357049fb961aaafb93f2bf43.setContent(html_b176ba659e4b416ab3f832926731eb9c);
+            
+
+            circle_marker_9ece02f9c6fe4e298a37f02826a9660c.bindPopup(popup_678d15ed357049fb961aaafb93f2bf43);
+
+            
+        
+        
+            
+            var regular_polygon_marker_df77e5ac4e7744618b681e55585da864 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06336,7.684215),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_4e66b2f81c8d40f88f46308f36a97079 = L.circle(
+                [45.06336,7.684215],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_ab009f0186be4a8e8026d8b8a452cd7b = L.popup({maxWidth: '300'});
+
+            
+                var html_aa36608151d241e4b7d9ab3a7935dd5a = $('         <div id="html_aa36608151d241e4b7d9ab3a7935dd5a"                 style="width: 100.0%; height: 100.0%;">                 Bodoni	1 malls at 308m on average</div>                 ')[0];
+                popup_ab009f0186be4a8e8026d8b8a452cd7b.setContent(html_aa36608151d241e4b7d9ab3a7935dd5a);
+            
+
+            circle_marker_4e66b2f81c8d40f88f46308f36a97079.bindPopup(popup_ab009f0186be4a8e8026d8b8a452cd7b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_659a64925f9c435d9553202126cb2990 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06285,7.679315),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_5831f0e3f09742f89c825f9771ea186d = L.circle(
+                [45.06285,7.679315],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_b82c32390c44458c94023ceb81c94731 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ff3530802b146799f36e0a10f7ce370 = $('         <div id="html_7ff3530802b146799f36e0a10f7ce370"                 style="width: 100.0%; height: 100.0%;">                 Porta Nuova 2	1 malls at 59m on average</div>                 ')[0];
+                popup_b82c32390c44458c94023ceb81c94731.setContent(html_7ff3530802b146799f36e0a10f7ce370);
+            
+
+            circle_marker_5831f0e3f09742f89c825f9771ea186d.bindPopup(popup_b82c32390c44458c94023ceb81c94731);
+
+            
+        
+        
+            
+            var regular_polygon_marker_376cc9fe49c5473887c9f8c72a115fcf = new L.RegularPolygonMarker(
+                new L.LatLng(45.06301,7.678915),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_01bef4b2d1274fae9089ec49f7a3cc43 = L.circle(
+                [45.06301,7.678915],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_b4432e491d7243ae875903f047aa6471 = L.popup({maxWidth: '300'});
+
+            
+                var html_c736e2fa1c8149a99c3d0cea1f7c1416 = $('         <div id="html_c736e2fa1c8149a99c3d0cea1f7c1416"                 style="width: 100.0%; height: 100.0%;">                 Porta Nuova 1	1 malls at 61m on average</div>                 ')[0];
+                popup_b4432e491d7243ae875903f047aa6471.setContent(html_c736e2fa1c8149a99c3d0cea1f7c1416);
+            
+
+            circle_marker_01bef4b2d1274fae9089ec49f7a3cc43.bindPopup(popup_b4432e491d7243ae875903f047aa6471);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0e0b8f40cb4d42cb94b75e77df1f0c8f = new L.RegularPolygonMarker(
+                new L.LatLng(45.064665,7.6863),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_0c89b1d7e60148d38982488441edc70f = L.circle(
+                [45.064665,7.6863],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_567396ad16cc422f9948ed834538fa1b = L.popup({maxWidth: '300'});
+
+            
+                var html_8f252dc1056d47b8b7e33bebe791e655 = $('         <div id="html_8f252dc1056d47b8b7e33bebe791e655"                 style="width: 100.0%; height: 100.0%;">                 Valdo Fusi	1 malls at 299m on average</div>                 ')[0];
+                popup_567396ad16cc422f9948ed834538fa1b.setContent(html_8f252dc1056d47b8b7e33bebe791e655);
+            
+
+            circle_marker_0c89b1d7e60148d38982488441edc70f.bindPopup(popup_567396ad16cc422f9948ed834538fa1b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a492a13981474124b3dd39d80eb7eea5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.066485,7.683675),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_073a09e45eb7404ea23c5b615776a421 = L.circle(
+                [45.066485,7.683675],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_6a9930c74a9b4f3588fa3be15faf0543 = L.popup({maxWidth: '300'});
+
+            
+                var html_e664cc1931ca4f00966595320ba19982 = $('         <div id="html_e664cc1931ca4f00966595320ba19982"                 style="width: 100.0%; height: 100.0%;">                 Giolitti 1	1 malls at 76m on average</div>                 ')[0];
+                popup_6a9930c74a9b4f3588fa3be15faf0543.setContent(html_e664cc1931ca4f00966595320ba19982);
+            
+
+            circle_marker_073a09e45eb7404ea23c5b615776a421.bindPopup(popup_6a9930c74a9b4f3588fa3be15faf0543);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0ec571fe9e7a4834bd9fd70dd5faac81 = new L.RegularPolygonMarker(
+                new L.LatLng(45.087035,7.669265),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_f164d63287ff4f8b8e9268483c360904 = L.circle(
+                [45.087035,7.669265],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_038ebe8a1d954039bedc99a5f92cf5e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_cfea7068003c4dffa5e660515b023dd7 = $('         <div id="html_cfea7068003c4dffa5e660515b023dd7"                 style="width: 100.0%; height: 100.0%;">                 Livorno 2	1 malls at 57m on average</div>                 ')[0];
+                popup_038ebe8a1d954039bedc99a5f92cf5e9.setContent(html_cfea7068003c4dffa5e660515b023dd7);
+            
+
+            circle_marker_f164d63287ff4f8b8e9268483c360904.bindPopup(popup_038ebe8a1d954039bedc99a5f92cf5e9);
+
+            
+        
+        
+            
+            var regular_polygon_marker_67dc4c95e512444ca4d25076b01c9058 = new L.RegularPolygonMarker(
+                new L.LatLng(45.061735,7.6821),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_c97fe0d77ef747cfa40a5639c48cdff0 = L.circle(
+                [45.061735,7.6821],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_31ac80b046cd4b4f852a68c9e9b478ed = L.popup({maxWidth: '300'});
+
+            
+                var html_86f91bf38b12488a9e652b8d3200183b = $('         <div id="html_86f91bf38b12488a9e652b8d3200183b"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 4	1 malls at 272m on average</div>                 ')[0];
+                popup_31ac80b046cd4b4f852a68c9e9b478ed.setContent(html_86f91bf38b12488a9e652b8d3200183b);
+            
+
+            circle_marker_c97fe0d77ef747cfa40a5639c48cdff0.bindPopup(popup_31ac80b046cd4b4f852a68c9e9b478ed);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e05b268e9dbd49009a1055e88438ef2c = new L.RegularPolygonMarker(
+                new L.LatLng(45.063795,7.67626),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_a2f4b311045b477c8d5eec43accbaff4 = L.circle(
+                [45.063795,7.67626],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_63a9aed9a94c463b8c094ace3d16e96d = L.popup({maxWidth: '300'});
+
+            
+                var html_79a898c86ca6424d9848912b70cf65d5 = $('         <div id="html_79a898c86ca6424d9848912b70cf65d5"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 6	1 malls at 249m on average</div>                 ')[0];
+                popup_63a9aed9a94c463b8c094ace3d16e96d.setContent(html_79a898c86ca6424d9848912b70cf65d5);
+            
+
+            circle_marker_a2f4b311045b477c8d5eec43accbaff4.bindPopup(popup_63a9aed9a94c463b8c094ace3d16e96d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_7069826ac8d649c2a6f55437c1b01f11 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06344,7.68087),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_bdeebc9c95814808aeff84cb96424972 = L.circle(
+                [45.06344,7.68087],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_ed6eb1521a534295ba0700a82b5ada14 = L.popup({maxWidth: '300'});
+
+            
+                var html_22b5e7fe7591471ca07573b89dfc86a9 = $('         <div id="html_22b5e7fe7591471ca07573b89dfc86a9"                 style="width: 100.0%; height: 100.0%;">                 Lagrange	2 malls at 262m on average</div>                 ')[0];
+                popup_ed6eb1521a534295ba0700a82b5ada14.setContent(html_22b5e7fe7591471ca07573b89dfc86a9);
+            
+
+            circle_marker_bdeebc9c95814808aeff84cb96424972.bindPopup(popup_ed6eb1521a534295ba0700a82b5ada14);
+
+            
+        
+        
+            
+            var regular_polygon_marker_717c3473eaca47f897b27997ba91ad13 = new L.RegularPolygonMarker(
+                new L.LatLng(45.03105,7.666585),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_5c56842fe468463490c7c8fe2a343c41 = L.circle(
+                [45.03105,7.666585],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_6c0f3e5365fd4102bd0c02680aa351bb = L.popup({maxWidth: '300'});
+
+            
+                var html_24e0148006534c6bb3c01bc874dbe601 = $('         <div id="html_24e0148006534c6bb3c01bc874dbe601"                 style="width: 100.0%; height: 100.0%;">                 Lingotto Fiere	1 malls at 68m on average</div>                 ')[0];
+                popup_6c0f3e5365fd4102bd0c02680aa351bb.setContent(html_24e0148006534c6bb3c01bc874dbe601);
+            
+
+            circle_marker_5c56842fe468463490c7c8fe2a343c41.bindPopup(popup_6c0f3e5365fd4102bd0c02680aa351bb);
+
+            
+        
+        
+            
+            var regular_polygon_marker_81d8c0915a28432687e416f316a8b341 = new L.RegularPolygonMarker(
+                new L.LatLng(45.087155,7.669775),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+
+            var circle_marker_16decdb6820d4ee185e3a9a4162380b5 = L.circle(
+                [45.087155,7.669775],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_05b0c134be49457588d6446084776fc5);
+            
+        
+            
+            var popup_cd79af44db7b458d90632b52cb50ad0a = L.popup({maxWidth: '300'});
+
+            
+                var html_e884993445854c7297305e301df41757 = $('         <div id="html_e884993445854c7297305e301df41757"                 style="width: 100.0%; height: 100.0%;">                 Livorno	1 malls at 58m on average</div>                 ')[0];
+                popup_cd79af44db7b458d90632b52cb50ad0a.setContent(html_e884993445854c7297305e301df41757);
+            
+
+            circle_marker_16decdb6820d4ee185e3a9a4162380b5.bindPopup(popup_cd79af44db7b458d90632b52cb50ad0a);
+
+            
+        
+        
+        
+        </script>
+        

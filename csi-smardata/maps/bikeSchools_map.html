@@ -1,0 +1,4539 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_6fb80a16d96f41e8bfc5c52e3a1552d5 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js"></script>
+        
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_6fb80a16d96f41e8bfc5c52e3a1552d5" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_6fb80a16d96f41e8bfc5c52e3a1552d5 = L.map('map_6fb80a16d96f41e8bfc5c52e3a1552d5', {
+                                           center:[45.06,7.65],
+                                           zoom: 12,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_b9427009eb9f4abc8a196f3fa20dac48 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+
+        
+        
+            
+            var regular_polygon_marker_1b1f523c760d4cf09a9cf8f44e53584d = new L.RegularPolygonMarker(
+                new L.LatLng(45.05993,7.65636),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_57867a6c34f143ae98fdac4ac722581c = L.circle(
+                [45.05993,7.65636],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_02a4014b3ed84619afbe142dfa24b4c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_659c47646b924729bc611b42d075c3a0 = $('         <div id="html_659c47646b924729bc611b42d075c3a0"                 style="width: 100.0%; height: 100.0%;">                 Lione	4 schools at 201m on average</div>                 ')[0];
+                popup_02a4014b3ed84619afbe142dfa24b4c4.setContent(html_659c47646b924729bc611b42d075c3a0);
+            
+
+            circle_marker_57867a6c34f143ae98fdac4ac722581c.bindPopup(popup_02a4014b3ed84619afbe142dfa24b4c4);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f819d068adbe4b70acfd1218a8f8f3dd = new L.RegularPolygonMarker(
+                new L.LatLng(45.05803,7.693525),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_1914df5d6a4d45bd8aad2de4b8b2770d = L.circle(
+                [45.05803,7.693525],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_aa0420d5b258447f94983df48a06b81d = L.popup({maxWidth: '300'});
+
+            
+                var html_92a8c50645fe438985b3b8dd8a583f19 = $('         <div id="html_92a8c50645fe438985b3b8dd8a583f19"                 style="width: 100.0%; height: 100.0%;">                 Fiume	4 schools at 253m on average</div>                 ')[0];
+                popup_aa0420d5b258447f94983df48a06b81d.setContent(html_92a8c50645fe438985b3b8dd8a583f19);
+            
+
+            circle_marker_1914df5d6a4d45bd8aad2de4b8b2770d.bindPopup(popup_aa0420d5b258447f94983df48a06b81d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f22136f41adf4fcaa500a009f5f3a0fd = new L.RegularPolygonMarker(
+                new L.LatLng(45.051585,7.67832),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c46c740ff8604e9f9f86f8b0297c12d9 = L.circle(
+                [45.051585,7.67832],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_74d972a74bba40a3a63d1f809b4900fe = L.popup({maxWidth: '300'});
+
+            
+                var html_8f67bf56142542999d85e31a0fa0d94a = $('         <div id="html_8f67bf56142542999d85e31a0fa0d94a"                 style="width: 100.0%; height: 100.0%;">                 Raffaello	4 schools at 213m on average</div>                 ')[0];
+                popup_74d972a74bba40a3a63d1f809b4900fe.setContent(html_8f67bf56142542999d85e31a0fa0d94a);
+            
+
+            circle_marker_c46c740ff8604e9f9f86f8b0297c12d9.bindPopup(popup_74d972a74bba40a3a63d1f809b4900fe);
+
+            
+        
+        
+            
+            var regular_polygon_marker_61b71fd65a8e4e80a715c73f60cbce0c = new L.RegularPolygonMarker(
+                new L.LatLng(45.054245,7.678395),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_760d3d188f5940f9a67ba52ef9a049b2 = L.circle(
+                [45.054245,7.678395],
+                300,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_2a0f9b7e1e134adfa9916e390c5bf187 = L.popup({maxWidth: '300'});
+
+            
+                var html_a961d1cf82b84b13a957ec389cdcfb43 = $('         <div id="html_a961d1cf82b84b13a957ec389cdcfb43"                 style="width: 100.0%; height: 100.0%;">                 Belfiore	5 schools at 177m on average</div>                 ')[0];
+                popup_2a0f9b7e1e134adfa9916e390c5bf187.setContent(html_a961d1cf82b84b13a957ec389cdcfb43);
+            
+
+            circle_marker_760d3d188f5940f9a67ba52ef9a049b2.bindPopup(popup_2a0f9b7e1e134adfa9916e390c5bf187);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0d64e840fac745f99c0ac92e6f77be21 = new L.RegularPolygonMarker(
+                new L.LatLng(45.082445,7.695695),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_83c3942ff5a540439bfae2661a138691 = L.circle(
+                [45.082445,7.695695],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_591ee032b39d4bcbb5abaa3207b76dc6 = L.popup({maxWidth: '300'});
+
+            
+                var html_3201be5075344fcfa59c735e62b2b20f = $('         <div id="html_3201be5075344fcfa59c735e62b2b20f"                 style="width: 100.0%; height: 100.0%;">                 Bologna	8 schools at 268m on average</div>                 ')[0];
+                popup_591ee032b39d4bcbb5abaa3207b76dc6.setContent(html_3201be5075344fcfa59c735e62b2b20f);
+            
+
+            circle_marker_83c3942ff5a540439bfae2661a138691.bindPopup(popup_591ee032b39d4bcbb5abaa3207b76dc6);
+
+            
+        
+        
+            
+            var regular_polygon_marker_de34af23c59f4c659f062b810671c467 = new L.RegularPolygonMarker(
+                new L.LatLng(45.067405,7.6968),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_f1922a01906842238b167d3d94616bd9 = L.circle(
+                [45.067405,7.6968],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_f01dce6f247043cd9189d95a0a16a59d = L.popup({maxWidth: '300'});
+
+            
+                var html_f70d05dd478c4b6b8628b82657ee24f2 = $('         <div id="html_f70d05dd478c4b6b8628b82657ee24f2"                 style="width: 100.0%; height: 100.0%;">                 Giulia di Barolo	8 schools at 223m on average</div>                 ')[0];
+                popup_f01dce6f247043cd9189d95a0a16a59d.setContent(html_f70d05dd478c4b6b8628b82657ee24f2);
+            
+
+            circle_marker_f1922a01906842238b167d3d94616bd9.bindPopup(popup_f01dce6f247043cd9189d95a0a16a59d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d86503965ea7410f9cc50c8722a530d0 = new L.RegularPolygonMarker(
+                new L.LatLng(45.070125,7.686495),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_655ce5091c1246919ee052b82f5f0150 = L.circle(
+                [45.070125,7.686495],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_95f475fbfdf04eeba54f5ea76c3079bc = L.popup({maxWidth: '300'});
+
+            
+                var html_fc5a92c6ec0b4703917e3253357f028e = $('         <div id="html_fc5a92c6ec0b4703917e3253357f028e"                 style="width: 100.0%; height: 100.0%;">                 Castello 2	8 schools at 35m on average</div>                 ')[0];
+                popup_95f475fbfdf04eeba54f5ea76c3079bc.setContent(html_fc5a92c6ec0b4703917e3253357f028e);
+            
+
+            circle_marker_655ce5091c1246919ee052b82f5f0150.bindPopup(popup_95f475fbfdf04eeba54f5ea76c3079bc);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f2e3603a17b5418fa03a011f2cc6a9f6 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07142,7.688095),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_cba19d817390486a88b863d77a3551c9 = L.circle(
+                [45.07142,7.688095],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_595d8d28ef154dc1bd143fd67a30f305 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc6e11176f0e444e93ab3e625bbcd892 = $('         <div id="html_dc6e11176f0e444e93ab3e625bbcd892"                 style="width: 100.0%; height: 100.0%;">                 Castello 1	8 schools at 157m on average</div>                 ')[0];
+                popup_595d8d28ef154dc1bd143fd67a30f305.setContent(html_dc6e11176f0e444e93ab3e625bbcd892);
+            
+
+            circle_marker_cba19d817390486a88b863d77a3551c9.bindPopup(popup_595d8d28ef154dc1bd143fd67a30f305);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c2aaa8c9e357475e8202e89670c63fda = new L.RegularPolygonMarker(
+                new L.LatLng(45.03105,7.666585),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_e77d5c3d41e94a1bac5ba0ad3d4d7e2c = L.circle(
+                [45.03105,7.666585],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_b893b00280f647288ac57d5917f1d915 = L.popup({maxWidth: '300'});
+
+            
+                var html_d45cd6bf3f5e42d7abe860f4a02ff71b = $('         <div id="html_d45cd6bf3f5e42d7abe860f4a02ff71b"                 style="width: 100.0%; height: 100.0%;">                 Lingotto Fiere	8 schools at 307m on average</div>                 ')[0];
+                popup_b893b00280f647288ac57d5917f1d915.setContent(html_d45cd6bf3f5e42d7abe860f4a02ff71b);
+            
+
+            circle_marker_e77d5c3d41e94a1bac5ba0ad3d4d7e2c.bindPopup(popup_b893b00280f647288ac57d5917f1d915);
+
+            
+        
+        
+            
+            var regular_polygon_marker_49cceb33a8534a1eb22874b590a293c6 = new L.RegularPolygonMarker(
+                new L.LatLng(45.05709,7.66125),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_d22168644c3543808182cd46e929988a = L.circle(
+                [45.05709,7.66125],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_c8c5e419c65847afa524d08085637dd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e9fb4ba9c6641ebbf71eb112f4f99aa = $('         <div id="html_0e9fb4ba9c6641ebbf71eb112f4f99aa"                 style="width: 100.0%; height: 100.0%;">                 De Gasperi	2 schools at 114m on average</div>                 ')[0];
+                popup_c8c5e419c65847afa524d08085637dd7.setContent(html_0e9fb4ba9c6641ebbf71eb112f4f99aa);
+            
+
+            circle_marker_d22168644c3543808182cd46e929988a.bindPopup(popup_c8c5e419c65847afa524d08085637dd7);
+
+            
+        
+        
+            
+            var regular_polygon_marker_56f50fe16d424f1f9268ce9ee4c1f453 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06891,7.691165),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_7ca66d10375c4ffca748cef1fdf6e8f7 = L.circle(
+                [45.06891,7.691165],
+                600,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_1ea29d5ed9fc4fd2b2e75822dee616b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5372f4ca0190486e8b041ada13e0676b = $('         <div id="html_5372f4ca0190486e8b041ada13e0676b"                 style="width: 100.0%; height: 100.0%;">                 RAI	10 schools at 251m on average</div>                 ')[0];
+                popup_1ea29d5ed9fc4fd2b2e75822dee616b5.setContent(html_5372f4ca0190486e8b041ada13e0676b);
+            
+
+            circle_marker_7ca66d10375c4ffca748cef1fdf6e8f7.bindPopup(popup_1ea29d5ed9fc4fd2b2e75822dee616b5);
+
+            
+        
+        
+            
+            var regular_polygon_marker_60566a2d425e4e3b82e8f40ba876ab14 = new L.RegularPolygonMarker(
+                new L.LatLng(45.076855,7.69421),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_a8bd10b4a67f407fba666a304143c6dd = L.circle(
+                [45.076855,7.69421],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_82de094ad4cd4693865b28e253bba69b = L.popup({maxWidth: '300'});
+
+            
+                var html_c14d792ffeaa4b1b88f9851f9a3a5695 = $('         <div id="html_c14d792ffeaa4b1b88f9851f9a3a5695"                 style="width: 100.0%; height: 100.0%;">                 Regio Parco	6 schools at 134m on average</div>                 ')[0];
+                popup_82de094ad4cd4693865b28e253bba69b.setContent(html_c14d792ffeaa4b1b88f9851f9a3a5695);
+            
+
+            circle_marker_a8bd10b4a67f407fba666a304143c6dd.bindPopup(popup_82de094ad4cd4693865b28e253bba69b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d7b35f5745af43bcb073b8fd46ceb511 = new L.RegularPolygonMarker(
+                new L.LatLng(45.0746,7.690325),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_327921841c4347b2910afc2cdd5e9b73 = L.circle(
+                [45.0746,7.690325],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_0f64ae5d33064dc4825f3a20e2b6c17f = L.popup({maxWidth: '300'});
+
+            
+                var html_7bcb6dcc3da74f31a1bcc33c7ae1becc = $('         <div id="html_7bcb6dcc3da74f31a1bcc33c7ae1becc"                 style="width: 100.0%; height: 100.0%;">                 Regina Margherita 4	4 schools at 188m on average</div>                 ')[0];
+                popup_0f64ae5d33064dc4825f3a20e2b6c17f.setContent(html_7bcb6dcc3da74f31a1bcc33c7ae1becc);
+            
+
+            circle_marker_327921841c4347b2910afc2cdd5e9b73.bindPopup(popup_0f64ae5d33064dc4825f3a20e2b6c17f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_87c3a3ff4e6344eab26c9649224c0da0 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07361,7.692735),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b37942c761e341d0b79d84937c224df8 = L.circle(
+                [45.07361,7.692735],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_b22c669ffbb1423ea085fa7bccfae450 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7a925fd0b444187ad11384d3b68b0b1 = $('         <div id="html_e7a925fd0b444187ad11384d3b68b0b1"                 style="width: 100.0%; height: 100.0%;">                 Regina Margherita 3	4 schools at 289m on average</div>                 ')[0];
+                popup_b22c669ffbb1423ea085fa7bccfae450.setContent(html_e7a925fd0b444187ad11384d3b68b0b1);
+            
+
+            circle_marker_b37942c761e341d0b79d84937c224df8.bindPopup(popup_b22c669ffbb1423ea085fa7bccfae450);
+
+            
+        
+        
+            
+            var regular_polygon_marker_30a74788ff85436ea3867ed89414c1a7 = new L.RegularPolygonMarker(
+                new L.LatLng(45.072345,7.6972),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_beb13383f691456e9ee4cdf772e2d163 = L.circle(
+                [45.072345,7.6972],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_5e9722458bf34612a6c8e52c960f8008 = L.popup({maxWidth: '300'});
+
+            
+                var html_744f1269df5f4760bf718c57a826c087 = $('         <div id="html_744f1269df5f4760bf718c57a826c087"                 style="width: 100.0%; height: 100.0%;">                 Regina Margherita 2	8 schools at 293m on average</div>                 ')[0];
+                popup_5e9722458bf34612a6c8e52c960f8008.setContent(html_744f1269df5f4760bf718c57a826c087);
+            
+
+            circle_marker_beb13383f691456e9ee4cdf772e2d163.bindPopup(popup_5e9722458bf34612a6c8e52c960f8008);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ae68354f831c4879938b85f7dcbfa956 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06957,7.705755),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b9a334c29e1f4e36a567c97af30d5e8f = L.circle(
+                [45.06957,7.705755],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_e2e888319e6e4805b03e11cdc68b6c9c = L.popup({maxWidth: '300'});
+
+            
+                var html_7b70d51562f74c43bf9cd54fc0972027 = $('         <div id="html_7b70d51562f74c43bf9cd54fc0972027"                 style="width: 100.0%; height: 100.0%;">                 Regina Margherita 1	4 schools at 196m on average</div>                 ')[0];
+                popup_e2e888319e6e4805b03e11cdc68b6c9c.setContent(html_7b70d51562f74c43bf9cd54fc0972027);
+            
+
+            circle_marker_b9a334c29e1f4e36a567c97af30d5e8f.bindPopup(popup_e2e888319e6e4805b03e11cdc68b6c9c);
+
+            
+        
+        
+            
+            var regular_polygon_marker_178fec577cc84421a628ccad15083e1a = new L.RegularPolygonMarker(
+                new L.LatLng(45.06716,7.70837),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_8aae7a9bae144f8682a0cd4851275176 = L.circle(
+                [45.06716,7.70837],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_4ff26e6b3bba472ca2e596b9a4578e35 = L.popup({maxWidth: '300'});
+
+            
+                var html_f812a055437c4445a99f8f1f0ef487e5 = $('         <div id="html_f812a055437c4445a99f8f1f0ef487e5"                 style="width: 100.0%; height: 100.0%;">                 Borromini	4 schools at 294m on average</div>                 ')[0];
+                popup_4ff26e6b3bba472ca2e596b9a4578e35.setContent(html_f812a055437c4445a99f8f1f0ef487e5);
+            
+
+            circle_marker_8aae7a9bae144f8682a0cd4851275176.bindPopup(popup_4ff26e6b3bba472ca2e596b9a4578e35);
+
+            
+        
+        
+            
+            var regular_polygon_marker_942e4c5a0a5548e58ae2a0d3c1ac45d0 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07692,7.68738),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ac66425ef1e543bf9ede84fa85c84098 = L.circle(
+                [45.07692,7.68738],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_7a5dd72f9af245d0bbcdb58ff6c7cddd = L.popup({maxWidth: '300'});
+
+            
+                var html_51c6a7d3846c4a698108c5d72bff0ccd = $('         <div id="html_51c6a7d3846c4a698108c5d72bff0ccd"                 style="width: 100.0%; height: 100.0%;">                 XI Febbraio	4 schools at 216m on average</div>                 ')[0];
+                popup_7a5dd72f9af245d0bbcdb58ff6c7cddd.setContent(html_51c6a7d3846c4a698108c5d72bff0ccd);
+            
+
+            circle_marker_ac66425ef1e543bf9ede84fa85c84098.bindPopup(popup_7a5dd72f9af245d0bbcdb58ff6c7cddd);
+
+            
+        
+        
+            
+            var regular_polygon_marker_8a36898e178c4405820a91a41911b519 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07139,7.66669),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c09cb98672384e23bc5191444394dd6f = L.circle(
+                [45.07139,7.66669],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_3931b31379c642f3b500ed4fde716906 = L.popup({maxWidth: '300'});
+
+            
+                var html_340ef594747b4658b9c8648d31e113c6 = $('         <div id="html_340ef594747b4658b9c8648d31e113c6"                 style="width: 100.0%; height: 100.0%;">                 Bolzano	4 schools at 335m on average</div>                 ')[0];
+                popup_3931b31379c642f3b500ed4fde716906.setContent(html_340ef594747b4658b9c8648d31e113c6);
+            
+
+            circle_marker_c09cb98672384e23bc5191444394dd6f.bindPopup(popup_3931b31379c642f3b500ed4fde716906);
+
+            
+        
+        
+            
+            var regular_polygon_marker_3261a0f8d1bf4c6bb45e41b5b58e7273 = new L.RegularPolygonMarker(
+                new L.LatLng(45.075335,7.67372),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_8a4418db1fae44219823fc2dfbe5d03f = L.circle(
+                [45.075335,7.67372],
+                600,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_1e832b2a5550463e8dc98c2975170fd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bc911ab08394e68bf2c5a4f4d96f312 = $('         <div id="html_0bc911ab08394e68bf2c5a4f4d96f312"                 style="width: 100.0%; height: 100.0%;">                 Valdocco 2	10 schools at 221m on average</div>                 ')[0];
+                popup_1e832b2a5550463e8dc98c2975170fd2.setContent(html_0bc911ab08394e68bf2c5a4f4d96f312);
+            
+
+            circle_marker_8a4418db1fae44219823fc2dfbe5d03f.bindPopup(popup_1e832b2a5550463e8dc98c2975170fd2);
+
+            
+        
+        
+            
+            var regular_polygon_marker_35a819a282ff4cc9ae91b84c0bbf0e93 = new L.RegularPolygonMarker(
+                new L.LatLng(45.04764,7.67267),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_fa6b6f1b651840c6af67cc3caaad5a5b = L.circle(
+                [45.04764,7.67267],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_96ffd5e78e2e4220b472a14ca03f9daf = L.popup({maxWidth: '300'});
+
+            
+                var html_f090a83118f440f28a4584534d48a922 = $('         <div id="html_f090a83118f440f28a4584534d48a922"                 style="width: 100.0%; height: 100.0%;">                 Dante	2 schools at 225m on average</div>                 ')[0];
+                popup_96ffd5e78e2e4220b472a14ca03f9daf.setContent(html_f090a83118f440f28a4584534d48a922);
+            
+
+            circle_marker_fa6b6f1b651840c6af67cc3caaad5a5b.bindPopup(popup_96ffd5e78e2e4220b472a14ca03f9daf);
+
+            
+        
+        
+            
+            var regular_polygon_marker_63300b2d963f4ba0ac85db673c46e021 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06678,7.68892),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_e46bb5b8aa2e4d15b2aa8f2eeb8e73ed = L.circle(
+                [45.06678,7.68892],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_cc43ef86ecc041219b9d4c2be4c22618 = L.popup({maxWidth: '300'});
+
+            
+                var html_66a4e3ca85fe42f58061bfd9ed135a6f = $('         <div id="html_66a4e3ca85fe42f58061bfd9ed135a6f"                 style="width: 100.0%; height: 100.0%;">                 Piazza Carlina	4 schools at 224m on average</div>                 ')[0];
+                popup_cc43ef86ecc041219b9d4c2be4c22618.setContent(html_66a4e3ca85fe42f58061bfd9ed135a6f);
+            
+
+            circle_marker_e46bb5b8aa2e4d15b2aa8f2eeb8e73ed.bindPopup(popup_cc43ef86ecc041219b9d4c2be4c22618);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a4743efae9d7478081b99c5df84eb3d4 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06682,7.671465),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_61b8aa7f05a94350b15b68cd9129d1d0 = L.circle(
+                [45.06682,7.671465],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_29a7bc1e22bc459b8f7d5f61d86c3b45 = L.popup({maxWidth: '300'});
+
+            
+                var html_16c70e7d1aed4c559a2edeaecf615d0b = $('         <div id="html_16c70e7d1aed4c559a2edeaecf615d0b"                 style="width: 100.0%; height: 100.0%;">                 Galileo Ferraris 5	2 schools at 297m on average</div>                 ')[0];
+                popup_29a7bc1e22bc459b8f7d5f61d86c3b45.setContent(html_16c70e7d1aed4c559a2edeaecf615d0b);
+            
+
+            circle_marker_61b8aa7f05a94350b15b68cd9129d1d0.bindPopup(popup_29a7bc1e22bc459b8f7d5f61d86c3b45);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e65fd73da14b4234ba0ea86637ec4583 = new L.RegularPolygonMarker(
+                new L.LatLng(45.070665,7.65597),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_820b5baf011b49e6a866b32288e3cfe0 = L.circle(
+                [45.070665,7.65597],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_8b3eb272d12b4e7983b46012b265d1bc = L.popup({maxWidth: '300'});
+
+            
+                var html_304763fcb6e54a5491c3b322f080ff5b = $('         <div id="html_304763fcb6e54a5491c3b322f080ff5b"                 style="width: 100.0%; height: 100.0%;">                 Adriano	2 schools at 248m on average</div>                 ')[0];
+                popup_8b3eb272d12b4e7983b46012b265d1bc.setContent(html_304763fcb6e54a5491c3b322f080ff5b);
+            
+
+            circle_marker_820b5baf011b49e6a866b32288e3cfe0.bindPopup(popup_8b3eb272d12b4e7983b46012b265d1bc);
+
+            
+        
+        
+            
+            var regular_polygon_marker_81b41427e8b4451a9ad744bba9709419 = new L.RegularPolygonMarker(
+                new L.LatLng(45.03574,7.66866),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_494afd4e4b6b444aa7ba73ea0adb9d8d = L.circle(
+                [45.03574,7.66866],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_c7b3c6ee365a40abb9286e51c304cb0e = L.popup({maxWidth: '300'});
+
+            
+                var html_f05c99b410f04889845e5fc643d271c5 = $('         <div id="html_f05c99b410f04889845e5fc643d271c5"                 style="width: 100.0%; height: 100.0%;">                 Nizza 3	8 schools at 268m on average</div>                 ')[0];
+                popup_c7b3c6ee365a40abb9286e51c304cb0e.setContent(html_f05c99b410f04889845e5fc643d271c5);
+            
+
+            circle_marker_494afd4e4b6b444aa7ba73ea0adb9d8d.bindPopup(popup_c7b3c6ee365a40abb9286e51c304cb0e);
+
+            
+        
+        
+            
+            var regular_polygon_marker_96243198d8004d65841aacd0c8595847 = new L.RegularPolygonMarker(
+                new L.LatLng(45.05426,7.675595),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_def8073e672240faa5a2134bc3aaf410 = L.circle(
+                [45.05426,7.675595],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_607e5a3014a54597913d647e680edf41 = L.popup({maxWidth: '300'});
+
+            
+                var html_22a90dfe5d15423abec41b41aa4ae0ad = $('         <div id="html_22a90dfe5d15423abec41b41aa4ae0ad"                 style="width: 100.0%; height: 100.0%;">                 Nizza 2	4 schools at 162m on average</div>                 ')[0];
+                popup_607e5a3014a54597913d647e680edf41.setContent(html_22a90dfe5d15423abec41b41aa4ae0ad);
+            
+
+            circle_marker_def8073e672240faa5a2134bc3aaf410.bindPopup(popup_607e5a3014a54597913d647e680edf41);
+
+            
+        
+        
+            
+            var regular_polygon_marker_bd07d8b04ca7434da8f947506a908b4b = new L.RegularPolygonMarker(
+                new L.LatLng(45.056685,7.66447),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_5948a58b5c504d09a7b012936830aec1 = L.circle(
+                [45.056685,7.66447],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_97ded6d008d24f6cbf9823fe2214a66b = L.popup({maxWidth: '300'});
+
+            
+                var html_a3b16cd343bf40948e57c154a50be551 = $('         <div id="html_a3b16cd343bf40948e57c154a50be551"                 style="width: 100.0%; height: 100.0%;">                 Galileo Ferraris 2	2 schools at 342m on average</div>                 ')[0];
+                popup_97ded6d008d24f6cbf9823fe2214a66b.setContent(html_a3b16cd343bf40948e57c154a50be551);
+            
+
+            circle_marker_5948a58b5c504d09a7b012936830aec1.bindPopup(popup_97ded6d008d24f6cbf9823fe2214a66b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f409f5423e854929a4127b6c4aa22844 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06982,7.68231),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_943d8131835e48c18c1a048014fd614a = L.circle(
+                [45.06982,7.68231],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_a2fdfbb7d304417db1e0ad2e1e87c57e = L.popup({maxWidth: '300'});
+
+            
+                var html_7bc718f6d29941c78e000779c714152c = $('         <div id="html_7bc718f6d29941c78e000779c714152c"                 style="width: 100.0%; height: 100.0%;">                 Bertola	2 schools at 70m on average</div>                 ')[0];
+                popup_a2fdfbb7d304417db1e0ad2e1e87c57e.setContent(html_7bc718f6d29941c78e000779c714152c);
+            
+
+            circle_marker_943d8131835e48c18c1a048014fd614a.bindPopup(popup_a2fdfbb7d304417db1e0ad2e1e87c57e);
+
+            
+        
+        
+            
+            var regular_polygon_marker_bda52c0855df4605bc4b61e92bc7fec1 = new L.RegularPolygonMarker(
+                new L.LatLng(45.062295,7.663065),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ef6eb1cbf66a49178b8f055946d92bfa = L.circle(
+                [45.062295,7.663065],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_bbd9484f92e24d2a9fba8bc8a1d2aa58 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a22472b49264de991dc73b999d555f4 = $('         <div id="html_6a22472b49264de991dc73b999d555f4"                 style="width: 100.0%; height: 100.0%;">                 Politecnico 2	1 schools at 227m on average</div>                 ')[0];
+                popup_bbd9484f92e24d2a9fba8bc8a1d2aa58.setContent(html_6a22472b49264de991dc73b999d555f4);
+            
+
+            circle_marker_ef6eb1cbf66a49178b8f055946d92bfa.bindPopup(popup_bbd9484f92e24d2a9fba8bc8a1d2aa58);
+
+            
+        
+        
+            
+            var regular_polygon_marker_262092e2f2cc4ce8a01bb79bb98470af = new L.RegularPolygonMarker(
+                new L.LatLng(45.06454,7.67381),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_1ef73f05fd3946e591caed742bfb8943 = L.circle(
+                [45.06454,7.67381],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_f443bf00fa6f417c8e0c199d56533fec = L.popup({maxWidth: '300'});
+
+            
+                var html_852b77ec371749b587b0a190aba12336 = $('         <div id="html_852b77ec371749b587b0a190aba12336"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 3	8 schools at 236m on average</div>                 ')[0];
+                popup_f443bf00fa6f417c8e0c199d56533fec.setContent(html_852b77ec371749b587b0a190aba12336);
+            
+
+            circle_marker_1ef73f05fd3946e591caed742bfb8943.bindPopup(popup_f443bf00fa6f417c8e0c199d56533fec);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a4dd8b9f5c0a4949b35887518cfc0c04 = new L.RegularPolygonMarker(
+                new L.LatLng(45.063795,7.67626),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_bfd90b66e93649c59815417c96434545 = L.circle(
+                [45.063795,7.67626],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_c72edebfb0434542a8a774a2de712d8c = L.popup({maxWidth: '300'});
+
+            
+                var html_71fea3833ca44854b57c84777a77d638 = $('         <div id="html_71fea3833ca44854b57c84777a77d638"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 6	8 schools at 183m on average</div>                 ')[0];
+                popup_c72edebfb0434542a8a774a2de712d8c.setContent(html_71fea3833ca44854b57c84777a77d638);
+            
+
+            circle_marker_bfd90b66e93649c59815417c96434545.bindPopup(popup_c72edebfb0434542a8a774a2de712d8c);
+
+            
+        
+        
+            
+            var regular_polygon_marker_680a4a9b4e5e4f60b142b6a21444ce3f = new L.RegularPolygonMarker(
+                new L.LatLng(45.06344,7.68087),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_7425a5ecbcad4f109fbcac651606bf45 = L.circle(
+                [45.06344,7.68087],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_d40cf1b31be14fbf91b0a790836fc70b = L.popup({maxWidth: '300'});
+
+            
+                var html_d5bc38983622451d85062b3fc36e34bc = $('         <div id="html_d5bc38983622451d85062b3fc36e34bc"                 style="width: 100.0%; height: 100.0%;">                 Lagrange	2 schools at 342m on average</div>                 ')[0];
+                popup_d40cf1b31be14fbf91b0a790836fc70b.setContent(html_d5bc38983622451d85062b3fc36e34bc);
+            
+
+            circle_marker_7425a5ecbcad4f109fbcac651606bf45.bindPopup(popup_d40cf1b31be14fbf91b0a790836fc70b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ee9b8a2321e6404ba727db0b26e3f167 = new L.RegularPolygonMarker(
+                new L.LatLng(45.051615,7.67435),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b76b7834f4c847859a13e63e621a6f95 = L.circle(
+                [45.051615,7.67435],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_27fba8c93ca5499084e7e9987c44db5d = L.popup({maxWidth: '300'});
+
+            
+                var html_470eb87d74084724a929966e678c4d43 = $('         <div id="html_470eb87d74084724a929966e678c4d43"                 style="width: 100.0%; height: 100.0%;">                 Piazza Nizza	4 schools at 293m on average</div>                 ')[0];
+                popup_27fba8c93ca5499084e7e9987c44db5d.setContent(html_470eb87d74084724a929966e678c4d43);
+            
+
+            circle_marker_b76b7834f4c847859a13e63e621a6f95.bindPopup(popup_27fba8c93ca5499084e7e9987c44db5d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d1312f2a8b8d4ebbb4cdab5eafdf1dc2 = new L.RegularPolygonMarker(
+                new L.LatLng(45.071645,7.707645),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_04190f708ec343d39ffa1fe6e7c874e6 = L.circle(
+                [45.071645,7.707645],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_dc5dbdaab80648c4a99a5ad9985e0367 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9999432b8d94cf79d2ff4eda440664e = $('         <div id="html_b9999432b8d94cf79d2ff4eda440664e"                 style="width: 100.0%; height: 100.0%;">                 Tortona	4 schools at 176m on average</div>                 ')[0];
+                popup_dc5dbdaab80648c4a99a5ad9985e0367.setContent(html_b9999432b8d94cf79d2ff4eda440664e);
+            
+
+            circle_marker_04190f708ec343d39ffa1fe6e7c874e6.bindPopup(popup_dc5dbdaab80648c4a99a5ad9985e0367);
+
+            
+        
+        
+            
+            var regular_polygon_marker_810f2a939b504abbb67bcfa9ecc336ef = new L.RegularPolygonMarker(
+                new L.LatLng(45.05312,7.655695),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_7acb58eee67840aeadffd306ad2278d2 = L.circle(
+                [45.05312,7.655695],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_ac8f5cf8394c4f0489d60e94207cfc3e = L.popup({maxWidth: '300'});
+
+            
+                var html_3f75cfce30c141078cebfd95ec4e2ee7 = $('         <div id="html_3f75cfce30c141078cebfd95ec4e2ee7"                 style="width: 100.0%; height: 100.0%;">                 Orbassano	6 schools at 311m on average</div>                 ')[0];
+                popup_ac8f5cf8394c4f0489d60e94207cfc3e.setContent(html_3f75cfce30c141078cebfd95ec4e2ee7);
+            
+
+            circle_marker_7acb58eee67840aeadffd306ad2278d2.bindPopup(popup_ac8f5cf8394c4f0489d60e94207cfc3e);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f73dc524f7a54d66aa9d3947d3321c85 = new L.RegularPolygonMarker(
+                new L.LatLng(45.054875,7.68553),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_713db125550741319b319addf4b0bc68 = L.circle(
+                [45.054875,7.68553],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_79ff9f62e753409699c8d61caba81eac = L.popup({maxWidth: '300'});
+
+            
+                var html_f1e8db4cb46a462ba92ea699eff020f4 = $('         <div id="html_f1e8db4cb46a462ba92ea699eff020f4"                 style="width: 100.0%; height: 100.0%;">                 Valentino 2	1 schools at 261m on average</div>                 ')[0];
+                popup_79ff9f62e753409699c8d61caba81eac.setContent(html_f1e8db4cb46a462ba92ea699eff020f4);
+            
+
+            circle_marker_713db125550741319b319addf4b0bc68.bindPopup(popup_79ff9f62e753409699c8d61caba81eac);
+
+            
+        
+        
+            
+            var regular_polygon_marker_b3e486bf629643ae809227dfbbf6ddbf = new L.RegularPolygonMarker(
+                new L.LatLng(45.059145,7.68805),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_9d07e9626b3447bb93a527391671548f = L.circle(
+                [45.059145,7.68805],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_a3bd1f3aca3a47b38231f7d2b57d9ac2 = L.popup({maxWidth: '300'});
+
+            
+                var html_474d3a7ef8354607b469d3b938b25d8a = $('         <div id="html_474d3a7ef8354607b469d3b938b25d8a"                 style="width: 100.0%; height: 100.0%;">                 Valentino 1	2 schools at 342m on average</div>                 ')[0];
+                popup_a3bd1f3aca3a47b38231f7d2b57d9ac2.setContent(html_474d3a7ef8354607b469d3b938b25d8a);
+            
+
+            circle_marker_9d07e9626b3447bb93a527391671548f.bindPopup(popup_a3bd1f3aca3a47b38231f7d2b57d9ac2);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ecb0815c8e194a9589414c1603ac8746 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06315,7.688885),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_6a00b6459a794d30a04e108914b126a6 = L.circle(
+                [45.06315,7.688885],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_da871d8878294e1b809bff142104a63d = L.popup({maxWidth: '300'});
+
+            
+                var html_27bdde7a560b48ae88d2f02139a237b2 = $('         <div id="html_27bdde7a560b48ae88d2f02139a237b2"                 style="width: 100.0%; height: 100.0%;">                 Giardini Cavour	2 schools at 111m on average</div>                 ')[0];
+                popup_da871d8878294e1b809bff142104a63d.setContent(html_27bdde7a560b48ae88d2f02139a237b2);
+            
+
+            circle_marker_6a00b6459a794d30a04e108914b126a6.bindPopup(popup_da871d8878294e1b809bff142104a63d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ca9c298bf73b4894b7144861bed43295 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07965,7.65217),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b7f85887fca8413584099666c8752f77 = L.circle(
+                [45.07965,7.65217],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_139c002bda354b16a8d221db432247f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_004d0506fb8c47afb45dfbaaeeeae6f1 = $('         <div id="html_004d0506fb8c47afb45dfbaaeeeae6f1"                 style="width: 100.0%; height: 100.0%;">                 Risorgimento	4 schools at 214m on average</div>                 ')[0];
+                popup_139c002bda354b16a8d221db432247f6.setContent(html_004d0506fb8c47afb45dfbaaeeeae6f1);
+            
+
+            circle_marker_b7f85887fca8413584099666c8752f77.bindPopup(popup_139c002bda354b16a8d221db432247f6);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0e369b5c6d344522b5f235930db9635b = new L.RegularPolygonMarker(
+                new L.LatLng(45.066655,7.66182),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ede8f14793494f6da6391c8d61c6f37a = L.circle(
+                [45.066655,7.66182],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_b63a6c08258e47a4a0cf7c1565e3435c = L.popup({maxWidth: '300'});
+
+            
+                var html_0b671f4f12fd4d1884f256c68c6d1a53 = $('         <div id="html_0b671f4f12fd4d1884f256c68c6d1a53"                 style="width: 100.0%; height: 100.0%;">                 O.G.R.	1 schools at 268m on average</div>                 ')[0];
+                popup_b63a6c08258e47a4a0cf7c1565e3435c.setContent(html_0b671f4f12fd4d1884f256c68c6d1a53);
+            
+
+            circle_marker_ede8f14793494f6da6391c8d61c6f37a.bindPopup(popup_b63a6c08258e47a4a0cf7c1565e3435c);
+
+            
+        
+        
+            
+            var regular_polygon_marker_8111b70a00844cea9148485ecc48ec90 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06549,7.69871),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_860436102e1d47c7a2fc78ee32f8a713 = L.circle(
+                [45.06549,7.69871],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_0a8cd306a8e74943a86304251bf5a1bb = L.popup({maxWidth: '300'});
+
+            
+                var html_c50948de7c1049a98f3b7d8cd155dde8 = $('         <div id="html_c50948de7c1049a98f3b7d8cd155dde8"                 style="width: 100.0%; height: 100.0%;">                 Lungo Po Cadorna	2 schools at 269m on average</div>                 ')[0];
+                popup_0a8cd306a8e74943a86304251bf5a1bb.setContent(html_c50948de7c1049a98f3b7d8cd155dde8);
+            
+
+            circle_marker_860436102e1d47c7a2fc78ee32f8a713.bindPopup(popup_0a8cd306a8e74943a86304251bf5a1bb);
+
+            
+        
+        
+            
+            var regular_polygon_marker_5728f6966e544aaf876fe1e5ddc9064f = new L.RegularPolygonMarker(
+                new L.LatLng(45.071935,7.69261),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_dfda1d45185b4f1da6f053e3a683fc76 = L.circle(
+                [45.071935,7.69261],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_1eab9f35e870479895ff4e45ae81db0b = L.popup({maxWidth: '300'});
+
+            
+                var html_21f5c007f12b4f3d9331b66e0a387325 = $('         <div id="html_21f5c007f12b4f3d9331b66e0a387325"                 style="width: 100.0%; height: 100.0%;">                 San Maurizio	4 schools at 201m on average</div>                 ')[0];
+                popup_1eab9f35e870479895ff4e45ae81db0b.setContent(html_21f5c007f12b4f3d9331b66e0a387325);
+            
+
+            circle_marker_dfda1d45185b4f1da6f053e3a683fc76.bindPopup(popup_1eab9f35e870479895ff4e45ae81db0b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0ecf255cd0824fdcb1f16c95df78eecb = new L.RegularPolygonMarker(
+                new L.LatLng(45.06298,7.6985),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c1b59335c2a1483383c2d2fccc20a74b = L.circle(
+                [45.06298,7.6985],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_f3e8185b3c0b4b07a609d9a184d5c2ca = L.popup({maxWidth: '300'});
+
+            
+                var html_3004cac233f34498903530d8ca979f28 = $('         <div id="html_3004cac233f34498903530d8ca979f28"                 style="width: 100.0%; height: 100.0%;">                 Gran Madre	2 schools at 227m on average</div>                 ')[0];
+                popup_f3e8185b3c0b4b07a609d9a184d5c2ca.setContent(html_3004cac233f34498903530d8ca979f28);
+            
+
+            circle_marker_c1b59335c2a1483383c2d2fccc20a74b.bindPopup(popup_f3e8185b3c0b4b07a609d9a184d5c2ca);
+
+            
+        
+        
+            
+            var regular_polygon_marker_7216b5edebe94e6ca4ad0333cbfb5832 = new L.RegularPolygonMarker(
+                new L.LatLng(45.068605,7.68908),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_fdf0dfc1b7a54a19a09a829a7b593417 = L.circle(
+                [45.068605,7.68908],
+                720,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_26150e718d454f17ba6241e315e1b377 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed8c1387730647a5921633019e15b78e = $('         <div id="html_ed8c1387730647a5921633019e15b78e"                 style="width: 100.0%; height: 100.0%;">                 San Francesco da Paola	12 schools at 249m on average</div>                 ')[0];
+                popup_26150e718d454f17ba6241e315e1b377.setContent(html_ed8c1387730647a5921633019e15b78e);
+            
+
+            circle_marker_fdf0dfc1b7a54a19a09a829a7b593417.bindPopup(popup_26150e718d454f17ba6241e315e1b377);
+
+            
+        
+        
+            
+            var regular_polygon_marker_1a091fe76c68408a8d1a2d56a7c69465 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07318,7.66227),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c13f0616e1994293a51831363f25e1ff = L.circle(
+                [45.07318,7.66227],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_0b082ebad6464111af0879717dd16c44 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d86cfd1c00449509dc4d8ba0a7ea79a = $('         <div id="html_8d86cfd1c00449509dc4d8ba0a7ea79a"                 style="width: 100.0%; height: 100.0%;">                 Principi d&#39;Acaja 1	4 schools at 275m on average</div>                 ')[0];
+                popup_0b082ebad6464111af0879717dd16c44.setContent(html_8d86cfd1c00449509dc4d8ba0a7ea79a);
+            
+
+            circle_marker_c13f0616e1994293a51831363f25e1ff.bindPopup(popup_0b082ebad6464111af0879717dd16c44);
+
+            
+        
+        
+            
+            var regular_polygon_marker_61f10bdd3bb94bcfb7bae3a976c3bae0 = new L.RegularPolygonMarker(
+                new L.LatLng(45.064865,7.664785),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_678ca375dccb40ca99d7c8384a9e4add = L.circle(
+                [45.064865,7.664785],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_0aed36695baf46a6bf0c7727e5a95fdf = L.popup({maxWidth: '300'});
+
+            
+                var html_9e8a8327c4ec49afa92c34815258e1f6 = $('         <div id="html_9e8a8327c4ec49afa92c34815258e1f6"                 style="width: 100.0%; height: 100.0%;">                 Stati Uniti 1	1 schools at 170m on average</div>                 ')[0];
+                popup_0aed36695baf46a6bf0c7727e5a95fdf.setContent(html_9e8a8327c4ec49afa92c34815258e1f6);
+            
+
+            circle_marker_678ca375dccb40ca99d7c8384a9e4add.bindPopup(popup_0aed36695baf46a6bf0c7727e5a95fdf);
+
+            
+        
+        
+            
+            var regular_polygon_marker_4bd540dfdacc4110bbb121fbaf50da39 = new L.RegularPolygonMarker(
+                new L.LatLng(45.076245,7.67166),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_5794d7a1d7ee4543800bc35e42e999cc = L.circle(
+                [45.076245,7.67166],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_4d605431c4554e199b96ab9e09f1467f = L.popup({maxWidth: '300'});
+
+            
+                var html_4b0d3250e49241d1860f8d193bc11022 = $('         <div id="html_4b0d3250e49241d1860f8d193bc11022"                 style="width: 100.0%; height: 100.0%;">                 Statuto 2	6 schools at 210m on average</div>                 ')[0];
+                popup_4d605431c4554e199b96ab9e09f1467f.setContent(html_4b0d3250e49241d1860f8d193bc11022);
+            
+
+            circle_marker_5794d7a1d7ee4543800bc35e42e999cc.bindPopup(popup_4d605431c4554e199b96ab9e09f1467f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0dfbebb4504b494c8b4959fdce0c6701 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07945,7.689225),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_75514a4aef7046cc9d0c6e8eb32f6e00 = L.circle(
+                [45.07945,7.689225],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_1fd47265094e44c0bf4994ba1fc7ca32 = L.popup({maxWidth: '300'});
+
+            
+                var html_58023ddb30de43d9957ac989c89552e5 = $('         <div id="html_58023ddb30de43d9957ac989c89552e5"                 style="width: 100.0%; height: 100.0%;">                 Dora Firenze	2 schools at 339m on average</div>                 ')[0];
+                popup_1fd47265094e44c0bf4994ba1fc7ca32.setContent(html_58023ddb30de43d9957ac989c89552e5);
+            
+
+            circle_marker_75514a4aef7046cc9d0c6e8eb32f6e00.bindPopup(popup_1fd47265094e44c0bf4994ba1fc7ca32);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0e7ac7a1364c4d018afbd8525105498c = new L.RegularPolygonMarker(
+                new L.LatLng(45.03308,7.656515),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_66f50702ad2e4f219b321b1b89f0117e = L.circle(
+                [45.03308,7.656515],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_98043fec28a8444e97077af799f3956b = L.popup({maxWidth: '300'});
+
+            
+                var html_1ae59ca379ac4493823ce23706bc06f3 = $('         <div id="html_1ae59ca379ac4493823ce23706bc06f3"                 style="width: 100.0%; height: 100.0%;">                 Galimberti	2 schools at 294m on average</div>                 ')[0];
+                popup_98043fec28a8444e97077af799f3956b.setContent(html_1ae59ca379ac4493823ce23706bc06f3);
+            
+
+            circle_marker_66f50702ad2e4f219b321b1b89f0117e.bindPopup(popup_98043fec28a8444e97077af799f3956b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_543a44ece6c84fd49fbfb6f5a9fb87ef = new L.RegularPolygonMarker(
+                new L.LatLng(45.05546,7.68267),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b84cd1bdd68b45b18c853aad48d08e15 = L.circle(
+                [45.05546,7.68267],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_f3d2ce7cc8114b318aee4ecf0f4fb6ab = L.popup({maxWidth: '300'});
+
+            
+                var html_e467ed1ab3224174ac2568012dd439e2 = $('         <div id="html_e467ed1ab3224174ac2568012dd439e2"                 style="width: 100.0%; height: 100.0%;">                 Marconi 1	1 schools at 82m on average</div>                 ')[0];
+                popup_f3d2ce7cc8114b318aee4ecf0f4fb6ab.setContent(html_e467ed1ab3224174ac2568012dd439e2);
+            
+
+            circle_marker_b84cd1bdd68b45b18c853aad48d08e15.bindPopup(popup_f3d2ce7cc8114b318aee4ecf0f4fb6ab);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ab84a8ca4f8a496c9259a217db3c2c2f = new L.RegularPolygonMarker(
+                new L.LatLng(45.05167,7.663495),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_6e363ff0b1bc48a685ac76bbde28cb5d = L.circle(
+                [45.05167,7.663495],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_d50f1bc2cd8c4e64abc2c1ddd95e1c98 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ea40ecc371a4e8795e00481b5b942c2 = $('         <div id="html_1ea40ecc371a4e8795e00481b5b942c2"                 style="width: 100.0%; height: 100.0%;">                 Mauriziano 2	4 schools at 331m on average</div>                 ')[0];
+                popup_d50f1bc2cd8c4e64abc2c1ddd95e1c98.setContent(html_1ea40ecc371a4e8795e00481b5b942c2);
+            
+
+            circle_marker_6e363ff0b1bc48a685ac76bbde28cb5d.bindPopup(popup_d50f1bc2cd8c4e64abc2c1ddd95e1c98);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e6e39d20827f4a438621ccea9ea978cf = new L.RegularPolygonMarker(
+                new L.LatLng(45.064665,7.6863),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_6f7613ea4e004c8991258a9012b9ab38 = L.circle(
+                [45.064665,7.6863],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_49e76cf112694217833d619a48756f05 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f66acc15293452c8ba864cbdb8eb78c = $('         <div id="html_4f66acc15293452c8ba864cbdb8eb78c"                 style="width: 100.0%; height: 100.0%;">                 Valdo Fusi	2 schools at 318m on average</div>                 ')[0];
+                popup_49e76cf112694217833d619a48756f05.setContent(html_4f66acc15293452c8ba864cbdb8eb78c);
+            
+
+            circle_marker_6f7613ea4e004c8991258a9012b9ab38.bindPopup(popup_49e76cf112694217833d619a48756f05);
+
+            
+        
+        
+            
+            var regular_polygon_marker_8c8fa09f6bae40ff83c62e0e2b9e0805 = new L.RegularPolygonMarker(
+                new L.LatLng(45.072645,7.67026),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_926a36e1b5b840c5b908e5cbe7d8a3ee = L.circle(
+                [45.072645,7.67026],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_527b2dd1c17245548ab5609766efe9fc = L.popup({maxWidth: '300'});
+
+            
+                var html_f121c457f65f4a7c922733a4da85156a = $('         <div id="html_f121c457f65f4a7c922733a4da85156a"                 style="width: 100.0%; height: 100.0%;">                 Cernaia	6 schools at 236m on average</div>                 ')[0];
+                popup_527b2dd1c17245548ab5609766efe9fc.setContent(html_f121c457f65f4a7c922733a4da85156a);
+            
+
+            circle_marker_926a36e1b5b840c5b908e5cbe7d8a3ee.bindPopup(popup_527b2dd1c17245548ab5609766efe9fc);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d6dad950c4ab49b08fc8e7b09d3f79a1 = new L.RegularPolygonMarker(
+                new L.LatLng(45.070515,7.682285),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ca0e0b54c9f14fd98387028ee59e97ec = L.circle(
+                [45.070515,7.682285],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_ec2e412429a54a77af7e00ecd636ba79 = L.popup({maxWidth: '300'});
+
+            
+                var html_a7053c91d11d4cafbbe796ac7907e2a4 = $('         <div id="html_a7053c91d11d4cafbbe796ac7907e2a4"                 style="width: 100.0%; height: 100.0%;">                 Pietro Micca	2 schools at 77m on average</div>                 ')[0];
+                popup_ec2e412429a54a77af7e00ecd636ba79.setContent(html_a7053c91d11d4cafbbe796ac7907e2a4);
+            
+
+            circle_marker_ca0e0b54c9f14fd98387028ee59e97ec.bindPopup(popup_ec2e412429a54a77af7e00ecd636ba79);
+
+            
+        
+        
+            
+            var regular_polygon_marker_3edaac6f7fa44145b98884ef931678d5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.029465,7.65476),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_49c93c4831f24aaf9e83c6c9d7c42b89 = L.circle(
+                [45.029465,7.65476],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_5cfe7845a45044009b28cf31152cef18 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ec0154c7b754722b9b0a12ab5d9a65f = $('         <div id="html_2ec0154c7b754722b9b0a12ab5d9a65f"                 style="width: 100.0%; height: 100.0%;">                 Pio VII 2	4 schools at 273m on average</div>                 ')[0];
+                popup_5cfe7845a45044009b28cf31152cef18.setContent(html_2ec0154c7b754722b9b0a12ab5d9a65f);
+            
+
+            circle_marker_49c93c4831f24aaf9e83c6c9d7c42b89.bindPopup(popup_5cfe7845a45044009b28cf31152cef18);
+
+            
+        
+        
+            
+            var regular_polygon_marker_975d668853884aaf8394f5d3d9fdb937 = new L.RegularPolygonMarker(
+                new L.LatLng(45.046765,7.67303),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ef09ccbc0a384687880c867a0823ed93 = L.circle(
+                [45.046765,7.67303],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_44d4e30111c0447a87bce393b22c3340 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3a7cde705e74b478bb5c9fcd6ec1bd4 = $('         <div id="html_d3a7cde705e74b478bb5c9fcd6ec1bd4"                 style="width: 100.0%; height: 100.0%;">                 De Amicis	4 schools at 265m on average</div>                 ')[0];
+                popup_44d4e30111c0447a87bce393b22c3340.setContent(html_d3a7cde705e74b478bb5c9fcd6ec1bd4);
+            
+
+            circle_marker_ef09ccbc0a384687880c867a0823ed93.bindPopup(popup_44d4e30111c0447a87bce393b22c3340);
+
+            
+        
+        
+            
+            var regular_polygon_marker_7ce5561ca4ff4ac89c62d2dcc9c8d304 = new L.RegularPolygonMarker(
+                new L.LatLng(45.077575,7.67035),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_b2cc5e444cb84a168fa9c81a14415089 = L.circle(
+                [45.077575,7.67035],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_7cf56233cd534136b07bb3c653cfb9ce = L.popup({maxWidth: '300'});
+
+            
+                var html_84624bd61f9145d9b728caf35d6175ae = $('         <div id="html_84624bd61f9145d9b728caf35d6175ae"                 style="width: 100.0%; height: 100.0%;">                 Paravia	2 schools at 145m on average</div>                 ')[0];
+                popup_7cf56233cd534136b07bb3c653cfb9ce.setContent(html_84624bd61f9145d9b728caf35d6175ae);
+            
+
+            circle_marker_b2cc5e444cb84a168fa9c81a14415089.bindPopup(popup_7cf56233cd534136b07bb3c653cfb9ce);
+
+            
+        
+        
+            
+            var regular_polygon_marker_7d845aebee69464e89c9f2dcefdf9022 = new L.RegularPolygonMarker(
+                new L.LatLng(45.08306,7.669555),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_60a904d0559747118c1df36e909f4c5c = L.circle(
+                [45.08306,7.669555],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_a6b48ad577aa4235823c44aa239478a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_05a0d48ef2764bafba06866fb25d557e = $('         <div id="html_05a0d48ef2764bafba06866fb25d557e"                 style="width: 100.0%; height: 100.0%;">                 Umbria	1 schools at 126m on average</div>                 ')[0];
+                popup_a6b48ad577aa4235823c44aa239478a2.setContent(html_05a0d48ef2764bafba06866fb25d557e);
+            
+
+            circle_marker_60a904d0559747118c1df36e909f4c5c.bindPopup(popup_a6b48ad577aa4235823c44aa239478a2);
+
+            
+        
+        
+            
+            var regular_polygon_marker_b9ae577e63c04819a243e7c9fc2fd80a = new L.RegularPolygonMarker(
+                new L.LatLng(45.07809,7.675715),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c914652fca6f45189da17bf71b547ec4 = L.circle(
+                [45.07809,7.675715],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_87be10fa8d6e451289daea0eb729a95e = L.popup({maxWidth: '300'});
+
+            
+                var html_5e95f73a42fa4ee9b7feb3c65a707550 = $('         <div id="html_5e95f73a42fa4ee9b7feb3c65a707550"                 style="width: 100.0%; height: 100.0%;">                 Valdocco	4 schools at 334m on average</div>                 ')[0];
+                popup_87be10fa8d6e451289daea0eb729a95e.setContent(html_5e95f73a42fa4ee9b7feb3c65a707550);
+            
+
+            circle_marker_c914652fca6f45189da17bf71b547ec4.bindPopup(popup_87be10fa8d6e451289daea0eb729a95e);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a3e9a64b3b7e4dafad7471e0128ba54f = new L.RegularPolygonMarker(
+                new L.LatLng(45.068515,7.6944),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_10bc871c83e64fe289baab432c8ffd18 = L.circle(
+                [45.068515,7.6944],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_628e2df86274438c8ad3bff9093a1f29 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e60e417056c4a73b150543add2a3d7d = $('         <div id="html_2e60e417056c4a73b150543add2a3d7d"                 style="width: 100.0%; height: 100.0%;">                 Universita&#39; 1	8 schools at 151m on average</div>                 ')[0];
+                popup_628e2df86274438c8ad3bff9093a1f29.setContent(html_2e60e417056c4a73b150543add2a3d7d);
+            
+
+            circle_marker_10bc871c83e64fe289baab432c8ffd18.bindPopup(popup_628e2df86274438c8ad3bff9093a1f29);
+
+            
+        
+        
+            
+            var regular_polygon_marker_49831655598a499fae0dccbd895ec749 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07356,7.676585),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_a9d83eb9f6fa4064b31b6c4eae04b4f9 = L.circle(
+                [45.07356,7.676585],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_8c8df30bbfd74480b96a46b6e7e90ac7 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f9f965931d14479839e00f824152b65 = $('         <div id="html_6f9f965931d14479839e00f824152b65"                 style="width: 100.0%; height: 100.0%;">                 Arbarello	6 schools at 151m on average</div>                 ')[0];
+                popup_8c8df30bbfd74480b96a46b6e7e90ac7.setContent(html_6f9f965931d14479839e00f824152b65);
+            
+
+            circle_marker_a9d83eb9f6fa4064b31b6c4eae04b4f9.bindPopup(popup_8c8df30bbfd74480b96a46b6e7e90ac7);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d44b82b682334b4e88b2701420a7dcab = new L.RegularPolygonMarker(
+                new L.LatLng(45.062365,7.6625),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_3abba749abde4f5aaab4f8bf225ab941 = L.circle(
+                [45.062365,7.6625],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_4f19c606f04840abb42f187a874b2cff = L.popup({maxWidth: '300'});
+
+            
+                var html_97036ae20fcc4bf0818f105a2bde4879 = $('         <div id="html_97036ae20fcc4bf0818f105a2bde4879"                 style="width: 100.0%; height: 100.0%;">                 Politecnico 1	1 schools at 219m on average</div>                 ')[0];
+                popup_4f19c606f04840abb42f187a874b2cff.setContent(html_97036ae20fcc4bf0818f105a2bde4879);
+            
+
+            circle_marker_3abba749abde4f5aaab4f8bf225ab941.bindPopup(popup_4f19c606f04840abb42f187a874b2cff);
+
+            
+        
+        
+            
+            var regular_polygon_marker_59d59d266c3c4c109e2416a7713f92be = new L.RegularPolygonMarker(
+                new L.LatLng(45.064155,7.67881),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_6709c98aa250459d9aa93f17d629d936 = L.circle(
+                [45.064155,7.67881],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_ea176aa7480b4f159fa63740a3e57464 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea480e7375004eba826045bb68eba98d = $('         <div id="html_ea480e7375004eba826045bb68eba98d"                 style="width: 100.0%; height: 100.0%;">                 Paleocapa	8 schools at 226m on average</div>                 ')[0];
+                popup_ea176aa7480b4f159fa63740a3e57464.setContent(html_ea480e7375004eba826045bb68eba98d);
+            
+
+            circle_marker_6709c98aa250459d9aa93f17d629d936.bindPopup(popup_ea176aa7480b4f159fa63740a3e57464);
+
+            
+        
+        
+            
+            var regular_polygon_marker_9ede4710818d4585b485d399aa80e764 = new L.RegularPolygonMarker(
+                new L.LatLng(45.047315,7.6758),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_51e6fdccf2fe416cac60b4c7b2d0979c = L.circle(
+                [45.047315,7.6758],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_8cab8835fb18465d9f414835e2541563 = L.popup({maxWidth: '300'});
+
+            
+                var html_014d8bca7e97497194f6ea912397c291 = $('         <div id="html_014d8bca7e97497194f6ea912397c291"                 style="width: 100.0%; height: 100.0%;">                 Madama Cristina	4 schools at 92m on average</div>                 ')[0];
+                popup_8cab8835fb18465d9f414835e2541563.setContent(html_014d8bca7e97497194f6ea912397c291);
+            
+
+            circle_marker_51e6fdccf2fe416cac60b4c7b2d0979c.bindPopup(popup_8cab8835fb18465d9f414835e2541563);
+
+            
+        
+        
+            
+            var regular_polygon_marker_483ef04f52794c9683e6f9e04ab67ef9 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07579,7.678),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_e81116e3a0d042569e34c2056d5b4f41 = L.circle(
+                [45.07579,7.678],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_d00972b1623c438d92f521536067dba8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e9d15e5e0e0d45b980b9c9a7b1bdd68c = $('         <div id="html_e9d15e5e0e0d45b980b9c9a7b1bdd68c"                 style="width: 100.0%; height: 100.0%;">                 Consolata	6 schools at 236m on average</div>                 ')[0];
+                popup_d00972b1623c438d92f521536067dba8.setContent(html_e9d15e5e0e0d45b980b9c9a7b1bdd68c);
+            
+
+            circle_marker_e81116e3a0d042569e34c2056d5b4f41.bindPopup(popup_d00972b1623c438d92f521536067dba8);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c3074ae2d0024d71a4a31f3cc21ddc7c = new L.RegularPolygonMarker(
+                new L.LatLng(45.065135,7.692285),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_69c577d0cb844c209c7c77494ab2794d = L.circle(
+                [45.065135,7.692285],
+                720,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_b4873c1979dd42d187f0093f19262934 = L.popup({maxWidth: '300'});
+
+            
+                var html_c44a0e8996cf4b709c7eb30fc382b692 = $('         <div id="html_c44a0e8996cf4b709c7eb30fc382b692"                 style="width: 100.0%; height: 100.0%;">                 Maria Vittoria	12 schools at 208m on average</div>                 ')[0];
+                popup_b4873c1979dd42d187f0093f19262934.setContent(html_c44a0e8996cf4b709c7eb30fc382b692);
+            
+
+            circle_marker_69c577d0cb844c209c7c77494ab2794d.bindPopup(popup_b4873c1979dd42d187f0093f19262934);
+
+            
+        
+        
+            
+            var regular_polygon_marker_215b297471e542ab9c7c828f92e71709 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06285,7.679315),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_fa8cf18ffc93454e87cd963d6618dcf8 = L.circle(
+                [45.06285,7.679315],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_c8e4d4a6272f41f296e05937ef71dbd6 = L.popup({maxWidth: '300'});
+
+            
+                var html_04fd5307e5c24bc69f51406c3f79e5f7 = $('         <div id="html_04fd5307e5c24bc69f51406c3f79e5f7"                 style="width: 100.0%; height: 100.0%;">                 Porta Nuova 2	2 schools at 323m on average</div>                 ')[0];
+                popup_c8e4d4a6272f41f296e05937ef71dbd6.setContent(html_04fd5307e5c24bc69f51406c3f79e5f7);
+            
+
+            circle_marker_fa8cf18ffc93454e87cd963d6618dcf8.bindPopup(popup_c8e4d4a6272f41f296e05937ef71dbd6);
+
+            
+        
+        
+            
+            var regular_polygon_marker_8acfe74341314f71ad0cae889d563c4f = new L.RegularPolygonMarker(
+                new L.LatLng(45.060735,7.661295),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c203300a38b444909d5b11a3c0776309 = L.circle(
+                [45.060735,7.661295],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_72c9c033137d4a7b85f39da482aaf8b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f4ddb93bb02f443096fac8d9402a6594 = $('         <div id="html_f4ddb93bb02f443096fac8d9402a6594"                 style="width: 100.0%; height: 100.0%;">                 Politecnico 3	2 schools at 312m on average</div>                 ')[0];
+                popup_72c9c033137d4a7b85f39da482aaf8b2.setContent(html_f4ddb93bb02f443096fac8d9402a6594);
+            
+
+            circle_marker_c203300a38b444909d5b11a3c0776309.bindPopup(popup_72c9c033137d4a7b85f39da482aaf8b2);
+
+            
+        
+        
+            
+            var regular_polygon_marker_39ed4b4a64e74d7598dd71f1d23fe20a = new L.RegularPolygonMarker(
+                new L.LatLng(45.06301,7.678915),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_d3abb02e7311437d86553846508dcbd5 = L.circle(
+                [45.06301,7.678915],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_2854510887d14e58ac8daa58704e8da5 = L.popup({maxWidth: '300'});
+
+            
+                var html_886f337ec7d34cc3a69f14ef9b2d7d27 = $('         <div id="html_886f337ec7d34cc3a69f14ef9b2d7d27"                 style="width: 100.0%; height: 100.0%;">                 Porta Nuova 1	8 schools at 324m on average</div>                 ')[0];
+                popup_2854510887d14e58ac8daa58704e8da5.setContent(html_886f337ec7d34cc3a69f14ef9b2d7d27);
+            
+
+            circle_marker_d3abb02e7311437d86553846508dcbd5.bindPopup(popup_2854510887d14e58ac8daa58704e8da5);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e36996372374474eadf90cc4d2de9448 = new L.RegularPolygonMarker(
+                new L.LatLng(45.063945,7.65998),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_d3b3a93d2d9a4b8b9575f60c79a8b04f = L.circle(
+                [45.063945,7.65998],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_a0b71d45af1347e689d4ee19c900e807 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce64b47ef1774dc9aa878a01e92aa2e4 = $('         <div id="html_ce64b47ef1774dc9aa878a01e92aa2e4"                 style="width: 100.0%; height: 100.0%;">                 Politecnico 4	1 schools at 222m on average</div>                 ')[0];
+                popup_a0b71d45af1347e689d4ee19c900e807.setContent(html_ce64b47ef1774dc9aa878a01e92aa2e4);
+            
+
+            circle_marker_d3b3a93d2d9a4b8b9575f60c79a8b04f.bindPopup(popup_a0b71d45af1347e689d4ee19c900e807);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c4d450979f0a4a34a62d5e2e0e72f6ac = new L.RegularPolygonMarker(
+                new L.LatLng(45.03274,7.671595),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_456f82f29c504bb79c1180d9515f3187 = L.circle(
+                [45.03274,7.671595],
+                600,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_d8ea4c51bb6e4b2b92b36d63c0dbae22 = L.popup({maxWidth: '300'});
+
+            
+                var html_e87c94688a64467abf598e2ce8cfc861 = $('         <div id="html_e87c94688a64467abf598e2ce8cfc861"                 style="width: 100.0%; height: 100.0%;">                 Ventimiglia	10 schools at 198m on average</div>                 ')[0];
+                popup_d8ea4c51bb6e4b2b92b36d63c0dbae22.setContent(html_e87c94688a64467abf598e2ce8cfc861);
+            
+
+            circle_marker_456f82f29c504bb79c1180d9515f3187.bindPopup(popup_d8ea4c51bb6e4b2b92b36d63c0dbae22);
+
+            
+        
+        
+            
+            var regular_polygon_marker_73a0e7bbb25c4c34906a83bca2a24468 = new L.RegularPolygonMarker(
+                new L.LatLng(45.042565,7.6709),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_562860995a6747b4999ffc76808c487c = L.circle(
+                [45.042565,7.6709],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_42bbc45b77cd4e55896871064106579d = L.popup({maxWidth: '300'});
+
+            
+                var html_605e4bdb9c9e4d52892f32ec6aab6ada = $('         <div id="html_605e4bdb9c9e4d52892f32ec6aab6ada"                 style="width: 100.0%; height: 100.0%;">                 Carducci	2 schools at 137m on average</div>                 ')[0];
+                popup_42bbc45b77cd4e55896871064106579d.setContent(html_605e4bdb9c9e4d52892f32ec6aab6ada);
+            
+
+            circle_marker_562860995a6747b4999ffc76808c487c.bindPopup(popup_42bbc45b77cd4e55896871064106579d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0ab3bb01a0bc4ec4a5857633f4354186 = new L.RegularPolygonMarker(
+                new L.LatLng(45.0733266667,7.68228),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_908930dcb5574146bb6bf2b374565449 = L.circle(
+                [45.0733266667,7.68228],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_9c4f98f05f46499382dc8bf133854093 = L.popup({maxWidth: '300'});
+
+            
+                var html_318b37c16775422eb93dc5ce326761e9 = $('         <div id="html_318b37c16775422eb93dc5ce326761e9"                 style="width: 100.0%; height: 100.0%;">                 IV Marzo	2 schools at 223m on average</div>                 ')[0];
+                popup_9c4f98f05f46499382dc8bf133854093.setContent(html_318b37c16775422eb93dc5ce326761e9);
+            
+
+            circle_marker_908930dcb5574146bb6bf2b374565449.bindPopup(popup_9c4f98f05f46499382dc8bf133854093);
+
+            
+        
+        
+            
+            var regular_polygon_marker_9b4b1378cfa24f5cad679483f432e186 = new L.RegularPolygonMarker(
+                new L.LatLng(45.059545,7.670615),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_5bc71b939f684714acc585aaa23bda6e = L.circle(
+                [45.059545,7.670615],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_2ffce036bd60411fbbb23d30650b466f = L.popup({maxWidth: '300'});
+
+            
+                var html_bed84847cc0143dda9e8b01af275ef1f = $('         <div id="html_bed84847cc0143dda9e8b01af275ef1f"                 style="width: 100.0%; height: 100.0%;">                 Re Umberto	2 schools at 85m on average</div>                 ')[0];
+                popup_2ffce036bd60411fbbb23d30650b466f.setContent(html_bed84847cc0143dda9e8b01af275ef1f);
+            
+
+            circle_marker_5bc71b939f684714acc585aaa23bda6e.bindPopup(popup_2ffce036bd60411fbbb23d30650b466f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c1d55ee3e9f443ffbb6689fbc5bac08a = new L.RegularPolygonMarker(
+                new L.LatLng(45.076155,7.655555),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_e168af46533045cda3b0e2f4a7d1839f = L.circle(
+                [45.076155,7.655555],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_8e2c018a4a5443cc8bb67f9e91471460 = L.popup({maxWidth: '300'});
+
+            
+                var html_f933f5f1f3f24ba0a09e56f6d4e4ede8 = $('         <div id="html_f933f5f1f3f24ba0a09e56f6d4e4ede8"                 style="width: 100.0%; height: 100.0%;">                 Bernini	6 schools at 181m on average</div>                 ')[0];
+                popup_8e2c018a4a5443cc8bb67f9e91471460.setContent(html_f933f5f1f3f24ba0a09e56f6d4e4ede8);
+            
+
+            circle_marker_e168af46533045cda3b0e2f4a7d1839f.bindPopup(popup_8e2c018a4a5443cc8bb67f9e91471460);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ab2632d6fb5b46d3963c4ea823b6db70 = new L.RegularPolygonMarker(
+                new L.LatLng(45.037045,7.6517),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_5400bb69a4bd4eb1a26d02cdd464c0e0 = L.circle(
+                [45.037045,7.6517],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_985d0639b50645ee83de4a0568f264c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b72fa8c78a724184ae13b16e123e056f = $('         <div id="html_b72fa8c78a724184ae13b16e123e056f"                 style="width: 100.0%; height: 100.0%;">                 Montevideo	4 schools at 252m on average</div>                 ')[0];
+                popup_985d0639b50645ee83de4a0568f264c3.setContent(html_b72fa8c78a724184ae13b16e123e056f);
+            
+
+            circle_marker_5400bb69a4bd4eb1a26d02cdd464c0e0.bindPopup(popup_985d0639b50645ee83de4a0568f264c3);
+
+            
+        
+        
+            
+            var regular_polygon_marker_cd8f66b3f966464f8a486e7e92fcee6f = new L.RegularPolygonMarker(
+                new L.LatLng(45.057635,7.681255),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_20e8e608ab6341baa7b40dc951d2b752 = L.circle(
+                [45.057635,7.681255],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_436dc73873c645b3b48aa63db2fcce02 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea13db8053ab49758a78203c438b30af = $('         <div id="html_ea13db8053ab49758a78203c438b30af"                 style="width: 100.0%; height: 100.0%;">                 Baretti	1 schools at 325m on average</div>                 ')[0];
+                popup_436dc73873c645b3b48aa63db2fcce02.setContent(html_ea13db8053ab49758a78203c438b30af);
+            
+
+            circle_marker_20e8e608ab6341baa7b40dc951d2b752.bindPopup(popup_436dc73873c645b3b48aa63db2fcce02);
+
+            
+        
+        
+            
+            var regular_polygon_marker_16deee4812ca4730933ec99cfee20724 = new L.RegularPolygonMarker(
+                new L.LatLng(45.12031,7.64856),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_3f1dab5810f743ea80124fb328ad33d8 = L.circle(
+                [45.12031,7.64856],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_6fc5eb5a2a7e45d1a5e2a132097724c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_bbebf2733d6b454cb3f27f70876b2e37 = $('         <div id="html_bbebf2733d6b454cb3f27f70876b2e37"                 style="width: 100.0%; height: 100.0%;">                 Rigola	2 schools at 347m on average</div>                 ')[0];
+                popup_6fc5eb5a2a7e45d1a5e2a132097724c5.setContent(html_bbebf2733d6b454cb3f27f70876b2e37);
+            
+
+            circle_marker_3f1dab5810f743ea80124fb328ad33d8.bindPopup(popup_6fc5eb5a2a7e45d1a5e2a132097724c5);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e18100150a6644a7b2341d68e2ed31dc = new L.RegularPolygonMarker(
+                new L.LatLng(45.0641,7.69046),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_651a81b9f0ed479e9893cec5b2918a8b = L.circle(
+                [45.0641,7.69046],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_641f952d234346f1950379b59a750951 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc2883393761496d8aaab7dad2fb3c2a = $('         <div id="html_bc2883393761496d8aaab7dad2fb3c2a"                 style="width: 100.0%; height: 100.0%;">                 Giolitti 2	8 schools at 232m on average</div>                 ')[0];
+                popup_641f952d234346f1950379b59a750951.setContent(html_bc2883393761496d8aaab7dad2fb3c2a);
+            
+
+            circle_marker_651a81b9f0ed479e9893cec5b2918a8b.bindPopup(popup_641f952d234346f1950379b59a750951);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0ebc3db7a5ce457f91f522fca298a8fb = new L.RegularPolygonMarker(
+                new L.LatLng(45.0682433333,7.6761933333),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_33715d95fe054db4b56c290dbbec4220 = L.circle(
+                [45.0682433333,7.6761933333],
+                600,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_0b03c72309044d818fe726da4d44c350 = L.popup({maxWidth: '300'});
+
+            
+                var html_60af86cc9c064c18852ac61e7ce8d172 = $('         <div id="html_60af86cc9c064c18852ac61e7ce8d172"                 style="width: 100.0%; height: 100.0%;">                 Solferino 2	10 schools at 298m on average</div>                 ')[0];
+                popup_0b03c72309044d818fe726da4d44c350.setContent(html_60af86cc9c064c18852ac61e7ce8d172);
+            
+
+            circle_marker_33715d95fe054db4b56c290dbbec4220.bindPopup(popup_0b03c72309044d818fe726da4d44c350);
+
+            
+        
+        
+            
+            var regular_polygon_marker_00885e22c9394b838093cdceee5f6c93 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06706,7.678175),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_e77df1c80eb04190b575e8780e886e3a = L.circle(
+                [45.06706,7.678175],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_8d409af3935b49279a6231badc6ac905 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a8a5b44d8704da6bb6056a6891c2cd5 = $('         <div id="html_1a8a5b44d8704da6bb6056a6891c2cd5"                 style="width: 100.0%; height: 100.0%;">                 Arcivescovado	8 schools at 231m on average</div>                 ')[0];
+                popup_8d409af3935b49279a6231badc6ac905.setContent(html_1a8a5b44d8704da6bb6056a6891c2cd5);
+            
+
+            circle_marker_e77df1c80eb04190b575e8780e886e3a.bindPopup(popup_8d409af3935b49279a6231badc6ac905);
+
+            
+        
+        
+            
+            var regular_polygon_marker_38c12b9bd0af4aaa9a857aeb535bbd5f = new L.RegularPolygonMarker(
+                new L.LatLng(45.06518,7.693675),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_12839109dc384f01ad5ae1863b3a4a2d = L.circle(
+                [45.06518,7.693675],
+                720,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_e6e6084e00f0458f865497025e7bc274 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb62bff08fcb43f69bdde90c08563429 = $('         <div id="html_cb62bff08fcb43f69bdde90c08563429"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Veneto 2	12 schools at 197m on average</div>                 ')[0];
+                popup_e6e6084e00f0458f865497025e7bc274.setContent(html_cb62bff08fcb43f69bdde90c08563429);
+            
+
+            circle_marker_12839109dc384f01ad5ae1863b3a4a2d.bindPopup(popup_e6e6084e00f0458f865497025e7bc274);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c88f5468dbb24f3aae680d3fee73c309 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06922,7.67609),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_48db8a2e37e448be83facb2f7fd38fce = L.circle(
+                [45.06922,7.67609],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_af48e4d0feba40fbab8ec8a14dcaf93a = L.popup({maxWidth: '300'});
+
+            
+                var html_40b3dd05b85a4e1a9314380c9fc25af4 = $('         <div id="html_40b3dd05b85a4e1a9314380c9fc25af4"                 style="width: 100.0%; height: 100.0%;">                 Meucci	2 schools at 88m on average</div>                 ')[0];
+                popup_af48e4d0feba40fbab8ec8a14dcaf93a.setContent(html_40b3dd05b85a4e1a9314380c9fc25af4);
+            
+
+            circle_marker_48db8a2e37e448be83facb2f7fd38fce.bindPopup(popup_af48e4d0feba40fbab8ec8a14dcaf93a);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a5729b5b704b4854b69c7ebde23dde3c = new L.RegularPolygonMarker(
+                new L.LatLng(45.06193,7.693955),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_ea6717d7b00e4164b88ec71c50370f96 = L.circle(
+                [45.06193,7.693955],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_5332754601c0482bb02b539d7e79bdf0 = L.popup({maxWidth: '300'});
+
+            
+                var html_7935dd47121f4c74b4d4fc14f77e10af = $('         <div id="html_7935dd47121f4c74b4d4fc14f77e10af"                 style="width: 100.0%; height: 100.0%;">                 Murazzi	4 schools at 215m on average</div>                 ')[0];
+                popup_5332754601c0482bb02b539d7e79bdf0.setContent(html_7935dd47121f4c74b4d4fc14f77e10af);
+            
+
+            circle_marker_ea6717d7b00e4164b88ec71c50370f96.bindPopup(popup_5332754601c0482bb02b539d7e79bdf0);
+
+            
+        
+        
+            
+            var regular_polygon_marker_b0955b3e13824e61b7a7948c2ff23790 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07084,7.66127),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_67821310e4cb464b8e81cb071f21c20a = L.circle(
+                [45.07084,7.66127],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_65ff38c6b4c04e1591dfe53e7d3bcbbd = L.popup({maxWidth: '300'});
+
+            
+                var html_a7ceb759fa5f402b9a01afc308a6d3f3 = $('         <div id="html_a7ceb759fa5f402b9a01afc308a6d3f3"                 style="width: 100.0%; height: 100.0%;">                 Tribunale	4 schools at 229m on average</div>                 ')[0];
+                popup_65ff38c6b4c04e1591dfe53e7d3bcbbd.setContent(html_a7ceb759fa5f402b9a01afc308a6d3f3);
+            
+
+            circle_marker_67821310e4cb464b8e81cb071f21c20a.bindPopup(popup_65ff38c6b4c04e1591dfe53e7d3bcbbd);
+
+            
+        
+        
+            
+            var regular_polygon_marker_5642a33d0962444d8a53c734f30a8c37 = new L.RegularPolygonMarker(
+                new L.LatLng(45.024985,7.65212),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_581105e0869a4193bdc2cac18865b90b = L.circle(
+                [45.024985,7.65212],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_26d3157d1cb14d2e9709704d34aefa6a = L.popup({maxWidth: '300'});
+
+            
+                var html_2873ae7274304e01b0a2b70b09b1a321 = $('         <div id="html_2873ae7274304e01b0a2b70b09b1a321"                 style="width: 100.0%; height: 100.0%;">                 Pio VII	8 schools at 216m on average</div>                 ')[0];
+                popup_26d3157d1cb14d2e9709704d34aefa6a.setContent(html_2873ae7274304e01b0a2b70b09b1a321);
+            
+
+            circle_marker_581105e0869a4193bdc2cac18865b90b.bindPopup(popup_26d3157d1cb14d2e9709704d34aefa6a);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d5b3d0f6b00f4c65a500d52678805271 = new L.RegularPolygonMarker(
+                new L.LatLng(45.0744,7.67885),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_505d8ccdb12d40b2934e42a2f81919e8 = L.circle(
+                [45.0744,7.67885],
+                360,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_a05a49c44a124dbd8aa6470df193c3fe = L.popup({maxWidth: '300'});
+
+            
+                var html_954a76d3c1c84e76806eb5a473f7299e = $('         <div id="html_954a76d3c1c84e76806eb5a473f7299e"                 style="width: 100.0%; height: 100.0%;">                 Corte d&#39;Appello	6 schools at 218m on average</div>                 ')[0];
+                popup_a05a49c44a124dbd8aa6470df193c3fe.setContent(html_954a76d3c1c84e76806eb5a473f7299e);
+            
+
+            circle_marker_505d8ccdb12d40b2934e42a2f81919e8.bindPopup(popup_a05a49c44a124dbd8aa6470df193c3fe);
+
+            
+        
+        
+            
+            var regular_polygon_marker_2cd213b24b92448a9bf34f8fe89f0e35 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07344,7.668165),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c636b794fd424b0b906cd65791207ea5 = L.circle(
+                [45.07344,7.668165],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_2cbdd9fd28ce4cde882f824a8c390b75 = L.popup({maxWidth: '300'});
+
+            
+                var html_db3d83e6371340acb3c99e0dc41bc101 = $('         <div id="html_db3d83e6371340acb3c99e0dc41bc101"                 style="width: 100.0%; height: 100.0%;">                 Porta Susa 2	2 schools at 276m on average</div>                 ')[0];
+                popup_2cbdd9fd28ce4cde882f824a8c390b75.setContent(html_db3d83e6371340acb3c99e0dc41bc101);
+            
+
+            circle_marker_c636b794fd424b0b906cd65791207ea5.bindPopup(popup_2cbdd9fd28ce4cde882f824a8c390b75);
+
+            
+        
+        
+            
+            var regular_polygon_marker_93ba8a5743ee48f98b673a2a78cea63c = new L.RegularPolygonMarker(
+                new L.LatLng(45.042325,7.67319),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_fbe0f9ca2fbc4c6fa313a9ef63685d6a = L.circle(
+                [45.042325,7.67319],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_006fbf0d573042f89cd9ef821c1fca9f = L.popup({maxWidth: '300'});
+
+            
+                var html_74d9e108a9da46feb8a3ea84045d0af2 = $('         <div id="html_74d9e108a9da46feb8a3ea84045d0af2"                 style="width: 100.0%; height: 100.0%;">                 Molinette 1	2 schools at 182m on average</div>                 ')[0];
+                popup_006fbf0d573042f89cd9ef821c1fca9f.setContent(html_74d9e108a9da46feb8a3ea84045d0af2);
+            
+
+            circle_marker_fbe0f9ca2fbc4c6fa313a9ef63685d6a.bindPopup(popup_006fbf0d573042f89cd9ef821c1fca9f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_1e489d0058ef4967a4790722a6a47755 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07301,7.66789),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_f3bb981e5d274744a9351c0ce4dca5c0 = L.circle(
+                [45.07301,7.66789],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_fc23f32b51224388a185585c191a9c46 = L.popup({maxWidth: '300'});
+
+            
+                var html_ccb7f8ba179e4dc29300d7e61cf6393e = $('         <div id="html_ccb7f8ba179e4dc29300d7e61cf6393e"                 style="width: 100.0%; height: 100.0%;">                 Porta Susa 1	2 schools at 314m on average</div>                 ')[0];
+                popup_fc23f32b51224388a185585c191a9c46.setContent(html_ccb7f8ba179e4dc29300d7e61cf6393e);
+            
+
+            circle_marker_f3bb981e5d274744a9351c0ce4dca5c0.bindPopup(popup_fc23f32b51224388a185585c191a9c46);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e34de3c3f9eb4ece9272f38931a04d71 = new L.RegularPolygonMarker(
+                new L.LatLng(45.033055,7.647035),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_a3446fbc997f4416b86b30fa09242695 = L.circle(
+                [45.033055,7.647035],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_2df48152d5694c73b8fa2be86a58489f = L.popup({maxWidth: '300'});
+
+            
+                var html_c6af334afd7b4857ad738e7c928130dc = $('         <div id="html_c6af334afd7b4857ad738e7c928130dc"                 style="width: 100.0%; height: 100.0%;">                 Giambone	2 schools at 184m on average</div>                 ')[0];
+                popup_2df48152d5694c73b8fa2be86a58489f.setContent(html_c6af334afd7b4857ad738e7c928130dc);
+            
+
+            circle_marker_a3446fbc997f4416b86b30fa09242695.bindPopup(popup_2df48152d5694c73b8fa2be86a58489f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a6d7f4c9312e421797050bd0406f2500 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06909,7.70193),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_9bc8f058e61e4025b1ef7db4e232b54a = L.circle(
+                [45.06909,7.70193],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_ea44c31cd91a4a068378a8229bfc6aba = L.popup({maxWidth: '300'});
+
+            
+                var html_0f9fc2ba833948e2b3034173f22bc995 = $('         <div id="html_0f9fc2ba833948e2b3034173f22bc995"                 style="width: 100.0%; height: 100.0%;">                 Bava	8 schools at 234m on average</div>                 ')[0];
+                popup_ea44c31cd91a4a068378a8229bfc6aba.setContent(html_0f9fc2ba833948e2b3034173f22bc995);
+            
+
+            circle_marker_9bc8f058e61e4025b1ef7db4e232b54a.bindPopup(popup_ea44c31cd91a4a068378a8229bfc6aba);
+
+            
+        
+        
+            
+            var regular_polygon_marker_8272ffb0761641c8981c8a211c659c1a = new L.RegularPolygonMarker(
+                new L.LatLng(45.068045,7.686665),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_3cdb0f766ed649a8949c0765b27e71df = L.circle(
+                [45.068045,7.686665],
+                600,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_9b9893b86a094084ac23ae1b4dad2d61 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a38b068dbb84529b3c4a94c58181b0c = $('         <div id="html_2a38b068dbb84529b3c4a94c58181b0c"                 style="width: 100.0%; height: 100.0%;">                 Carlo Alberto	10 schools at 251m on average</div>                 ')[0];
+                popup_9b9893b86a094084ac23ae1b4dad2d61.setContent(html_2a38b068dbb84529b3c4a94c58181b0c);
+            
+
+            circle_marker_3cdb0f766ed649a8949c0765b27e71df.bindPopup(popup_9b9893b86a094084ac23ae1b4dad2d61);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ce2107a1f0de4099a234ff3252d5143a = new L.RegularPolygonMarker(
+                new L.LatLng(45.06758,7.6917133333),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_bff08e2f10a04df9a36ddc6d42a261dd = L.circle(
+                [45.06758,7.6917133333],
+                720,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_fc10d29f37ca40fa89a9c40c139eac3d = L.popup({maxWidth: '300'});
+
+            
+                var html_9cbfeca0535747c191bd889f84a361f4 = $('         <div id="html_9cbfeca0535747c191bd889f84a361f4"                 style="width: 100.0%; height: 100.0%;">                 Universita&#39;3	12 schools at 226m on average</div>                 ')[0];
+                popup_fc10d29f37ca40fa89a9c40c139eac3d.setContent(html_9cbfeca0535747c191bd889f84a361f4);
+            
+
+            circle_marker_bff08e2f10a04df9a36ddc6d42a261dd.bindPopup(popup_fc10d29f37ca40fa89a9c40c139eac3d);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ff45859746a243aeb0674ec9f18adf8c = new L.RegularPolygonMarker(
+                new L.LatLng(45.066305,7.674805),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_c25a4578c80044298e32d897e00cd40b = L.circle(
+                [45.066305,7.674805],
+                480,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_7d567f28d3814451ba7cb01a50d7e7a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_49d82dc63f3b48318b453c066b8a2160 = $('         <div id="html_49d82dc63f3b48318b453c066b8a2160"                 style="width: 100.0%; height: 100.0%;">                 Matteotti 1	8 schools at 183m on average</div>                 ')[0];
+                popup_7d567f28d3814451ba7cb01a50d7e7a4.setContent(html_49d82dc63f3b48318b453c066b8a2160);
+            
+
+            circle_marker_c25a4578c80044298e32d897e00cd40b.bindPopup(popup_7d567f28d3814451ba7cb01a50d7e7a4);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c8492f8a82bb4d7ab98ecfb283f0ee11 = new L.RegularPolygonMarker(
+                new L.LatLng(45.067975,7.67032),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_47d84b145c90451c97352d13bf34a0da = L.circle(
+                [45.067975,7.67032],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_eeef39487a5541e78733961b56327e2c = L.popup({maxWidth: '300'});
+
+            
+                var html_dec01bfe06fe469488a64378eff01eed = $('         <div id="html_dec01bfe06fe469488a64378eff01eed"                 style="width: 100.0%; height: 100.0%;">                 Matteotti 2	4 schools at 205m on average</div>                 ')[0];
+                popup_eeef39487a5541e78733961b56327e2c.setContent(html_dec01bfe06fe469488a64378eff01eed);
+            
+
+            circle_marker_47d84b145c90451c97352d13bf34a0da.bindPopup(popup_eeef39487a5541e78733961b56327e2c);
+
+            
+        
+        
+            
+            var regular_polygon_marker_051a429a1ed448c58a185203742ac3e6 = new L.RegularPolygonMarker(
+                new L.LatLng(45.068805,7.66785),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+
+            var circle_marker_65caa1753d1f463082791a172f5e1e5e = L.circle(
+                [45.068805,7.66785],
+                240,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_6fb80a16d96f41e8bfc5c52e3a1552d5);
+            
+        
+            
+            var popup_6f012be8e93a4c96ae2deecd67001846 = L.popup({maxWidth: '300'});
+
+            
+                var html_da57417ea6ef4356a4cf33f2a506a8b1 = $('         <div id="html_da57417ea6ef4356a4cf33f2a506a8b1"                 style="width: 100.0%; height: 100.0%;">                 Matteotti 3	4 schools at 219m on average</div>                 ')[0];
+                popup_6f012be8e93a4c96ae2deecd67001846.setContent(html_da57417ea6ef4356a4cf33f2a506a8b1);
+            
+
+            circle_marker_65caa1753d1f463082791a172f5e1e5e.bindPopup(popup_6f012be8e93a4c96ae2deecd67001846);
+
+            
+        
+        
+        
+        </script>
+        

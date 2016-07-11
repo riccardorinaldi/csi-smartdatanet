@@ -1,0 +1,1974 @@
+
+        <!DOCTYPE html>
+        <head>
+            
+        
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+        
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+        
+        
+        
+            
+        
+            <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+        
+        
+        
+            
+            <style>
+
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+            #map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+            
+        
+            
+            <style> #map_20ef07cdb37940debeaa1d3f44d86bf9 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+        
+            
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js"></script>
+        
+        
+        
+        
+        </head>
+        <body>
+            
+        
+            
+            <div class="folium-map" id="map_20ef07cdb37940debeaa1d3f44d86bf9" ></div>
+        
+        
+        
+        </body>
+        <script>
+            
+        
+            
+
+            var southWest = L.latLng(-90, -180);
+            var northEast = L.latLng(90, 180);
+            var bounds = L.latLngBounds(southWest, northEast);
+
+            var map_20ef07cdb37940debeaa1d3f44d86bf9 = L.map('map_20ef07cdb37940debeaa1d3f44d86bf9', {
+                                           center:[45.06,7.65],
+                                           zoom: 12,
+                                           maxBounds: bounds,
+                                           layers: [],
+                                           crs: L.CRS.EPSG3857
+                                         });
+            
+        
+        
+            
+            var tile_layer_9a2176adc58d4e988499ec5106a35f83 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+
+        
+        
+            
+            var regular_polygon_marker_f1fa192b38bd4422afc54b310fcdd39b = new L.RegularPolygonMarker(
+                new L.LatLng(45.0733266667,7.68228),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_67a0507cb30f407f8bbc6047458ce4e3 = L.circle(
+                [45.0733266667,7.68228],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_0adedb76d0774471bf11ffc42bf2361f = L.popup({maxWidth: '300'});
+
+            
+                var html_9106503be3944516a21954e494ea3670 = $('         <div id="html_9106503be3944516a21954e494ea3670"                 style="width: 100.0%; height: 100.0%;">                 IV Marzo	2 market at 349m on average</div>                 ')[0];
+                popup_0adedb76d0774471bf11ffc42bf2361f.setContent(html_9106503be3944516a21954e494ea3670);
+            
+
+            circle_marker_67a0507cb30f407f8bbc6047458ce4e3.bindPopup(popup_0adedb76d0774471bf11ffc42bf2361f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_4dc51b24f8b34da69b5145a7681c3ec1 = new L.RegularPolygonMarker(
+                new L.LatLng(45.064665,7.6863),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_18df56b5254c49f1a57a0e0c21b35e3b = L.circle(
+                [45.064665,7.6863],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_7ac3d952f2e14a87abc2846029e13002 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8f012dab0d24d19b59a8c53afcd2047 = $('         <div id="html_e8f012dab0d24d19b59a8c53afcd2047"                 style="width: 100.0%; height: 100.0%;">                 Valdo Fusi	1 market at 206m on average</div>                 ')[0];
+                popup_7ac3d952f2e14a87abc2846029e13002.setContent(html_e8f012dab0d24d19b59a8c53afcd2047);
+            
+
+            circle_marker_18df56b5254c49f1a57a0e0c21b35e3b.bindPopup(popup_7ac3d952f2e14a87abc2846029e13002);
+
+            
+        
+        
+            
+            var regular_polygon_marker_dbd6463ed12e4f128c248d10bc09459f = new L.RegularPolygonMarker(
+                new L.LatLng(45.059545,7.670615),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_876a1c6b1d9541c491c595d9d9d18497 = L.circle(
+                [45.059545,7.670615],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_d146154ed14c4870a2ad34f3be806a52 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d5fdaee72704a40a64afcfa6b4d68e4 = $('         <div id="html_4d5fdaee72704a40a64afcfa6b4d68e4"                 style="width: 100.0%; height: 100.0%;">                 Re Umberto	1 market at 244m on average</div>                 ')[0];
+                popup_d146154ed14c4870a2ad34f3be806a52.setContent(html_4d5fdaee72704a40a64afcfa6b4d68e4);
+            
+
+            circle_marker_876a1c6b1d9541c491c595d9d9d18497.bindPopup(popup_d146154ed14c4870a2ad34f3be806a52);
+
+            
+        
+        
+            
+            var regular_polygon_marker_950fa1a7b71f48d394556a85e4891110 = new L.RegularPolygonMarker(
+                new L.LatLng(45.072645,7.67026),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_5cb483d7c60d48b5b36f20c938e5e81a = L.circle(
+                [45.072645,7.67026],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_968fb9cb4a6240d5a06d9721195bcc19 = L.popup({maxWidth: '300'});
+
+            
+                var html_80aaa6d06bcd45aa9d1bee12da9a8d2b = $('         <div id="html_80aaa6d06bcd45aa9d1bee12da9a8d2b"                 style="width: 100.0%; height: 100.0%;">                 Cernaia	1 market at 228m on average</div>                 ')[0];
+                popup_968fb9cb4a6240d5a06d9721195bcc19.setContent(html_80aaa6d06bcd45aa9d1bee12da9a8d2b);
+            
+
+            circle_marker_5cb483d7c60d48b5b36f20c938e5e81a.bindPopup(popup_968fb9cb4a6240d5a06d9721195bcc19);
+
+            
+        
+        
+            
+            var regular_polygon_marker_1b16260214ea4d36963c107ec2fda3e5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.059145,7.68805),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_4341b261f1064c938097acaf965be377 = L.circle(
+                [45.059145,7.68805],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_a9d03eb5492d47a7a577027f37b74950 = L.popup({maxWidth: '300'});
+
+            
+                var html_2dec333bcfb247d781cb6121149f0df9 = $('         <div id="html_2dec333bcfb247d781cb6121149f0df9"                 style="width: 100.0%; height: 100.0%;">                 Valentino 1	1 market at 332m on average</div>                 ')[0];
+                popup_a9d03eb5492d47a7a577027f37b74950.setContent(html_2dec333bcfb247d781cb6121149f0df9);
+            
+
+            circle_marker_4341b261f1064c938097acaf965be377.bindPopup(popup_a9d03eb5492d47a7a577027f37b74950);
+
+            
+        
+        
+            
+            var regular_polygon_marker_fca30a30ea104cccb4d088a007a8240b = new L.RegularPolygonMarker(
+                new L.LatLng(45.06315,7.688885),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_df4a67fc60d247af9128f0c0e90fdead = L.circle(
+                [45.06315,7.688885],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_b60eb489658b4de4a72aa8be0488fa2f = L.popup({maxWidth: '300'});
+
+            
+                var html_d110929663c0407a83ead4315ee9d9a8 = $('         <div id="html_d110929663c0407a83ead4315ee9d9a8"                 style="width: 100.0%; height: 100.0%;">                 Giardini Cavour	1 market at 328m on average</div>                 ')[0];
+                popup_b60eb489658b4de4a72aa8be0488fa2f.setContent(html_d110929663c0407a83ead4315ee9d9a8);
+            
+
+            circle_marker_df4a67fc60d247af9128f0c0e90fdead.bindPopup(popup_b60eb489658b4de4a72aa8be0488fa2f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_52f810b6db6540399d3a510b7169195f = new L.RegularPolygonMarker(
+                new L.LatLng(45.07965,7.65217),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_dca26e4f90cb437b95217b8de1b528a9 = L.circle(
+                [45.07965,7.65217],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_6704990908854ac883622631fb621bd9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0927dd3568db49f689ab2f150550d4f1 = $('         <div id="html_0927dd3568db49f689ab2f150550d4f1"                 style="width: 100.0%; height: 100.0%;">                 Risorgimento	1 market at 190m on average</div>                 ')[0];
+                popup_6704990908854ac883622631fb621bd9.setContent(html_0927dd3568db49f689ab2f150550d4f1);
+            
+
+            circle_marker_dca26e4f90cb437b95217b8de1b528a9.bindPopup(popup_6704990908854ac883622631fb621bd9);
+
+            
+        
+        
+            
+            var regular_polygon_marker_3fe828c67fdf43509fb2444c84405d75 = new L.RegularPolygonMarker(
+                new L.LatLng(45.067405,7.6968),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_1f7705c688214966b15214f5e25fb6f5 = L.circle(
+                [45.067405,7.6968],
+                180,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_8981e95109714be796a1dbdb2a57d15f = L.popup({maxWidth: '300'});
+
+            
+                var html_365e318fa433438f8f56022303bb09a0 = $('         <div id="html_365e318fa433438f8f56022303bb09a0"                 style="width: 100.0%; height: 100.0%;">                 Giulia di Barolo	3 market at 287m on average</div>                 ')[0];
+                popup_8981e95109714be796a1dbdb2a57d15f.setContent(html_365e318fa433438f8f56022303bb09a0);
+            
+
+            circle_marker_1f7705c688214966b15214f5e25fb6f5.bindPopup(popup_8981e95109714be796a1dbdb2a57d15f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_383810202e3f49ba9de26d3ce5e9b5c9 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07139,7.66669),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_2f372eca85694e8199a6d9110044d067 = L.circle(
+                [45.07139,7.66669],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_5dac1f0c5d814938bfc8247a8b8daec9 = L.popup({maxWidth: '300'});
+
+            
+                var html_53654903e9bc41388cb839792d5d8407 = $('         <div id="html_53654903e9bc41388cb839792d5d8407"                 style="width: 100.0%; height: 100.0%;">                 Bolzano	1 market at 111m on average</div>                 ')[0];
+                popup_5dac1f0c5d814938bfc8247a8b8daec9.setContent(html_53654903e9bc41388cb839792d5d8407);
+            
+
+            circle_marker_2f372eca85694e8199a6d9110044d067.bindPopup(popup_5dac1f0c5d814938bfc8247a8b8daec9);
+
+            
+        
+        
+            
+            var regular_polygon_marker_37bfebac858741d8aabcebe061452945 = new L.RegularPolygonMarker(
+                new L.LatLng(45.057635,7.681255),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_cfdb316922814cfb802546ab0bf16753 = L.circle(
+                [45.057635,7.681255],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_8c78e2b1be494afe9809c141f5003824 = L.popup({maxWidth: '300'});
+
+            
+                var html_01b9716e5ca849f5862cfa9866954ad7 = $('         <div id="html_01b9716e5ca849f5862cfa9866954ad7"                 style="width: 100.0%; height: 100.0%;">                 Baretti	1 market at 235m on average</div>                 ')[0];
+                popup_8c78e2b1be494afe9809c141f5003824.setContent(html_01b9716e5ca849f5862cfa9866954ad7);
+            
+
+            circle_marker_cfdb316922814cfb802546ab0bf16753.bindPopup(popup_8c78e2b1be494afe9809c141f5003824);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f25caa325717434fa8fe11064a3b6082 = new L.RegularPolygonMarker(
+                new L.LatLng(45.069155,7.720385),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_1b17e5291f0d495e94cd4ca16763f194 = L.circle(
+                [45.069155,7.720385],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_1d21d8a100d74578be9be1b85657fadb = L.popup({maxWidth: '300'});
+
+            
+                var html_42476c1ff90941209360b346a0688d66 = $('         <div id="html_42476c1ff90941209360b346a0688d66"                 style="width: 100.0%; height: 100.0%;">                 Carrara	1 market at 342m on average</div>                 ')[0];
+                popup_1d21d8a100d74578be9be1b85657fadb.setContent(html_42476c1ff90941209360b346a0688d66);
+            
+
+            circle_marker_1b17e5291f0d495e94cd4ca16763f194.bindPopup(popup_1d21d8a100d74578be9be1b85657fadb);
+
+            
+        
+        
+            
+            var regular_polygon_marker_5188d704e5fa4f9693a20efc8961e606 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06755,7.665805),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_9a4080dde70f45c7836e292c310120e6 = L.circle(
+                [45.06755,7.665805],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_5479d778878d4aa0878abb5c917d09f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_af2a40efae344a0c88d999610a1e16dc = $('         <div id="html_af2a40efae344a0c88d999610a1e16dc"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 2	1 market at 345m on average</div>                 ')[0];
+                popup_5479d778878d4aa0878abb5c917d09f7.setContent(html_af2a40efae344a0c88d999610a1e16dc);
+            
+
+            circle_marker_9a4080dde70f45c7836e292c310120e6.bindPopup(popup_5479d778878d4aa0878abb5c917d09f7);
+
+            
+        
+        
+            
+            var regular_polygon_marker_08dc8cdc20f549c393426a99d9872ff4 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06891,7.691165),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_bf7d3cb31f0747258b08141892430c4b = L.circle(
+                [45.06891,7.691165],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_94863d49f50b4f608104449807de1869 = L.popup({maxWidth: '300'});
+
+            
+                var html_de1dab49ae94468491d026ced930ae6e = $('         <div id="html_de1dab49ae94468491d026ced930ae6e"                 style="width: 100.0%; height: 100.0%;">                 RAI	1 market at 334m on average</div>                 ')[0];
+                popup_94863d49f50b4f608104449807de1869.setContent(html_de1dab49ae94468491d026ced930ae6e);
+            
+
+            circle_marker_bf7d3cb31f0747258b08141892430c4b.bindPopup(popup_94863d49f50b4f608104449807de1869);
+
+            
+        
+        
+            
+            var regular_polygon_marker_a0c20a6b7617457eb8f42d185a6eca46 = new L.RegularPolygonMarker(
+                new L.LatLng(45.066485,7.683675),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_376471719e2b4d59b4cdffc588d5e354 = L.circle(
+                [45.066485,7.683675],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_aeb4867953ac49428341af4303e55ae4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1502f78d5acb42dc8a23c8aea8cce253 = $('         <div id="html_1502f78d5acb42dc8a23c8aea8cce253"                 style="width: 100.0%; height: 100.0%;">                 Giolitti 1	1 market at 347m on average</div>                 ')[0];
+                popup_aeb4867953ac49428341af4303e55ae4.setContent(html_1502f78d5acb42dc8a23c8aea8cce253);
+            
+
+            circle_marker_376471719e2b4d59b4cdffc588d5e354.bindPopup(popup_aeb4867953ac49428341af4303e55ae4);
+
+            
+        
+        
+            
+            var regular_polygon_marker_2b83efba5f8c44c39348cfa815308a64 = new L.RegularPolygonMarker(
+                new L.LatLng(45.076855,7.69421),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_976a0767f5ae44ca9983d9e9cf5b0ead = L.circle(
+                [45.076855,7.69421],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_b604493ea716471da81a5015279ccc0e = L.popup({maxWidth: '300'});
+
+            
+                var html_56419f88e2b7467fa19cc71dc4b1a4e2 = $('         <div id="html_56419f88e2b7467fa19cc71dc4b1a4e2"                 style="width: 100.0%; height: 100.0%;">                 Regio Parco	1 market at 220m on average</div>                 ')[0];
+                popup_b604493ea716471da81a5015279ccc0e.setContent(html_56419f88e2b7467fa19cc71dc4b1a4e2);
+            
+
+            circle_marker_976a0767f5ae44ca9983d9e9cf5b0ead.bindPopup(popup_b604493ea716471da81a5015279ccc0e);
+
+            
+        
+        
+            
+            var regular_polygon_marker_c4bbab2efdc44cff96004121617e9bae = new L.RegularPolygonMarker(
+                new L.LatLng(45.0641,7.69046),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_8bacb2db1bc14db0bdcbb99d9515ae8c = L.circle(
+                [45.0641,7.69046],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_1a51cc113e2c4a20b7fccfd234ec1017 = L.popup({maxWidth: '300'});
+
+            
+                var html_315886c7088240f698cca435127bca77 = $('         <div id="html_315886c7088240f698cca435127bca77"                 style="width: 100.0%; height: 100.0%;">                 Giolitti 2	1 market at 288m on average</div>                 ')[0];
+                popup_1a51cc113e2c4a20b7fccfd234ec1017.setContent(html_315886c7088240f698cca435127bca77);
+            
+
+            circle_marker_8bacb2db1bc14db0bdcbb99d9515ae8c.bindPopup(popup_1a51cc113e2c4a20b7fccfd234ec1017);
+
+            
+        
+        
+            
+            var regular_polygon_marker_7640793710794e728ffff198ba2369e4 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06549,7.69871),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_195d406043614fe29e7f2494feecee7c = L.circle(
+                [45.06549,7.69871],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_fade9d242699400483b5862defc53f48 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1b5e9feeff84856b85cc475c3a5084e = $('         <div id="html_d1b5e9feeff84856b85cc475c3a5084e"                 style="width: 100.0%; height: 100.0%;">                 Lungo Po Cadorna	1 market at 295m on average</div>                 ')[0];
+                popup_fade9d242699400483b5862defc53f48.setContent(html_d1b5e9feeff84856b85cc475c3a5084e);
+            
+
+            circle_marker_195d406043614fe29e7f2494feecee7c.bindPopup(popup_fade9d242699400483b5862defc53f48);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0b7ac414d4f648abbc8903909c83a4cb = new L.RegularPolygonMarker(
+                new L.LatLng(45.071935,7.69261),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_7942c9ed86a64cf68353046899022f8e = L.circle(
+                [45.071935,7.69261],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_5f2b588a896d4201b30975667d4ac4e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_4eef9d9adc1b4a24818d9c1565b54727 = $('         <div id="html_4eef9d9adc1b4a24818d9c1565b54727"                 style="width: 100.0%; height: 100.0%;">                 San Maurizio	1 market at 278m on average</div>                 ')[0];
+                popup_5f2b588a896d4201b30975667d4ac4e0.setContent(html_4eef9d9adc1b4a24818d9c1565b54727);
+            
+
+            circle_marker_7942c9ed86a64cf68353046899022f8e.bindPopup(popup_5f2b588a896d4201b30975667d4ac4e0);
+
+            
+        
+        
+            
+            var regular_polygon_marker_65a49227e9aa443a90af09f42433f26a = new L.RegularPolygonMarker(
+                new L.LatLng(45.068515,7.6944),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_d92b40529a3a4c5d91a558ab277648be = L.circle(
+                [45.068515,7.6944],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_fd3728f439004b37a484b0deb0ee6087 = L.popup({maxWidth: '300'});
+
+            
+                var html_fa0d3fe82884460d8a6c6321c0bff832 = $('         <div id="html_fa0d3fe82884460d8a6c6321c0bff832"                 style="width: 100.0%; height: 100.0%;">                 Universita&#39; 1	2 market at 252m on average</div>                 ')[0];
+                popup_fd3728f439004b37a484b0deb0ee6087.setContent(html_fa0d3fe82884460d8a6c6321c0bff832);
+            
+
+            circle_marker_d92b40529a3a4c5d91a558ab277648be.bindPopup(popup_fd3728f439004b37a484b0deb0ee6087);
+
+            
+        
+        
+            
+            var regular_polygon_marker_0f435cf002094672a58e89eae56ffe6c = new L.RegularPolygonMarker(
+                new L.LatLng(45.072345,7.6972),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_fea78add69534af7943b72ff1102ad63 = L.circle(
+                [45.072345,7.6972],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_1ecbd8ec6c204f66a3df7ae5214129f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_44f33c4622274049a1de3f947aff5b22 = $('         <div id="html_44f33c4622274049a1de3f947aff5b22"                 style="width: 100.0%; height: 100.0%;">                 Regina Margherita 2	2 market at 320m on average</div>                 ')[0];
+                popup_1ecbd8ec6c204f66a3df7ae5214129f9.setContent(html_44f33c4622274049a1de3f947aff5b22);
+            
+
+            circle_marker_fea78add69534af7943b72ff1102ad63.bindPopup(popup_1ecbd8ec6c204f66a3df7ae5214129f9);
+
+            
+        
+        
+            
+            var regular_polygon_marker_4ce73c803c75476d80315d361b620ac7 = new L.RegularPolygonMarker(
+                new L.LatLng(45.0791,7.698425),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_e9e528952a7a4cada385990223313a87 = L.circle(
+                [45.0791,7.698425],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_55c22b48c1234f239f8f03bc551ffdec = L.popup({maxWidth: '300'});
+
+            
+                var html_30790fcadd84410db2aaf1907d495d8a = $('         <div id="html_30790fcadd84410db2aaf1907d495d8a"                 style="width: 100.0%; height: 100.0%;">                 Padova	1 market at 195m on average</div>                 ')[0];
+                popup_55c22b48c1234f239f8f03bc551ffdec.setContent(html_30790fcadd84410db2aaf1907d495d8a);
+            
+
+            circle_marker_e9e528952a7a4cada385990223313a87.bindPopup(popup_55c22b48c1234f239f8f03bc551ffdec);
+
+            
+        
+        
+            
+            var regular_polygon_marker_1eb2eafd816240f384471dda75286359 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06518,7.693675),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_8e08eb9fff024dce85b9e211e436a9f0 = L.circle(
+                [45.06518,7.693675],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_aeab47a3e4fc408ebec363241758ff57 = L.popup({maxWidth: '300'});
+
+            
+                var html_41e5621c0f124a67bfef6285b2f46808 = $('         <div id="html_41e5621c0f124a67bfef6285b2f46808"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Veneto 2	1 market at 115m on average</div>                 ')[0];
+                popup_aeab47a3e4fc408ebec363241758ff57.setContent(html_41e5621c0f124a67bfef6285b2f46808);
+            
+
+            circle_marker_8e08eb9fff024dce85b9e211e436a9f0.bindPopup(popup_aeab47a3e4fc408ebec363241758ff57);
+
+            
+        
+        
+            
+            var regular_polygon_marker_cf27c236b07542c1b016e491c1c82326 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07287,7.66574),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_d8f3809ced274b77bbeba32c6864acd6 = L.circle(
+                [45.07287,7.66574],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_f70bf60e2c4a465fb433f5460861506a = L.popup({maxWidth: '300'});
+
+            
+                var html_6157bf059db94cc0bc46c571012e3e17 = $('         <div id="html_6157bf059db94cc0bc46c571012e3e17"                 style="width: 100.0%; height: 100.0%;">                 Inghilterra 1	1 market at 245m on average</div>                 ')[0];
+                popup_f70bf60e2c4a465fb433f5460861506a.setContent(html_6157bf059db94cc0bc46c571012e3e17);
+            
+
+            circle_marker_d8f3809ced274b77bbeba32c6864acd6.bindPopup(popup_f70bf60e2c4a465fb433f5460861506a);
+
+            
+        
+        
+            
+            var regular_polygon_marker_f159fd518ce14d91a986569b65ee9810 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07692,7.68738),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_1dac4a2ce43e43f5b6fd5452db4f4367 = L.circle(
+                [45.07692,7.68738],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_ba43e744229245abadb85ea30f904a93 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce75db6b209c4364aaf95669f55d8ca5 = $('         <div id="html_ce75db6b209c4364aaf95669f55d8ca5"                 style="width: 100.0%; height: 100.0%;">                 XI Febbraio	2 market at 240m on average</div>                 ')[0];
+                popup_ba43e744229245abadb85ea30f904a93.setContent(html_ce75db6b209c4364aaf95669f55d8ca5);
+            
+
+            circle_marker_1dac4a2ce43e43f5b6fd5452db4f4367.bindPopup(popup_ba43e744229245abadb85ea30f904a93);
+
+            
+        
+        
+            
+            var regular_polygon_marker_476dcceb471843c4bec5ce4015614c0e = new L.RegularPolygonMarker(
+                new L.LatLng(45.068605,7.68908),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_8f4f855dc7714549a05021ae3f8f9b44 = L.circle(
+                [45.068605,7.68908],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_907d23e864e54e8388d06d33d81cfe2b = L.popup({maxWidth: '300'});
+
+            
+                var html_0ff4fdbfd5c84baf84ab9ce34df6baed = $('         <div id="html_0ff4fdbfd5c84baf84ab9ce34df6baed"                 style="width: 100.0%; height: 100.0%;">                 San Francesco da Paola	1 market at 295m on average</div>                 ')[0];
+                popup_907d23e864e54e8388d06d33d81cfe2b.setContent(html_0ff4fdbfd5c84baf84ab9ce34df6baed);
+            
+
+            circle_marker_8f4f855dc7714549a05021ae3f8f9b44.bindPopup(popup_907d23e864e54e8388d06d33d81cfe2b);
+
+            
+        
+        
+            
+            var regular_polygon_marker_31dfa290efb74336a52d89e88e2ab5ac = new L.RegularPolygonMarker(
+                new L.LatLng(45.075335,7.67372),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_a9d58f7fd7624d4e9686e2512ce11077 = L.circle(
+                [45.075335,7.67372],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_fa8b41ec24034d6dbcca0988726e1587 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad8bf0c535b048ffa1bab49386f5be96 = $('         <div id="html_ad8bf0c535b048ffa1bab49386f5be96"                 style="width: 100.0%; height: 100.0%;">                 Valdocco 2	1 market at 187m on average</div>                 ')[0];
+                popup_fa8b41ec24034d6dbcca0988726e1587.setContent(html_ad8bf0c535b048ffa1bab49386f5be96);
+            
+
+            circle_marker_a9d58f7fd7624d4e9686e2512ce11077.bindPopup(popup_fa8b41ec24034d6dbcca0988726e1587);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d2aaffc9108943e29c09c9184b9a445c = new L.RegularPolygonMarker(
+                new L.LatLng(45.076245,7.67166),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_41f815e275e84d50b40124e27366afbc = L.circle(
+                [45.076245,7.67166],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_8a6cbc92849a401888691b8cda8e0643 = L.popup({maxWidth: '300'});
+
+            
+                var html_24b5615ac91448af972d44ca3295fee5 = $('         <div id="html_24b5615ac91448af972d44ca3295fee5"                 style="width: 100.0%; height: 100.0%;">                 Statuto 2	1 market at 277m on average</div>                 ')[0];
+                popup_8a6cbc92849a401888691b8cda8e0643.setContent(html_24b5615ac91448af972d44ca3295fee5);
+            
+
+            circle_marker_41f815e275e84d50b40124e27366afbc.bindPopup(popup_8a6cbc92849a401888691b8cda8e0643);
+
+            
+        
+        
+            
+            var regular_polygon_marker_ba482b35fe7f450593a609b1824d57fe = new L.RegularPolygonMarker(
+                new L.LatLng(45.059665,7.681385),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_a37d327876284022bdad0dd0242fdc66 = L.circle(
+                [45.059665,7.681385],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_dcf5b62f02da411ba11acc1009c2b8b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_feaf49a23ebd4eb09a0d7f0a505e8959 = $('         <div id="html_feaf49a23ebd4eb09a0d7f0a505e8959"                 style="width: 100.0%; height: 100.0%;">                 Sant&#39;Anselmo	1 market at 227m on average</div>                 ')[0];
+                popup_dcf5b62f02da411ba11acc1009c2b8b2.setContent(html_feaf49a23ebd4eb09a0d7f0a505e8959);
+            
+
+            circle_marker_a37d327876284022bdad0dd0242fdc66.bindPopup(popup_dcf5b62f02da411ba11acc1009c2b8b2);
+
+            
+        
+        
+            
+            var regular_polygon_marker_e93eef5acf3c48eda1772d1d1b776aa9 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06678,7.68892),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_2ea62dad25bd4b65b30609823441ce13 = L.circle(
+                [45.06678,7.68892],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_1ada9dd661d6476aa03813fba82c6ccf = L.popup({maxWidth: '300'});
+
+            
+                var html_33e66012413643fcb6f0b65f840368ae = $('         <div id="html_33e66012413643fcb6f0b65f840368ae"                 style="width: 100.0%; height: 100.0%;">                 Piazza Carlina	1 market at 106m on average</div>                 ')[0];
+                popup_1ada9dd661d6476aa03813fba82c6ccf.setContent(html_33e66012413643fcb6f0b65f840368ae);
+            
+
+            circle_marker_2ea62dad25bd4b65b30609823441ce13.bindPopup(popup_1ada9dd661d6476aa03813fba82c6ccf);
+
+            
+        
+        
+            
+            var regular_polygon_marker_cf2b68e6c7594825a578c3c3ceacdd1c = new L.RegularPolygonMarker(
+                new L.LatLng(45.065135,7.692285),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_715841fd87f943b99f02bff4c25aaa41 = L.circle(
+                [45.065135,7.692285],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_52b94a66e53b447c8418c83dd34667ba = L.popup({maxWidth: '300'});
+
+            
+                var html_ad710382711f4b75a12dd292bcf203d3 = $('         <div id="html_ad710382711f4b75a12dd292bcf203d3"                 style="width: 100.0%; height: 100.0%;">                 Maria Vittoria	2 market at 284m on average</div>                 ')[0];
+                popup_52b94a66e53b447c8418c83dd34667ba.setContent(html_ad710382711f4b75a12dd292bcf203d3);
+            
+
+            circle_marker_715841fd87f943b99f02bff4c25aaa41.bindPopup(popup_52b94a66e53b447c8418c83dd34667ba);
+
+            
+        
+        
+            
+            var regular_polygon_marker_b6505047fe9e4028928ed6ddc8629ed8 = new L.RegularPolygonMarker(
+                new L.LatLng(45.07327,7.71714),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_015fb8e1ca4f459aa84932efb907b7d8 = L.circle(
+                [45.07327,7.71714],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_e7119fd666ec4fb6a019a48dc9799f61 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5d39dff0e9a4f6992351d764db90dcd = $('         <div id="html_c5d39dff0e9a4f6992351d764db90dcd"                 style="width: 100.0%; height: 100.0%;">                 Belgio 2	1 market at 192m on average</div>                 ')[0];
+                popup_e7119fd666ec4fb6a019a48dc9799f61.setContent(html_c5d39dff0e9a4f6992351d764db90dcd);
+            
+
+            circle_marker_015fb8e1ca4f459aa84932efb907b7d8.bindPopup(popup_e7119fd666ec4fb6a019a48dc9799f61);
+
+            
+        
+        
+            
+            var regular_polygon_marker_91a2bf21985c4eef976c2b8e8f08869b = new L.RegularPolygonMarker(
+                new L.LatLng(45.07301,7.66789),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_55b18bf1216a461e8bd91c5f30bcb735 = L.circle(
+                [45.07301,7.66789],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_fc10ef39034e47e8a98bfb5528a53fc4 = L.popup({maxWidth: '300'});
+
+            
+                var html_283a0c4449e245bcab5263239a930132 = $('         <div id="html_283a0c4449e245bcab5263239a930132"                 style="width: 100.0%; height: 100.0%;">                 Porta Susa 1	1 market at 312m on average</div>                 ')[0];
+                popup_fc10ef39034e47e8a98bfb5528a53fc4.setContent(html_283a0c4449e245bcab5263239a930132);
+            
+
+            circle_marker_55b18bf1216a461e8bd91c5f30bcb735.bindPopup(popup_fc10ef39034e47e8a98bfb5528a53fc4);
+
+            
+        
+        
+            
+            var regular_polygon_marker_26ed51b2d4f74e5e9decef6841bd5718 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06909,7.70193),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_788f479f85754479b956490efc4b3979 = L.circle(
+                [45.06909,7.70193],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_0a0049d2c1d34cfb9db86f880d3e961a = L.popup({maxWidth: '300'});
+
+            
+                var html_e4eaff05a4184307bac5e2e02ff4d96e = $('         <div id="html_e4eaff05a4184307bac5e2e02ff4d96e"                 style="width: 100.0%; height: 100.0%;">                 Bava	1 market at 240m on average</div>                 ')[0];
+                popup_0a0049d2c1d34cfb9db86f880d3e961a.setContent(html_e4eaff05a4184307bac5e2e02ff4d96e);
+            
+
+            circle_marker_788f479f85754479b956490efc4b3979.bindPopup(popup_0a0049d2c1d34cfb9db86f880d3e961a);
+
+            
+        
+        
+            
+            var regular_polygon_marker_d249864510aa418483403715026af2ed = new L.RegularPolygonMarker(
+                new L.LatLng(45.07356,7.676585),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_31a3378042104dcebbb04370c61ca3d9 = L.circle(
+                [45.07356,7.676585],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_df30da626edc4b7297fc6c586c4d65b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_d70d65b580bd43bbba435d3096c6bc21 = $('         <div id="html_d70d65b580bd43bbba435d3096c6bc21"                 style="width: 100.0%; height: 100.0%;">                 Arbarello	1 market at 313m on average</div>                 ')[0];
+                popup_df30da626edc4b7297fc6c586c4d65b0.setContent(html_d70d65b580bd43bbba435d3096c6bc21);
+            
+
+            circle_marker_31a3378042104dcebbb04370c61ca3d9.bindPopup(popup_df30da626edc4b7297fc6c586c4d65b0);
+
+            
+        
+        
+            
+            var regular_polygon_marker_536e3a55e350469aa29bfc2aa108cbf5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.068045,7.686665),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_fa2d43962fa14e7f926d83a647df67af = L.circle(
+                [45.068045,7.686665],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_7424b811f23744e588292162e1c4ad3c = L.popup({maxWidth: '300'});
+
+            
+                var html_cc7121b2176e42ce9701b0d6890af903 = $('         <div id="html_cc7121b2176e42ce9701b0d6890af903"                 style="width: 100.0%; height: 100.0%;">                 Carlo Alberto	1 market at 247m on average</div>                 ')[0];
+                popup_7424b811f23744e588292162e1c4ad3c.setContent(html_cc7121b2176e42ce9701b0d6890af903);
+            
+
+            circle_marker_fa2d43962fa14e7f926d83a647df67af.bindPopup(popup_7424b811f23744e588292162e1c4ad3c);
+
+            
+        
+        
+            
+            var regular_polygon_marker_5925db66af674145a796ee5658359da5 = new L.RegularPolygonMarker(
+                new L.LatLng(45.06758,7.6917133333),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_4f73808d7e4e41e9b6382a189813cb64 = L.circle(
+                [45.06758,7.6917133333],
+                120,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_e740483db3bf4552ba60bb20439ac9e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a904ac533724ccc83609f948111b4a1 = $('         <div id="html_5a904ac533724ccc83609f948111b4a1"                 style="width: 100.0%; height: 100.0%;">                 Universita&#39;3	2 market at 333m on average</div>                 ')[0];
+                popup_e740483db3bf4552ba60bb20439ac9e6.setContent(html_5a904ac533724ccc83609f948111b4a1);
+            
+
+            circle_marker_4f73808d7e4e41e9b6382a189813cb64.bindPopup(popup_e740483db3bf4552ba60bb20439ac9e6);
+
+            
+        
+        
+            
+            var regular_polygon_marker_815ada3c62994638aa3a36ce5833a3a7 = new L.RegularPolygonMarker(
+                new L.LatLng(45.036345,7.67507),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_c74e6c5c88ad45edafb2236bf61a25f0 = L.circle(
+                [45.036345,7.67507],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_7471509e9e194f869e3c5aa2690130fc = L.popup({maxWidth: '300'});
+
+            
+                var html_9fb2a2726aa04056a313f8515696967b = $('         <div id="html_9fb2a2726aa04056a313f8515696967b"                 style="width: 100.0%; height: 100.0%;">                 Spezia 1	1 market at 129m on average</div>                 ')[0];
+                popup_7471509e9e194f869e3c5aa2690130fc.setContent(html_9fb2a2726aa04056a313f8515696967b);
+            
+
+            circle_marker_c74e6c5c88ad45edafb2236bf61a25f0.bindPopup(popup_7471509e9e194f869e3c5aa2690130fc);
+
+            
+        
+        
+            
+            var regular_polygon_marker_32a1597c38d54c8f9e35abcf78e6cb8a = new L.RegularPolygonMarker(
+                new L.LatLng(45.06061,7.684455),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_8152814cec914d5a882101390dc9f9e3 = L.circle(
+                [45.06061,7.684455],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_fec092b994d84d238d02559ac00cbbda = L.popup({maxWidth: '300'});
+
+            
+                var html_1cc19bbc44d145db8ca2afabd8caea71 = $('         <div id="html_1cc19bbc44d145db8ca2afabd8caea71"                 style="width: 100.0%; height: 100.0%;">                 Vittorio Emanuele II 5	1 market at 223m on average</div>                 ')[0];
+                popup_fec092b994d84d238d02559ac00cbbda.setContent(html_1cc19bbc44d145db8ca2afabd8caea71);
+            
+
+            circle_marker_8152814cec914d5a882101390dc9f9e3.bindPopup(popup_fec092b994d84d238d02559ac00cbbda);
+
+            
+        
+        
+            
+            var regular_polygon_marker_23055577773e41839656a0761b2f970b = new L.RegularPolygonMarker(
+                new L.LatLng(45.068805,7.66785),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_798a597291544ab8b701d6b621fe14b6 = L.circle(
+                [45.068805,7.66785],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_5b3606cbac234e61a00294c3b1967e5f = L.popup({maxWidth: '300'});
+
+            
+                var html_e6597ef200ef41b39439774076628fdb = $('         <div id="html_e6597ef200ef41b39439774076628fdb"                 style="width: 100.0%; height: 100.0%;">                 Matteotti 3	1 market at 266m on average</div>                 ')[0];
+                popup_5b3606cbac234e61a00294c3b1967e5f.setContent(html_e6597ef200ef41b39439774076628fdb);
+            
+
+            circle_marker_798a597291544ab8b701d6b621fe14b6.bindPopup(popup_5b3606cbac234e61a00294c3b1967e5f);
+
+            
+        
+        
+            
+            var regular_polygon_marker_be5b9a24f6e64f068e545ecf4e1de383 = new L.RegularPolygonMarker(
+                new L.LatLng(45.051615,7.67435),
+                {
+                    icon : new L.Icon.Default(),
+                    color: 'red',
+                    opacity: 1,
+                    weight: 2,
+                    fillColor: 'red',
+                    fillOpacity: 1,
+                    numberOfSides: 4,
+                    rotation: 0,
+                    radius: 3
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+
+            var circle_marker_4e1210ca86cd478b90af5f0ca71a0132 = L.circle(
+                [45.051615,7.67435],
+                60,
+                {
+                    color: '#3186cc',
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
+                    }
+                )
+                .addTo(map_20ef07cdb37940debeaa1d3f44d86bf9);
+            
+        
+            
+            var popup_9a78afe769d347ae96ccd89662b54c02 = L.popup({maxWidth: '300'});
+
+            
+                var html_db642049a7da40599b30b99327618caf = $('         <div id="html_db642049a7da40599b30b99327618caf"                 style="width: 100.0%; height: 100.0%;">                 Piazza Nizza	1 market at 93m on average</div>                 ')[0];
+                popup_9a78afe769d347ae96ccd89662b54c02.setContent(html_db642049a7da40599b30b99327618caf);
+            
+
+            circle_marker_4e1210ca86cd478b90af5f0ca71a0132.bindPopup(popup_9a78afe769d347ae96ccd89662b54c02);
+
+            
+        
+        
+        
+        </script>
+        

@@ -1,0 +1,16 @@
+- Each bike station was positioned on the city map based on their statistical zones. We used 'stats_zone_retriever.ipynb' scripts. Inside is inserted the info to re-run it on 'toBike_stations_only.csv' file as example.
+
+- Based on the previous information we compute how many features (e.g. schools, shops, malls, markets, bus stops and ospitals) are in the neighborhood of each bike station (350m ~5 minutes walk). We used the 'dataset_mapper.ipynb' script. Inside you will find the example to re-run it on 'toBike_stations_only.csv' and 'bus_in_torino.csv'.
+
+- The results we obtained was mapped on the city map. We used the python script 'JSONmapper.ipynb', see istructions inside. The features on the map are interactive and open a popup if clicked. The maps produced are:
+	base_map.html
+	bikeBus_map.html --> the radius of the circle is calculated as the n° of bus stops inside the range of 350m from the bike station * 10
+	bikeMall_map.html --> same
+	bikeOpenair-map.html --> same
+	bikeOspitals_map.html --> same
+	bikeSales_map.html --> same
+	bikeSchools_map.html --> same
+	bikeShopsMarkets_map.html --> location of each bike station, market, shop on the statistical zones
+	bus_stops_map.html --> location of each bus stop in the city (limit = [[45.004007, 45.152071],[7.539064, 7.741678]])
+	population_density_map.html --> statistical zones with the density of population (TOTpopulation/area)
+	total_population_map.html --> statistical zones with the total population

@@ -1,0 +1,559 @@
+EnteDiCompetenza;Provincia;Comune;DenominazioneIndirizzo;Indirizzo;NumeroCivico;VIA;CodiceEdificioRilevazione;CodiceEdificioRegionePiemonte;AnnoDiCostruzione;AnnoDiCostruzioneSND;AnnoEsattoDiCostruzione;CopiaArchivioSiNo;ContaEdifici
+Comune;Torino;Torino;Corso Chieri;CORSO CHIERI;136;CORSO CHIERI 136;07/156;12720099;Anno specificare;Si;1889;No;1
+Comune;Torino;Torino;Corso Cirie';CORSO CIRIE';3/a;CORSO CIRIE' 3/a;07/171;12720016;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Corso Cincinnato;CORSO CINCINNATO;121;CORSO CINCINNATO 121;05/110;12720049;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;CORSO CROCE BENEDETTO;CORSO CROCE BENEDETTO;17;CORSO CROCE BENEDETTO 17;09/198;12720169;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;CORSO CROCE BENEDETTO;CORSO CROCE BENEDETTO;26;CORSO CROCE BENEDETTO 26;09/190;12720079;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;CORSO FRANCIA;CORSO FRANCIA;377;CORSO FRANCIA 377;03/051;12720140;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Corso Racconigi;CORSO RACCONIGI;31;CORSO RACCONIGI 31;03/064;12720074;Anno specificare;Si;1914;No;1
+Comune;Torino;Torino;Corso Peschiera;CORSO PESCHIERA;380;CORSO PESCHIERA 380;03/060;12720066;Anno specificare;Si;1925;No;1
+Comune;Torino;Torino;Corso Orbassano;CORSO ORBASSANO;224/26;CORSO ORBASSANO 224/26;02/039;12720023;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Corso Matteotti Giacomo;CORSO MATTEOTTI GIACOMO;9;CORSO MATTEOTTI GIACOMO 9;01/018;12720206;Anno specificare;Si;1874;No;1
+Comune;Torino;Torino;Corso Moncalieri;CORSO MONCALIERI;400;CORSO MONCALIERI 400;08/181;12720007;Anno specificare;Si;1930;No;1
+Comune;Torino;Torino;Corso Giulio Cesare;CORSO GIULIO CESARE;26;CORSO GIULIO CESARE 26;07/164;12720121;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Corso Orbassano;CORSO ORBASSANO;155/A;CORSO ORBASSANO 155/A;02/037;12720292;Anno specificare;Si;1913;No;1
+Comune;Torino;Torino;Corso Lombardia;CORSO LOMBARDIA;98;CORSO LOMBARDIA 98;05/109;12720119;Anno specificare;Si;1928;No;1
+Comune;Torino;Torino;Corso Novara;CORSO NOVARA;26;CORSO NOVARA 26;07/168;12720166;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Corso Matteotti Giacomo;CORSO MATTEOTTI GIACOMO;6 bis;CORSO MATTEOTTI GIACOMO 6 bis;01/004;12720025;Anno specificare;Si;1955;No;1
+Comune;Torino;Torino;Corso Regina Margherita;CORSO REGINA MARGHERITA;43;CORSO REGINA MARGHERITA 43;07/161;12720054;Anno specificare;Si;1900;No;1
+Comune;Torino;Torino;Corso Regio Parco;CORSO REGIO PARCO;19;CORSO REGIO PARCO 19;07/170;12720104;Anno specificare;Si;1924;No;1
+Comune;Torino;Torino;Corso Sebastopoli;CORSO SEBASTOPOLI;258;CORSO SEBASTOPOLI 258;02/035;12720132;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Corso Vercelli;CORSO VERCELLI;157;CORSO VERCELLI 157;06/148-A;12720124;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Corso Toscana;CORSO TOSCANA;88;CORSO TOSCANA 88;05/095;12720096;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Corso Sicilia;CORSO SICILIA;40;CORSO SICILIA 40;08/185;12720003;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Corso Svizzera;CORSO SVIZZERA;51/53;CORSO SVIZZERA 51/53;04/076;12720167;Anno specificare;Si;1913;No;1
+Comune;Torino;Torino;Corso Sicilia;CORSO SICILIA;24;CORSO SICILIA 24;08/183;12720004;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Corso Vercelli;CORSO VERCELLI;141/6-8;CORSO VERCELLI 141/6-8;06/148-B;12720299;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;orvieto;ORVIETO;1/5-7-9;ORVIETO 1/5-7-9;05/123;12720310;Anno specificare;Si;2006;No;1
+Comune;Torino;Torino;Largo La Loggia;LARGO LA LOGGIA;51;LARGO LA LOGGIA 51;09/195;12720018;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Corso Svizzera;CORSO SVIZZERA;59/61;CORSO SVIZZERA 59/61;04/089;12720059;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Strada Bertolla;STRADA BERTOLLA;50;STRADA BERTOLLA 50;06/140;12720078;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Piazzetta Jona Luciano;PIAZZETTA JONA LUCIANO;4;PIAZZETTA JONA LUCIANO 4;10/215;12720320;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Piazzetta Jona Luciano;PIAZZETTA JONA LUCIANO;5;PIAZZETTA JONA LUCIANO 5;10/216;12720165;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Strada Castello Di Mirafiori;STRADA CASTELLO DI MIRAFIORI;45;STRADA CASTELLO DI MIRAFIORI 45;10/211;12720307;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Piazza Giacomini carlo;PIAZZA GIACOMINI CARLO;24;PIAZZA GIACOMINI CARLO 24;09/210;12720168;Anno specificare;Si;1965;No;1
+Comune;Torino;Torino;Piazza Abba Giuseppe Cesare;PIAZZA ABBA GIUSEPPE CESARE;set-13;PIAZZA ABBA GIUSEPPE CESARE 41518;06/135;12720061;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Abeti (Degli);VIA ABETI (DEGLI);13;VIA ABETI (DEGLI) 13;06/123BIS;12720133;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Strada San Mauro;STRADA SAN MAURO;32;STRADA SAN MAURO 32;06/138;12720075;Anno specificare;Si;1932;No;1
+Comune;Torino;Torino;Via Abeti (Degli);VIA ABETI (DEGLI);15;VIA ABETI (DEGLI) 15;06/123;12720027;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Strada Mongreno;STRADA MONGRENO;53;STRADA MONGRENO 53;07/158;12720098;Anno specificare;Si;1931;No;1
+Comune;Torino;Torino;Strada San Mauro;STRADA SAN MAURO;24;STRADA SAN MAURO 24;06/141;12720179;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Strada San Vincenzo;STRADA SAN VINCENZO;144;STRADA SAN VINCENZO 144;08/188;12720053;Anno specificare;Si;1844;No;1
+Comune;Torino;Torino;Via Acciarini Filippo;VIA ACCIARINI FILIPPO;20;VIA ACCIARINI FILIPPO 20;02/021;12720109;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Strada San Vincenzo;STRADA SAN VINCENZO;40;STRADA SAN VINCENZO 40;08/189;12720101;Anno specificare;Si;1975;No;1
+Comune;Torino;Torino;Via Anglesio Martino;VIA ANGLESIO MARTINO;17;VIA ANGLESIO MARTINO 17;06/139;12720076;Anno specificare;Si;1983;No;1
+Comune;Torino;Torino;Via Ambrosini Luigi;VIA AMBROSINI LUIGI;1;VIA AMBROSINI LUIGI 1;05/094;12720095;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Via Ancina Giovenale;VIA ANCINA GIOVENALE;15;VIA ANCINA GIOVENALE 15;06/146;12720171;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Artom Emanuele;VIA ARTOM EMANUELE;109/3;VIA ARTOM EMANUELE 109/3;10/219;12720014;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Aquileia;VIA AQUILEIA;8;VIA AQUILEIA 8;08/180;12720145;Anno specificare;Si;1923;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;110;VIA BALTIMORA 110;02/026;12720163;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Banfo Antonio;VIA BANFO ANTONIO;32;VIA BANFO ANTONIO 32;06/143;12720123;Anno specificare;Si;1906;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;171;VIA BALTIMORA 171;02/034;12720131;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Bardassano;VIA BARDASSANO;5;VIA BARDASSANO 5;07/153;12720185;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;76;VIA BALTIMORA 76;02/038;12720046;Anno specificare;Si;1962;No;1
+Comune;Torino;Torino;Via Asigliano Vercellese;VIA ASIGLIANO VERCELLESE;10;VIA ASIGLIANO VERCELLESE 10;07/150;12720177;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Bardonecchia;VIA BARDONECCHIA;34;VIA BARDONECCHIA 34;03/040;12720015;Anno specificare;Si;1985;No;1
+Comune;Torino;Torino;Via Beinasco;VIA BEINASCO;34;VIA BEINASCO 34;07/165;12720043;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Bellezia Gian Francesco;VIA BELLEZIA GIAN FRANCESCO;27;VIA BELLEZIA GIAN FRANCESCO 27;01/002;12720029;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Berta Augusto;VIA BERTA AUGUSTO;15;VIA BERTA AUGUSTO 15;03/055;12720057;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Bersezio Vittorio;VIA BERSEZIO VITTORIO;11;VIA BERSEZIO VITTORIO 11;07/166;12720051;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Bertola Antonio Giuseppe;VIA BERTOLA ANTONIO GIUSEPPE;10;VIA BERTOLA ANTONIO GIUSEPPE 10;01/001;12720117;Anno specificare;Si;1899;No;1
+Comune;Torino;Torino;Via Beato Cafasso Giuseppe;VIA BEATO CAFASSO GIUSEPPE;73;VIA BEATO CAFASSO GIUSEPPE 73;07/154;12720100;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via BianzÃ¨;VIA BIANZÃ¨;7;VIA BIANZÃ¨ 7;04/075;12720183;Anno specificare;Si;1965;No;1
+Comune;Torino;Torino;Via Bligny;VIA BLIGNY;1 bis;VIA BLIGNY 1 bis;01/006;12720287;Anno specificare;Si;1783;No;1
+Comune;Torino;Torino;Via Boccherini Luigi;VIA BOCCHERINI LUIGI;43;VIA BOCCHERINI LUIGI 43;06/127;12720026;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Bologna;VIA BOLOGNA;77;VIA BOLOGNA 77;06/132;12720106;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Braccini Paolo;VIA BRACCINI PAOLO;70;VIA BRACCINI PAOLO 70;03/043;12720146;Anno specificare;Si;1920;No;1
+Comune;Torino;Torino;Via Boston;VIA BOSTON;33;VIA BOSTON 33;02/022;12720024;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Braccini Paolo;VIA BRACCINI PAOLO;63;VIA BRACCINI PAOLO 63;03/044;12720210;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Campobasso;VIA CAMPOBASSO;11;VIA CAMPOBASSO 11;06/128;12720093;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Capelli Carlo;VIA CAPELLI CARLO;51;VIA CAPELLI CARLO 51;04/077;12720088;Anno specificare;Si;1933;No;1
+Comune;Torino;Torino;Via Capelli Carlo;VIA CAPELLI CARLO;66;VIA CAPELLI CARLO 66;04/084;12720198;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Buniva Michele;VIA BUNIVA MICHELE;19;VIA BUNIVA MICHELE 19;07/159;12720084;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Casteldelfino;VIA CASTELDELFINO;24;VIA CASTELDELFINO 24;05/096;12720202;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Brissogne;VIA BRISSOGNE;32;VIA BRISSOGNE 32;03/045;12720147;6 - tra il 1961 ed il 1975;Si;;No;1
+Comune;Torino;Torino;Via Cardinal Massaia Guglielmo;VIA CARDINAL MASSAIA GUGLIELMO;113;VIA CARDINAL MASSAIA GUGLIELMO 113;05/107;12720068;Anno specificare;Si;1881;No;1
+Comune;Torino;Torino;Via Cassini Giandomenico;VIA CASSINI GIANDOMENICO;98;VIA CASSINI GIANDOMENICO 98;01/008;12720122;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Via Cassini Giandomenico;VIA CASSINI GIANDOMENICO;94;VIA CASSINI GIANDOMENICO 94;01/015;12720288;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Carmine (del);VIA CARMINE (DEL);27;VIA CARMINE (DEL) 27;01/003;12720161;Anno specificare;Si;1887;No;1
+Comune;Torino;Torino;Via Cimarosa;VIA CIMAROSA;85/1;VIA CIMAROSA 85/1;06/131;12720144;Anno specificare;Si;1986;No;1
+Comune;Torino;Torino;Via Collegno Giacinto;VIA COLLEGNO GIACINTO;73;VIA COLLEGNO GIACINTO 73;03/059;12720040;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Collino Ignazio;VIA COLLINO IGNAZIO;12;VIA COLLINO IGNAZIO 12;02/028;12720291;Anno specificare;Si;1975;No;1
+Comune;Torino;Torino;VIA CAVAGNOLO;VIA CAVAGNOLO;35;VIA CAVAGNOLO 35;06/124;12720094;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Cecchi Antonio;VIA CECCHI ANTONIO;16-18;VIA CECCHI ANTONIO 16-18;07/167;12720120;Anno specificare;Si;1979;No;1
+Comune;Torino;Torino;Via Casteldelfino;VIA CASTELDELFINO;28/30;VIA CASTELDELFINO 28/30;05/097;12720065;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Castellino Onorato;VIA CASTELLINO ONORATO;10;VIA CASTELLINO ONORATO 10;03/061;12720151;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Chambery;VIA CHAMBERY;33;VIA CHAMBERY 33;03/046;12720208;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;Via Catalani Alfredo;VIA CATALANI ALFREDO;4;VIA CATALANI ALFREDO 4;07/155;12720207;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Corelli Arcangelo;VIA CORELLI ARCANGELO;4;VIA CORELLI ARCANGELO 4;06/134;12720116;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Colombo Cristoforo;VIA COLOMBO CRISTOFORO;36;VIA COLOMBO CRISTOFORO 36;01/007;12720081;Anno specificare;Si;1902;No;1
+Comune;Torino;Torino;Via Destefanis Giovanni;VIA DESTEFANIS GIOVANNI;20;VIA DESTEFANIS GIOVANNI 20;05/118;12720184;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Delleani Lorenzo;VIA DELLEANI LORENZO;25;VIA DELLEANI LORENZO 25;03/072;12720031;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via D'Arborea Eleonora;VIA D'ARBOREA ELEONORA;9/a;VIA D'ARBOREA ELEONORA 9/a;02/029;12720047;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via D'Albertis Luigi Maria;VIA D'ALBERTIS LUIGI MARIA;22;VIA D'ALBERTIS LUIGI MARIA 22;03/070;12720148;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Duchessa Iolanda;VIA DUCHESSA IOLANDA;29;VIA DUCHESSA IOLANDA 29;03/041;12720187;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Cossa Pietro;VIA COSSA PIETRO;115/21;VIA COSSA PIETRO 115/21;04/086;12720020;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Fiochetto Gianfrancesco;VIA FIOCHETTO GIANFRANCESCO;29;VIA FIOCHETTO GIANFRANCESCO 29;07/172;12720105;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Via Finalmarina;VIA FINALMARINA;5;VIA FINALMARINA 5;09/192;12720143;Anno specificare;Si;1921;No;1
+Comune;Torino;Torino;Via Fossano;VIA FOSSANO;16;VIA FOSSANO 16;04/081BIS;12720295;Anno specificare;Si;1894;No;1
+Comune;Torino;Torino;VIA FOSSANO;VIA FOSSANO;8;VIA FOSSANO 8;04/094;12720309;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Fossano;VIA FOSSANO;16;VIA FOSSANO 16;04/081;12720139;Anno specificare;Si;1894;No;1
+Comune;Torino;Torino;Via Foglizzo;VIA FOGLIZZO;15;VIA FOGLIZZO 15;05/100;12720192;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Fea Leonardo;VIA FEA LEONARDO;2;VIA FEA LEONARDO 2;05/098;12720297;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Garessio;VIA GARESSIO;24-mag;VIA GARESSIO 42514;09/193;12720030;Anno specificare;Si;2005;No;1
+Comune;Torino;Torino;Via Gassino;VIA GASSINO;13;VIA GASSINO 13;07/157;12720097;Anno specificare;Si;1916;No;1
+Comune;Torino;Torino;Via Germonio Anastasio;VIA GERMONIO ANASTASIO;4;VIA GERMONIO ANASTASIO 4;03/048;12720103;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Germonio Anastasio;VIA GERMONIO ANASTASIO;12;VIA GERMONIO ANASTASIO 12;03/049;12720193;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Galvani Luigi;VIA GALVANI LUIGI;7;VIA GALVANI LUIGI 7;04/082;12720070;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Gubbio;VIA GUBBIO;47;VIA GUBBIO 47;05/120;12720196;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Invernizio Carolina;VIA INVERNIZIO CAROLINA;21;VIA INVERNIZIO CAROLINA 21;09/204;12720017;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Giacosa Giuseppe;VIA GIACOSA GIUSEPPE;25;VIA GIACOSA GIUSEPPE 25;08/176;12720301;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Lancia Vincenzo;VIA LANCIA VINCENZO;140;VIA LANCIA VINCENZO 140;03/053;12720188;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Giulia Di Barolo;VIA GIULIA DI BAROLO;8;VIA GIULIA DI BAROLO 8;01/011;12720085;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via LANFRANCO;VIA LANFRANCO;2;VIA LANFRANCO 2;02/032;12720160;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;146;VIA LANZO 146;05/104;12720036;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;28;VIA LANZO 28;05/103;12720037;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Luserna Di RorÃ  Emanuele;VIA LUSERNA DI RORÃ  EMANUELE;14;VIA LUSERNA DI RORÃ  EMANUELE 14;03/066;12720067;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Magnolie (Delle);VIA MAGNOLIE (DELLE);set-15;VIA MAGNOLIE (DELLE) 42248;05/114;12720002;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Lemie;VIA LEMIE;48;VIA LEMIE 48;05/106;12720142;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Leoncavallo Ruggero;VIA LEONCAVALLO RUGGERO;61/2;VIA LEONCAVALLO RUGGERO 61/2;06/144;12720012;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Lussimpiccolo;VIA LUSSIMPICCOLO;36/A;VIA LUSSIMPICCOLO 36/A;03/054;12720082;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Le Chiuse;VIA LE CHIUSE;80;VIA LE CHIUSE 80;04/080;12720186;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;147/11;VIA LANZO 147/11;05/102;12720069;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Madama Cristina;VIA MADAMA CRISTINA;102;VIA MADAMA CRISTINA 102;08/179;12720303;Anno specificare;Si;1887;No;1
+Comune;Torino;Torino;Via Lorenzini Carlo;VIA LORENZINI CARLO;4;VIA LORENZINI CARLO 4;05/113;12720195;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;Via Mille (dei);VIA MILLE (DEI);15;VIA MILLE (DEI) 15;01/010;12720134;Anno specificare;Si;1877;No;1
+Comune;Torino;Torino;Via Messina;VIA MESSINA;14;VIA MESSINA 14;07/151;12720172;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Masserano;VIA MASSERANO;4;VIA MASSERANO 4;07/173;12720083;Anno specificare;Si;1904;No;1
+Comune;Torino;Torino;Via Massena Andrea;VIA MASSENA ANDREA;39;VIA MASSENA ANDREA 39;01/009;12720128;Anno specificare;Si;1880;No;1
+Comune;Torino;Torino;Via Marsigli Luigi Ferdinando;VIA MARSIGLI LUIGI FERDINANDO;25;VIA MARSIGLI LUIGI FERDINANDO 25;03/068;12720178;Anno specificare;Si;1977;No;1
+Comune;Torino;Torino;VIA MAGNOLIE (DELLE);VIA MAGNOLIE (DELLE);15;VIA MAGNOLIE (DELLE) 15;05/124;12720022;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Mentana;VIA MENTANA;14;VIA MENTANA 14;08/184;12720182;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Manara;VIA MANARA;10;VIA MANARA 10;08/221;12720135;Anno specificare;Si;1910;No;1
+Comune;Torino;Torino;Via Monte Novegno;VIA MONTE NOVEGNO;31;VIA MONTE NOVEGNO 31;02/030;12720052;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Monte Grappa;VIA MONTE GRAPPA;81;VIA MONTE GRAPPA 81;04/078;12720294;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Millio Franceso;VIA MILLIO FRANCESO;42;VIA MILLIO FRANCESO 42;03/074;12720191;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Monte Corno;VIA MONTE CORNO;21;VIA MONTE CORNO 21;09/205;12720050;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Pacchiotti Giacinto;VIA PACCHIOTTI GIACINTO;102;VIA PACCHIOTTI GIACINTO 102;04/087;12720102;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Nizza;VIA NIZZA;151;VIA NIZZA 151;08/199;12720204;Anno specificare;Si;1880;No;1
+Comune;Torino;Torino;Via Nichelino;VIA NICHELINO;7;VIA NICHELINO 7;09/197;12720173;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Montevideo;VIA MONTEVIDEO;11;VIA MONTEVIDEO 11;09/194;12720089;Anno specificare;Si;1933;No;1
+Comune;Torino;Torino;Via Nuova;VIA NUOVA;2;VIA NUOVA 2;08/182;12720009;Anno specificare;Si;1909;No;1
+Comune;Torino;Torino;Via Negri Ada;VIA NEGRI ADA;23;VIA NEGRI ADA 23;02/027;12720155;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Monte Rosa;VIA MONTE ROSA;165;VIA MONTE ROSA 165;06/137;12720077;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Mosca Gaetano;VIA MOSCA GAETANO;11;VIA MOSCA GAETANO 11;05/099;12720141;Anno specificare;Si;1962;No;1
+Comune;Torino;Torino;Via Nizza;VIA NIZZA;395;VIA NIZZA 395;09/200;12720126;Anno specificare;Si;1931;No;1
+Comune;Torino;Torino;Via Negarville Celeste;VIA NEGARVILLE CELESTE;30-giu;VIA NEGARVILLE CELESTE 42551;10/214;12720129;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Perrone;VIA PERRONE;7/bis;VIA PERRONE 7/bis;01/021;12720322;3 - tra il 1900 ed il 1920;Si;;No;1
+Comune;Torino;Torino;Via Palma Di Cesnola;VIA PALMA DI CESNOLA;29;VIA PALMA DI CESNOLA 29;09/208;12720306;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Pacchiotti Giacinto;VIA PACCHIOTTI GIACINTO;80;VIA PACCHIOTTI GIACINTO 80;04/083;12720159;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Piazzi Giuseppe;VIA PIAZZI GIUSEPPE;57;VIA PIAZZI GIUSEPPE 57;01/014;12720170;Anno specificare;Si;1958;No;1
+Comune;Torino;Torino;Via Passoni Mario e Luigi;VIA PASSONI MARIO E LUIGI;set-13;VIA PASSONI MARIO E LUIGI 41518;04/085;12720033;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Palmieri Pietro;VIA PALMIERI PIETRO;58;VIA PALMIERI PIETRO 58;03/057;12720062;Anno specificare;Si;1910;No;1
+Comune;Torino;Torino;Via Pesaro;VIA PESARO;11;VIA PESARO 11;07/169;12720199;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Piacenza;VIA PIACENZA;16;VIA PIACENZA 16;09/191;12720080;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Pozzo Strada;VIA POZZO STRADA;12-gen;VIA POZZO STRADA 42381;03/062;12720010;Anno specificare;Si;1926;No;1
+Comune;Torino;Torino;Via Poirino;VIA POIRINO;9;VIA POIRINO 9;09/196;12720019;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Pioppi (Dei);VIA PIOPPI (DEI);45;VIA PIOPPI (DEI) 45;06/125;12720092;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Via Podgora;VIA PODGORA;28;VIA PODGORA 28;09/206;12720032;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Porta Carlo;VIA PORTA CARLO;6;VIA PORTA CARLO 6;06/126;12720164;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Plava;VIA PLAVA;177/2;VIA PLAVA 177/2;10/217;12720045;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Randaccio Giovanni;VIA RANDACCIO GIOVANNI;60;VIA RANDACCIO GIOVANNI 60;05/122;12720152;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Postumia;VIA POSTUMIA;28;VIA POSTUMIA 28;03/047;12720130;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;VIA PRIMULE (DELLE);VIA PRIMULE (DELLE);36/B;VIA PRIMULE (DELLE) 36/B;05/115;12720008;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Rismondo Francesco;VIA RISMONDO FRANCESCO;68;VIA RISMONDO FRANCESCO 68;10/220;12720072;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Revel Ottavio;VIA REVEL OTTAVIO;8;VIA REVEL OTTAVIO 8;01/016;12720180;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Rovereto;VIA ROVERETO;21;VIA ROVERETO 21;02/036;12720028;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Romita Giuseppe;VIA ROMITA GIUSEPPE;19;VIA ROMITA GIUSEPPE 19;02/033;12720157;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Ricasoli Bettino;VIA RICASOLI BETTINO;15;VIA RICASOLI BETTINO 15;07/152;12720194;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via San Marino;VIA SAN MARINO;107;VIA SAN MARINO 107;02/023;12720110;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;Via Ricasoli Bettino;VIA RICASOLI BETTINO;30;VIA RICASOLI BETTINO 30;07/174;12720113;Anno specificare;Si;1912;No;1
+Comune;Torino;Torino;Via Santhia';VIA SANTHIA';25;VIA SANTHIA' 25;06/142;12720298;Anno specificare;Si;1915;No;1
+Comune;Torino;Torino;Via SanthiÃ ;VIA SANTHIÃ ;76;VIA SANTHIÃ  76;06/145;12720162;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Via San Sebastiano Po;VIA SAN SEBASTIANO PO;6;VIA SAN SEBASTIANO PO 6;07/163;12720156;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via San Remo;VIA SAN REMO;46;VIA SAN REMO 46;02/031;12720136;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Via Santarosa Santorre;VIA SANTAROSA SANTORRE;11;VIA SANTAROSA SANTORRE 11;08/186;12720086;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Sospello;VIA SOSPELLO;64;VIA SOSPELLO 64;05/108;12720154;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via ValfrÃ¨ Beato Sebastiano;VIA VALFRÃ¨ BEATO SEBASTIANO;8;VIA VALFRÃ¨ BEATO SEBASTIANO 8;01/005;12720118;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Tollegno;VIA TOLLEGNO;83;VIA TOLLEGNO 83;06/133;12720060;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Verbene (Delle);VIA VERBENE (DELLE);6;VIA VERBENE (DELLE) 6;05/116;12720001;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Sidoli Giuditta;VIA SIDOLI GIUDITTA;10;VIA SIDOLI GIUDITTA 10;09/202;12720153;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Thouar Pietro;VIA THOUAR PIETRO;2;VIA THOUAR PIETRO 2;05/112;12720108;Anno specificare;Si;1930;No;1
+Comune;Torino;Torino;Via Torrazza Piemonte;VIA TORRAZZA PIEMONTE;10;VIA TORRAZZA PIEMONTE 10;10/218;12720073;Anno specificare;Si;1979;No;1
+Comune;Torino;Torino;Via Sant'Ottavio;VIA SANT'OTTAVIO;7;VIA SANT'OTTAVIO 7;01/013;12720176;Anno specificare;Si;1926;No;1
+Comune;Torino;Torino;Via Talucchi Giuseppe;VIA TALUCCHI GIUSEPPE;19;VIA TALUCCHI GIUSEPPE 19;04/091;12720071;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Tiraboschi Gerolamo;VIA TIRABOSCHI GEROLAMO;33;VIA TIRABOSCHI GEROLAMO 33;05/119;12720174;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Zumaglia;VIA ZUMAGLIA;41;VIA ZUMAGLIA 41;04/079;12720137;Anno specificare;Si;1984;No;1
+Comune;Torino;Torino;Via Stelvio;VIA STELVIO;45;VIA STELVIO 45;03/063;12720011;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Tofane;VIA TOFANE;22;VIA TOFANE 22;03/067;12720189;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Savigliano;VIA SAVIGLIANO;7;VIA SAVIGLIANO 7;04/093;12720038;Anno specificare;Si;1900;No;1
+Comune;Torino;Torino;Via Tunisi;VIA TUNISI;102;VIA TUNISI 102;09/207;12720305;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Valenza;VIA VALENZA;71;VIA VALENZA 71;09/209;12720190;Anno specificare;Si;1984;No;1
+Comune;Torino;Torino;Via Terraneo Giovanni Tommaso;VIA TERRANEO GIOVANNI TOMMASO;1;VIA TERRANEO GIOVANNI TOMMASO 1;05/111;12720042;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Tolmino;VIA TOLMINO;30;VIA TOLMINO 30;03/056;12720056;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Tofane;VIA TOFANE;28;VIA TOFANE 28;03/069;12720063;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Stampini Ettore;VIA STAMPINI ETTORE;25;VIA STAMPINI ETTORE 25;05/117;12720200;Anno specificare;Si;1982;No;1
+Comune;Torino;Torino;Via Tolmino;VIA TOLMINO;40;VIA TOLMINO 40;03/073;12720158;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Valgioie;VIA VALGIOIE;72;VIA VALGIOIE 72;04/088;12720021;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Vallauri;VIA VALLAURI;24;VIA VALLAURI 24;06/129;12720091;Anno specificare;Si;1982;No;1
+Comune;Torino;Torino;Via Venaria;VIA VENARIA;79/15;VIA VENARIA 79/15;05/105;12720211;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Vezzolano;VIA VEZZOLANO;20;VIA VEZZOLANO 20;07/175;12720112;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Ventimiglia;VIA VENTIMIGLIA;128;VIA VENTIMIGLIA 128;09/201;12720127;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via VibÃ_;VIA VIBÃ_;62;VIA VIBÃ_ 62;05/121;12720064;Anno specificare;Si;1915;No;1
+Provincia;Torino;Torino;CORSO ALIGHIERI DANTE;CORSO ALIGHIERI DANTE;80;CORSO ALIGHIERI DANTE 80;PROVTO121A;12720317;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Corso Picco A.;CORSO PICCO A.;14;CORSO PICCO A. 14;PROVTO-145;12720270;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;Corso Caduti sul Lavoro;CORSO CADUTI SUL LAVORO;11;CORSO CADUTI SUL LAVORO 11;PROVTO-74;12720225;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Corso Molise;CORSO MOLISE;58;CORSO MOLISE 58;PROVTO-111;12720266;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67);CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67);20;CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67) 20;PROVTO-25;12720216;Anno specificare;Si;1953;No;1
+Provincia;Torino;Torino;Corso Caio Plinio;CORSO CAIO PLINIO;2;CORSO CAIO PLINIO 2;PROVTO-126;12720280;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;CORSO PESCHIERA;CORSO PESCHIERA;230;CORSO PESCHIERA 230;PROVTO-39;12720268;Anno specificare;Si;1930;No;1
+Provincia;Torino;Torino;Corso Novara;CORSO NOVARA;65;CORSO NOVARA 65;PROVTO-83;12720240;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;CORSO ALIGHIERI DANTE;CORSO ALIGHIERI DANTE;80;CORSO ALIGHIERI DANTE 80;PROVTO-121;12720262;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Via Bidone;VIA BIDONE;11;VIA BIDONE 11;PROVTO-62;12720230;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Corso Tassoni;CORSO TASSONI;15;CORSO TASSONI 15;PROVTO-11;12720220;Anno specificare;Si;1930;No;1
+Provincia;Torino;Torino;Via Bologna;VIA BOLOGNA;79;VIA BOLOGNA 79;PROVTO-84;12720239;Anno specificare;Si;1969;No;1
+Provincia;Torino;Torino;Corso Tazzoli;CORSO TAZZOLI;209;CORSO TAZZOLI 209;PROVTO-54;12720244;Anno specificare;Si;1982;No;1
+Provincia;Torino;Torino;Piazza Robilant;PIAZZA ROBILANT;5;PIAZZA ROBILANT 5;PROVTO-34;12720251;Anno specificare;Si;1920;No;1
+Provincia;Torino;Torino;Corso San Maurizio;CORSO SAN MAURIZIO;8;CORSO SAN MAURIZIO 8;PROVTO-123;12720260;Anno specificare;Si;1903;No;1
+Provincia;Torino;Torino;CORSO UNIONE SOVIETICA;CORSO UNIONE SOVIETICA;490;CORSO UNIONE SOVIETICA 490;PROVTO-134;12720274;Anno specificare;Si;1978;No;1
+Provincia;Torino;Torino;Via Alassio;VIA ALASSIO;20;VIA ALASSIO 20;PROVTO-129;12720278;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;CORSO VENEZIA;CORSO VENEZIA;29;CORSO VENEZIA 29;PROVTO-142;12720271;Anno specificare;Si;1940;No;1
+Provincia;Torino;Torino;Strada Altessano/via sansovino;STRADA ALTESSANO/VIA SANSOVINO;52/3-150;STRADA ALTESSANO/VIA SANSOVINO 52/3-150;PROVTO-5;12720282;Anno specificare;Si;1977;No;1
+Provincia;Torino;Torino;Via Braccini;VIA BRACCINI;11;VIA BRACCINI 11;PROVTO-1;12720283;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Lungo Dora Napoli;LUNGO DORA NAPOLI;25;LUNGO DORA NAPOLI 25;PROVTO-113;12720264;Anno specificare;Si;1900;No;1
+Provincia;Torino;Torino;Via Bologna;VIA BOLOGNA;183;VIA BOLOGNA 183;PROVTO-95;12720234;Anno specificare;Si;1850;No;1
+Provincia;Torino;Torino;Via Chiomonte;VIA CHIOMONTE;4;VIA CHIOMONTE 4;PROVTO-35;12720250;Anno specificare;Si;1958;No;1
+Provincia;Torino;Torino;Via Don Grioli;VIA DON GRIOLI;43;VIA DON GRIOLI 43;PROVTO-58;12720231;Anno specificare;Si;1978;No;1
+Provincia;Torino;Torino;Via Della Cella;VIA DELLA CELLA;3;VIA DELLA CELLA 3;PROVTO-149;12720269;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;Via Duchessa Jolanda;VIA DUCHESSA JOLANDA;27 bis;VIA DUCHESSA JOLANDA 27 bis;PROVTO-3;12720285;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Casana;VIA CASANA;5;VIA CASANA 5;PROVTO-73;12720226;Anno specificare;Si;1981;No;1
+Provincia;Torino;Torino;Via Carcano;VIA CARCANO;31;VIA CARCANO 31;PROVTO-79;12720242;Anno specificare;Si;1993;No;1
+Provincia;Torino;Torino;Via Cittadella;VIA CITTADELLA;3;VIA CITTADELLA 3;PROVTO-33;12720252;Anno specificare;Si;1955;No;1
+Provincia;Torino;Torino;Via Castelgomberto;VIA CASTELGOMBERTO;20;VIA CASTELGOMBERTO 20;PROVTO-57;12720232;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;Via Figlie dei Militari;VIA FIGLIE DEI MILITARI;25;VIA FIGLIE DEI MILITARI 25;PROVTO-122;12720261;Anno specificare;Si;1884;No;1
+Provincia;Torino;Torino;Via Frattini;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64;12720228;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;Via frattini;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64A;12720181;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;via giulia di barolo ;VIA GIULIA DI BAROLO ;33;VIA GIULIA DI BAROLO  33;PROVTO-27A;12720175;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Via Gorizia;VIA GORIZIA;7;VIA GORIZIA 7;PROVTO-55;12720243;Anno specificare;Si;1986;No;1
+Provincia;Torino;Torino;VIA FRATTINI;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64B;12720318;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Juvarra;VIA JUVARRA;14;VIA JUVARRA 14;PROVTO-44;12720245;5 - tra il 1946 ed il 1960;Si;;No;1
+Provincia;Torino;Torino;VIA GENE' GIUSEPPE;VIA GENE' GIUSEPPE;dic-14;VIA GENE' GIUSEPPE 41974;PROVTO-133;12720275;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Via Giulia di Barolo;VIA GIULIA DI BAROLO;33;VIA GIULIA DI BAROLO 33;PROVTO-27;12720257;Anno specificare;Si;1995;No;1
+Provincia;Torino;Torino;Via lavagna;VIA LAVAGNA;8;VIA LAVAGNA 8;PROVTO127A;12720319;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;VIA GAIDANO PAOLO;VIA GAIDANO PAOLO;126;VIA GAIDANO PAOLO 126;PROVTO-21;12720217;Anno specificare;Si;1974;No;1
+Provincia;Torino;Torino;Via Meucci;VIA MEUCCI;9;VIA MEUCCI 9;PROVTO-7;12720224;Anno specificare;Si;1906;No;1
+Provincia;Torino;Torino;Via Maria Vittoria;VIA MARIA VITTORIA;39 bis;VIA MARIA VITTORIA 39 bis;PROVTO-28;12720256;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;Via Monginevro;VIA MONGINEVRO;291/293;VIA MONGINEVRO 291/293;PROVTO-114;12720263;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;Via Marinuzzi;VIA MARINUZZI;1;VIA MARINUZZI 1;PROVTO-89;12720236;Anno specificare;Si;1975;No;1
+Provincia;Torino;Torino;VIA LAVAGNA;VIA LAVAGNA;8;VIA LAVAGNA 8;PROVTO-127;12720279;Anno specificare;Si;1959;No;1
+Provincia;Torino;Torino;Via Montecorno;VIA MONTECORNO;34;VIA MONTECORNO 34;PROVTO-136;12720272;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Luini;VIA LUINI;123;VIA LUINI 123;PROVTO-6;12720215;Anno specificare;Si;1961;No;1
+Provincia;Torino;Torino;Via Madonna delle Salette;VIA MADONNA DELLE SALETTE;29;VIA MADONNA DELLE SALETTE 29;PROVTO-29;12720255;Anno specificare;Si;1990;No;1
+Provincia;Torino;Torino;VIA MONTECUCCOLI RAIMONDO;VIA MONTECUCCOLI RAIMONDO;12;VIA MONTECUCCOLI RAIMONDO 12;PROVTO-4;12720286;Anno specificare;Si;1908;No;1
+Provincia;Torino;Torino;VIA PACINI GIOVANNI;VIA PACINI GIOVANNI;28;VIA PACINI GIOVANNI 28;PROVTO-94A;12720315;Anno specificare;Si;1967;No;1
+Provincia;Torino;Torino;Via Parenzo;VIA PARENZO;46;VIA PARENZO 46;PROVTO-36;12720249;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;Via Moretta;VIA MORETTA;55;VIA MORETTA 55;PROVTO-8;12720223;Anno specificare;Si;1947;No;1
+Provincia;Torino;Torino;Via Paganini;VIA PAGANINI;22;VIA PAGANINI 22;PROVTO-82;12720241;Anno specificare;Si;1947;No;1
+Provincia;Torino;Torino;VIA NEGRI ADA;VIA NEGRI ADA;15;VIA NEGRI ADA 15;PROVTO-56;12720233;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Pacini;VIA PACINI;28;VIA PACINI 28;PROVTO-94;12720235;Anno specificare;Si;1967;No;1
+Provincia;Torino;Torino;Via Rocca (della);VIA ROCCA (DELLA);7;VIA ROCCA (DELLA) 7;PROTO-32A;12720321;Anno specificare;Si;1965;No;1
+Provincia;Torino;Torino;Via Parini;VIA PARINI;8;VIA PARINI 8;PROVTO-15;12720218;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Pesaro;VIA PESARO;11;VIA PESARO 11;PROVTO-45;12720246;Anno specificare;Si;1969;No;1
+Provincia;Torino;Torino;Via Parini;VIA PARINI;8;VIA PARINI 8;PROVTO-15A;12720312;Anno specificare;Si;1971;No;1
+Provincia;Torino;Torino;Via Rocca (della);VIA ROCCA (DELLA);7;VIA ROCCA (DELLA) 7;PROVTO-32;12720253;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Pisacane;VIA PISACANE;72;VIA PISACANE 72;PROVTO-85;12720238;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;Via Rovigo;VIA ROVIGO;19;VIA ROVIGO 19;PROVTO-124;12720259;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Via Ponchielli;VIA PONCHIELLI;56;VIA PONCHIELLI 56;PROVTO-86;12720237;Anno specificare;Si;1950;No;1
+Provincia;Torino;Torino;VIA PONCHIELLI AMILCARE;VIA PONCHIELLI AMILCARE;56;VIA PONCHIELLI AMILCARE 56;PROVTO-86A;12720314;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Postumia;VIA POSTUMIA;57/60;VIA POSTUMIA 57/60;PROVTO-10;12720221;Anno specificare;Si;1973;No;1
+Provincia;Torino;Torino;Via Sant'Ottavio;VIA SANT'OTTAVIO;11;VIA SANT'OTTAVIO 11;PROVTO-26;12720258;4 - tra il 1921 ed il 1945;Si;;No;1
+Provincia;Torino;Torino;Via Scotellaro;VIA SCOTELLARO;15;VIA SCOTELLARO 15;PROVTO-112;12720265;Anno specificare;Si;1974;No;1
+Provincia;Torino;Torino;via salerno;VIA SALERNO;60;VIA SALERNO 60;PROVTO130A;12720311;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Via Salerno;VIA SALERNO;60;VIA SALERNO 60;PROVTO-130;12720277;Anno specificare;Si;1950;No;1
+Provincia;Torino;Torino;Via Veronese P.;VIA VERONESE P.;305;VIA VERONESE P. 305;PROVTO-104;12720267;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Sostegno;VIA SOSTEGNO;41/a;VIA SOSTEGNO 41/a;PROVTO-30;12720254;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Tripoli;VIA TRIPOLI;82;VIA TRIPOLI 82;PROVTO-12;12720219;Anno specificare;Si;1962;No;1
+Provincia;Torino;Torino;VIA VIGONE;VIA VIGONE;72;VIA VIGONE 72;PROVTO-40;12720248;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Sostegno;VIA SOSTEGNO;41/10;VIA SOSTEGNO 41/10;PROVTO-9;12720222;Anno specificare;Si;1982;No;1
+Provincia;Torino;Torino;via s. ottavio ;VIA S. OTTAVIO ;09-nov;VIA S. OTTAVIO  42683;PROVTO-26A;12720313;Anno specificare;Si;1926;No;1
+Provincia;Torino;Torino;Via Valperga Caluso;VIA VALPERGA CALUSO;12;VIA VALPERGA CALUSO 12;PROVTO-72;12720227;4 - tra il 1921 ed il 1945;Si;;No;1
+;Torino;Torino;Via Accademia Albertina;VIA ACCADEMIA ALBERTINA;6;VIA ACCADEMIA ALBERTINA 6;ACC_ALBERT;12720284;Anno specificare;Si;1820;No;1
+Comune;Torino;Torino;Corso Chieri;CORSO CHIERI;136;CORSO CHIERI 136;07/156;12720099;Anno specificare;Si;1889;No;1
+Comune;Torino;Torino;Corso Svizzera;CORSO SVIZZERA;59/61;CORSO SVIZZERA 59/61;04/089;12720059;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Corso Lombardia;CORSO LOMBARDIA;98;CORSO LOMBARDIA 98;05/109;12720119;Anno specificare;Si;1928;No;1
+Comune;Torino;Torino;Corso Matteotti Giacomo;CORSO MATTEOTTI GIACOMO;6 bis;CORSO MATTEOTTI GIACOMO 6 bis;01/004;12720025;Anno specificare;Si;1955;No;1
+Comune;Torino;Torino;Corso Moncalieri;CORSO MONCALIERI;400;CORSO MONCALIERI 400;08/181;12720007;Anno specificare;Si;1930;No;1
+Comune;Torino;Torino;Corso Orbassano;CORSO ORBASSANO;155/A;CORSO ORBASSANO 155/A;02/037;12720292;Anno specificare;Si;1913;No;1
+Comune;Torino;Torino;Corso Peschiera;CORSO PESCHIERA;380;CORSO PESCHIERA 380;03/060;12720066;Anno specificare;Si;1925;No;1
+Comune;Torino;Torino;Corso Sicilia;CORSO SICILIA;40;CORSO SICILIA 40;08/185;12720003;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Corso Vercelli;CORSO VERCELLI;141/6-8;CORSO VERCELLI 141/6-8;06/148-B;12720299;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;CORSO CROCE BENEDETTO;CORSO CROCE BENEDETTO;26;CORSO CROCE BENEDETTO 26;09/190;12720079;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Corso Racconigi;CORSO RACCONIGI;31;CORSO RACCONIGI 31;03/064;12720074;Anno specificare;Si;1914;No;1
+Comune;Torino;Torino;Corso Vercelli;CORSO VERCELLI;157;CORSO VERCELLI 157;06/148-A;12720124;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;CORSO FRANCIA;CORSO FRANCIA;377;CORSO FRANCIA 377;03/051;12720140;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Corso Cincinnato;CORSO CINCINNATO;121;CORSO CINCINNATO 121;05/110;12720049;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Corso Orbassano;CORSO ORBASSANO;224/26;CORSO ORBASSANO 224/26;02/039;12720023;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Corso Giulio Cesare;CORSO GIULIO CESARE;26;CORSO GIULIO CESARE 26;07/164;12720121;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Corso Toscana;CORSO TOSCANA;88;CORSO TOSCANA 88;05/095;12720096;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Corso Sebastopoli;CORSO SEBASTOPOLI;258;CORSO SEBASTOPOLI 258;02/035;12720132;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Corso Regina Margherita;CORSO REGINA MARGHERITA;43;CORSO REGINA MARGHERITA 43;07/161;12720054;Anno specificare;Si;1900;No;1
+Comune;Torino;Torino;Corso Regio Parco;CORSO REGIO PARCO;19;CORSO REGIO PARCO 19;07/170;12720104;Anno specificare;Si;1924;No;1
+Comune;Torino;Torino;CORSO CROCE BENEDETTO;CORSO CROCE BENEDETTO;17;CORSO CROCE BENEDETTO 17;09/198;12720169;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Corso Matteotti Giacomo;CORSO MATTEOTTI GIACOMO;9;CORSO MATTEOTTI GIACOMO 9;01/018;12720206;Anno specificare;Si;1874;No;1
+Comune;Torino;Torino;Corso Svizzera;CORSO SVIZZERA;51/53;CORSO SVIZZERA 51/53;04/076;12720167;Anno specificare;Si;1913;No;1
+Comune;Torino;Torino;Corso Cirie';CORSO CIRIE';3/a;CORSO CIRIE' 3/a;07/171;12720016;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Corso Novara;CORSO NOVARA;26;CORSO NOVARA 26;07/168;12720166;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Corso Sicilia;CORSO SICILIA;24;CORSO SICILIA 24;08/183;12720004;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Abeti (Degli);VIA ABETI (DEGLI);13;VIA ABETI (DEGLI) 13;06/123BIS;12720133;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Acciarini Filippo;VIA ACCIARINI FILIPPO;20;VIA ACCIARINI FILIPPO 20;02/021;12720109;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Banfo Antonio;VIA BANFO ANTONIO;32;VIA BANFO ANTONIO 32;06/143;12720123;Anno specificare;Si;1906;No;1
+Comune;Torino;Torino;Strada San Mauro;STRADA SAN MAURO;24;STRADA SAN MAURO 24;06/141;12720179;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Via Aquileia;VIA AQUILEIA;8;VIA AQUILEIA 8;08/180;12720145;Anno specificare;Si;1923;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;76;VIA BALTIMORA 76;02/038;12720046;Anno specificare;Si;1962;No;1
+Comune;Torino;Torino;Piazza Giacomini carlo;PIAZZA GIACOMINI CARLO;24;PIAZZA GIACOMINI CARLO 24;09/210;12720168;Anno specificare;Si;1965;No;1
+Comune;Torino;Torino;Via Abeti (Degli);VIA ABETI (DEGLI);15;VIA ABETI (DEGLI) 15;06/123;12720027;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Artom Emanuele;VIA ARTOM EMANUELE;109/3;VIA ARTOM EMANUELE 109/3;10/219;12720014;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Piazzetta Jona Luciano;PIAZZETTA JONA LUCIANO;5;PIAZZETTA JONA LUCIANO 5;10/216;12720165;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Strada Castello Di Mirafiori;STRADA CASTELLO DI MIRAFIORI;45;STRADA CASTELLO DI MIRAFIORI 45;10/211;12720307;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Strada San Mauro;STRADA SAN MAURO;32;STRADA SAN MAURO 32;06/138;12720075;Anno specificare;Si;1932;No;1
+Comune;Torino;Torino;Strada San Vincenzo;STRADA SAN VINCENZO;40;STRADA SAN VINCENZO 40;08/189;12720101;Anno specificare;Si;1975;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;110;VIA BALTIMORA 110;02/026;12720163;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Baltimora;VIA BALTIMORA;171;VIA BALTIMORA 171;02/034;12720131;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Piazzetta Jona Luciano;PIAZZETTA JONA LUCIANO;4;PIAZZETTA JONA LUCIANO 4;10/215;12720320;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Strada Bertolla;STRADA BERTOLLA;50;STRADA BERTOLLA 50;06/140;12720078;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Strada San Vincenzo;STRADA SAN VINCENZO;144;STRADA SAN VINCENZO 144;08/188;12720053;Anno specificare;Si;1844;No;1
+Comune;Torino;Torino;Via Ambrosini Luigi;VIA AMBROSINI LUIGI;1;VIA AMBROSINI LUIGI 1;05/094;12720095;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Via Ancina Giovenale;VIA ANCINA GIOVENALE;15;VIA ANCINA GIOVENALE 15;06/146;12720171;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Asigliano Vercellese;VIA ASIGLIANO VERCELLESE;10;VIA ASIGLIANO VERCELLESE 10;07/150;12720177;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;orvieto;ORVIETO;1/5-7-9;ORVIETO 1/5-7-9;05/123;12720310;Anno specificare;Si;2006;No;1
+Comune;Torino;Torino;Strada Mongreno;STRADA MONGRENO;53;STRADA MONGRENO 53;07/158;12720098;Anno specificare;Si;1931;No;1
+Comune;Torino;Torino;Largo La Loggia;LARGO LA LOGGIA;51;LARGO LA LOGGIA 51;09/195;12720018;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Piazza Abba Giuseppe Cesare;PIAZZA ABBA GIUSEPPE CESARE;set-13;PIAZZA ABBA GIUSEPPE CESARE 41518;06/135;12720061;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Anglesio Martino;VIA ANGLESIO MARTINO;17;VIA ANGLESIO MARTINO 17;06/139;12720076;Anno specificare;Si;1983;No;1
+Comune;Torino;Torino;Via Bardonecchia;VIA BARDONECCHIA;34;VIA BARDONECCHIA 34;03/040;12720015;Anno specificare;Si;1985;No;1
+Comune;Torino;Torino;Via Boccherini Luigi;VIA BOCCHERINI LUIGI;43;VIA BOCCHERINI LUIGI 43;06/127;12720026;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Bellezia Gian Francesco;VIA BELLEZIA GIAN FRANCESCO;27;VIA BELLEZIA GIAN FRANCESCO 27;01/002;12720029;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Berta Augusto;VIA BERTA AUGUSTO;15;VIA BERTA AUGUSTO 15;03/055;12720057;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Bologna;VIA BOLOGNA;77;VIA BOLOGNA 77;06/132;12720106;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Boston;VIA BOSTON;33;VIA BOSTON 33;02/022;12720024;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Braccini Paolo;VIA BRACCINI PAOLO;70;VIA BRACCINI PAOLO 70;03/043;12720146;Anno specificare;Si;1920;No;1
+Comune;Torino;Torino;Via Bersezio Vittorio;VIA BERSEZIO VITTORIO;11;VIA BERSEZIO VITTORIO 11;07/166;12720051;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Bligny;VIA BLIGNY;1 bis;VIA BLIGNY 1 bis;01/006;12720287;Anno specificare;Si;1783;No;1
+Comune;Torino;Torino;Via Cardinal Massaia Guglielmo;VIA CARDINAL MASSAIA GUGLIELMO;113;VIA CARDINAL MASSAIA GUGLIELMO 113;05/107;12720068;Anno specificare;Si;1881;No;1
+Comune;Torino;Torino;Via Beinasco;VIA BEINASCO;34;VIA BEINASCO 34;07/165;12720043;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Buniva Michele;VIA BUNIVA MICHELE;19;VIA BUNIVA MICHELE 19;07/159;12720084;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Carmine (del);VIA CARMINE (DEL);27;VIA CARMINE (DEL) 27;01/003;12720161;Anno specificare;Si;1887;No;1
+Comune;Torino;Torino;Via Beato Cafasso Giuseppe;VIA BEATO CAFASSO GIUSEPPE;73;VIA BEATO CAFASSO GIUSEPPE 73;07/154;12720100;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Braccini Paolo;VIA BRACCINI PAOLO;63;VIA BRACCINI PAOLO 63;03/044;12720210;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Brissogne;VIA BRISSOGNE;32;VIA BRISSOGNE 32;03/045;12720147;6 - tra il 1961 ed il 1975;Si;;No;1
+Comune;Torino;Torino;Via Campobasso;VIA CAMPOBASSO;11;VIA CAMPOBASSO 11;06/128;12720093;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Capelli Carlo;VIA CAPELLI CARLO;51;VIA CAPELLI CARLO 51;04/077;12720088;Anno specificare;Si;1933;No;1
+Comune;Torino;Torino;Via Bardassano;VIA BARDASSANO;5;VIA BARDASSANO 5;07/153;12720185;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Bertola Antonio Giuseppe;VIA BERTOLA ANTONIO GIUSEPPE;10;VIA BERTOLA ANTONIO GIUSEPPE 10;01/001;12720117;Anno specificare;Si;1899;No;1
+Comune;Torino;Torino;Via Capelli Carlo;VIA CAPELLI CARLO;66;VIA CAPELLI CARLO 66;04/084;12720198;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via BianzÃ¨;VIA BIANZÃ¨;7;VIA BIANZÃ¨ 7;04/075;12720183;Anno specificare;Si;1965;No;1
+Comune;Torino;Torino;Via Finalmarina;VIA FINALMARINA;5;VIA FINALMARINA 5;09/192;12720143;Anno specificare;Si;1921;No;1
+Comune;Torino;Torino;Via Foglizzo;VIA FOGLIZZO;15;VIA FOGLIZZO 15;05/100;12720192;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Duchessa Iolanda;VIA DUCHESSA IOLANDA;29;VIA DUCHESSA IOLANDA 29;03/041;12720187;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Fea Leonardo;VIA FEA LEONARDO;2;VIA FEA LEONARDO 2;05/098;12720297;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Casteldelfino;VIA CASTELDELFINO;24;VIA CASTELDELFINO 24;05/096;12720202;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;VIA CAVAGNOLO;VIA CAVAGNOLO;35;VIA CAVAGNOLO 35;06/124;12720094;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Cecchi Antonio;VIA CECCHI ANTONIO;16-18;VIA CECCHI ANTONIO 16-18;07/167;12720120;Anno specificare;Si;1979;No;1
+Comune;Torino;Torino;Via Casteldelfino;VIA CASTELDELFINO;28/30;VIA CASTELDELFINO 28/30;05/097;12720065;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Destefanis Giovanni;VIA DESTEFANIS GIOVANNI;20;VIA DESTEFANIS GIOVANNI 20;05/118;12720184;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Cossa Pietro;VIA COSSA PIETRO;115/21;VIA COSSA PIETRO 115/21;04/086;12720020;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Fiochetto Gianfrancesco;VIA FIOCHETTO GIANFRANCESCO;29;VIA FIOCHETTO GIANFRANCESCO 29;07/172;12720105;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Via Catalani Alfredo;VIA CATALANI ALFREDO;4;VIA CATALANI ALFREDO 4;07/155;12720207;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Cassini Giandomenico;VIA CASSINI GIANDOMENICO;94;VIA CASSINI GIANDOMENICO 94;01/015;12720288;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Chambery;VIA CHAMBERY;33;VIA CHAMBERY 33;03/046;12720208;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;Via Collino Ignazio;VIA COLLINO IGNAZIO;12;VIA COLLINO IGNAZIO 12;02/028;12720291;Anno specificare;Si;1975;No;1
+Comune;Torino;Torino;Via Delleani Lorenzo;VIA DELLEANI LORENZO;25;VIA DELLEANI LORENZO 25;03/072;12720031;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Cimarosa;VIA CIMAROSA;85/1;VIA CIMAROSA 85/1;06/131;12720144;Anno specificare;Si;1986;No;1
+Comune;Torino;Torino;Via Collegno Giacinto;VIA COLLEGNO GIACINTO;73;VIA COLLEGNO GIACINTO 73;03/059;12720040;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Colombo Cristoforo;VIA COLOMBO CRISTOFORO;36;VIA COLOMBO CRISTOFORO 36;01/007;12720081;Anno specificare;Si;1902;No;1
+Comune;Torino;Torino;Via D'Albertis Luigi Maria;VIA D'ALBERTIS LUIGI MARIA;22;VIA D'ALBERTIS LUIGI MARIA 22;03/070;12720148;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via D'Arborea Eleonora;VIA D'ARBOREA ELEONORA;9/a;VIA D'ARBOREA ELEONORA 9/a;02/029;12720047;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Fossano;VIA FOSSANO;16;VIA FOSSANO 16;04/081;12720139;Anno specificare;Si;1894;No;1
+Comune;Torino;Torino;Via Castellino Onorato;VIA CASTELLINO ONORATO;10;VIA CASTELLINO ONORATO 10;03/061;12720151;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Corelli Arcangelo;VIA CORELLI ARCANGELO;4;VIA CORELLI ARCANGELO 4;06/134;12720116;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Cassini Giandomenico;VIA CASSINI GIANDOMENICO;98;VIA CASSINI GIANDOMENICO 98;01/008;12720122;Anno specificare;Si;1960;No;1
+Comune;Torino;Torino;Via Leoncavallo Ruggero;VIA LEONCAVALLO RUGGERO;61/2;VIA LEONCAVALLO RUGGERO 61/2;06/144;12720012;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Luserna Di RorÃ  Emanuele;VIA LUSERNA DI RORÃ  EMANUELE;14;VIA LUSERNA DI RORÃ  EMANUELE 14;03/066;12720067;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Germonio Anastasio;VIA GERMONIO ANASTASIO;12;VIA GERMONIO ANASTASIO 12;03/049;12720193;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Giacosa Giuseppe;VIA GIACOSA GIUSEPPE;25;VIA GIACOSA GIUSEPPE 25;08/176;12720301;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Gassino;VIA GASSINO;13;VIA GASSINO 13;07/157;12720097;Anno specificare;Si;1916;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;146;VIA LANZO 146;05/104;12720036;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Galvani Luigi;VIA GALVANI LUIGI;7;VIA GALVANI LUIGI 7;04/082;12720070;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Fossano;VIA FOSSANO;16;VIA FOSSANO 16;04/081BIS;12720295;Anno specificare;Si;1894;No;1
+Comune;Torino;Torino;Via Lancia Vincenzo;VIA LANCIA VINCENZO;140;VIA LANCIA VINCENZO 140;03/053;12720188;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Germonio Anastasio;VIA GERMONIO ANASTASIO;4;VIA GERMONIO ANASTASIO 4;03/048;12720103;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;147/11;VIA LANZO 147/11;05/102;12720069;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Invernizio Carolina;VIA INVERNIZIO CAROLINA;21;VIA INVERNIZIO CAROLINA 21;09/204;12720017;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Lussimpiccolo;VIA LUSSIMPICCOLO;36/A;VIA LUSSIMPICCOLO 36/A;03/054;12720082;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Garessio;VIA GARESSIO;24-mag;VIA GARESSIO 42514;09/193;12720030;Anno specificare;Si;2005;No;1
+Comune;Torino;Torino;Via Lanzo;VIA LANZO;28;VIA LANZO 28;05/103;12720037;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Lorenzini Carlo;VIA LORENZINI CARLO;4;VIA LORENZINI CARLO 4;05/113;12720195;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;VIA FOSSANO;VIA FOSSANO;8;VIA FOSSANO 8;04/094;12720309;2 - nell'Ottocento;Si;;No;1
+Comune;Torino;Torino;Via Gubbio;VIA GUBBIO;47;VIA GUBBIO 47;05/120;12720196;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Le Chiuse;VIA LE CHIUSE;80;VIA LE CHIUSE 80;04/080;12720186;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Giulia Di Barolo;VIA GIULIA DI BAROLO;8;VIA GIULIA DI BAROLO 8;01/011;12720085;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via LANFRANCO;VIA LANFRANCO;2;VIA LANFRANCO 2;02/032;12720160;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Lemie;VIA LEMIE;48;VIA LEMIE 48;05/106;12720142;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Manara;VIA MANARA;10;VIA MANARA 10;08/221;12720135;Anno specificare;Si;1910;No;1
+Comune;Torino;Torino;Via Montevideo;VIA MONTEVIDEO;11;VIA MONTEVIDEO 11;09/194;12720089;Anno specificare;Si;1933;No;1
+Comune;Torino;Torino;Via Monte Novegno;VIA MONTE NOVEGNO;31;VIA MONTE NOVEGNO 31;02/030;12720052;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Madama Cristina;VIA MADAMA CRISTINA;102;VIA MADAMA CRISTINA 102;08/179;12720303;Anno specificare;Si;1887;No;1
+Comune;Torino;Torino;VIA MAGNOLIE (DELLE);VIA MAGNOLIE (DELLE);15;VIA MAGNOLIE (DELLE) 15;05/124;12720022;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Marsigli Luigi Ferdinando;VIA MARSIGLI LUIGI FERDINANDO;25;VIA MARSIGLI LUIGI FERDINANDO 25;03/068;12720178;Anno specificare;Si;1977;No;1
+Comune;Torino;Torino;Via Massena Andrea;VIA MASSENA ANDREA;39;VIA MASSENA ANDREA 39;01/009;12720128;Anno specificare;Si;1880;No;1
+Comune;Torino;Torino;Via Mosca Gaetano;VIA MOSCA GAETANO;11;VIA MOSCA GAETANO 11;05/099;12720141;Anno specificare;Si;1962;No;1
+Comune;Torino;Torino;Via Masserano;VIA MASSERANO;4;VIA MASSERANO 4;07/173;12720083;Anno specificare;Si;1904;No;1
+Comune;Torino;Torino;Via Mille (dei);VIA MILLE (DEI);15;VIA MILLE (DEI) 15;01/010;12720134;Anno specificare;Si;1877;No;1
+Comune;Torino;Torino;Via Negarville Celeste;VIA NEGARVILLE CELESTE;30-giu;VIA NEGARVILLE CELESTE 42551;10/214;12720129;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Messina;VIA MESSINA;14;VIA MESSINA 14;07/151;12720172;Anno specificare;Si;1905;No;1
+Comune;Torino;Torino;Via Mentana;VIA MENTANA;14;VIA MENTANA 14;08/184;12720182;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Magnolie (Delle);VIA MAGNOLIE (DELLE);set-15;VIA MAGNOLIE (DELLE) 42248;05/114;12720002;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Monte Corno;VIA MONTE CORNO;21;VIA MONTE CORNO 21;09/205;12720050;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Monte Grappa;VIA MONTE GRAPPA;81;VIA MONTE GRAPPA 81;04/078;12720294;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Millio Franceso;VIA MILLIO FRANCESO;42;VIA MILLIO FRANCESO 42;03/074;12720191;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Monte Rosa;VIA MONTE ROSA;165;VIA MONTE ROSA 165;06/137;12720077;Anno specificare;Si;1976;No;1
+Comune;Torino;Torino;Via Palma Di Cesnola;VIA PALMA DI CESNOLA;29;VIA PALMA DI CESNOLA 29;09/208;12720306;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Palmieri Pietro;VIA PALMIERI PIETRO;58;VIA PALMIERI PIETRO 58;03/057;12720062;Anno specificare;Si;1910;No;1
+Comune;Torino;Torino;Via Podgora;VIA PODGORA;28;VIA PODGORA 28;09/206;12720032;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Nichelino;VIA NICHELINO;7;VIA NICHELINO 7;09/197;12720173;Anno specificare;Si;1964;No;1
+Comune;Torino;Torino;Via Porta Carlo;VIA PORTA CARLO;6;VIA PORTA CARLO 6;06/126;12720164;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Pesaro;VIA PESARO;11;VIA PESARO 11;07/169;12720199;Anno specificare;Si;1969;No;1
+Comune;Torino;Torino;Via Poirino;VIA POIRINO;9;VIA POIRINO 9;09/196;12720019;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Nizza;VIA NIZZA;151;VIA NIZZA 151;08/199;12720204;Anno specificare;Si;1880;No;1
+Comune;Torino;Torino;Via Pacchiotti Giacinto;VIA PACCHIOTTI GIACINTO;80;VIA PACCHIOTTI GIACINTO 80;04/083;12720159;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Piacenza;VIA PIACENZA;16;VIA PIACENZA 16;09/191;12720080;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Piazzi Giuseppe;VIA PIAZZI GIUSEPPE;57;VIA PIAZZI GIUSEPPE 57;01/014;12720170;Anno specificare;Si;1958;No;1
+Comune;Torino;Torino;Via Randaccio Giovanni;VIA RANDACCIO GIOVANNI;60;VIA RANDACCIO GIOVANNI 60;05/122;12720152;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Postumia;VIA POSTUMIA;28;VIA POSTUMIA 28;03/047;12720130;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;VIA PRIMULE (DELLE);VIA PRIMULE (DELLE);36/B;VIA PRIMULE (DELLE) 36/B;05/115;12720008;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Nuova;VIA NUOVA;2;VIA NUOVA 2;08/182;12720009;Anno specificare;Si;1909;No;1
+Comune;Torino;Torino;Via Negri Ada;VIA NEGRI ADA;23;VIA NEGRI ADA 23;02/027;12720155;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Pacchiotti Giacinto;VIA PACCHIOTTI GIACINTO;102;VIA PACCHIOTTI GIACINTO 102;04/087;12720102;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Nizza;VIA NIZZA;395;VIA NIZZA 395;09/200;12720126;Anno specificare;Si;1931;No;1
+Comune;Torino;Torino;Via Pioppi (Dei);VIA PIOPPI (DEI);45;VIA PIOPPI (DEI) 45;06/125;12720092;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Via Passoni Mario e Luigi;VIA PASSONI MARIO E LUIGI;set-13;VIA PASSONI MARIO E LUIGI 41518;04/085;12720033;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Perrone;VIA PERRONE;7/bis;VIA PERRONE 7/bis;01/021;12720322;3 - tra il 1900 ed il 1920;Si;;No;1
+Comune;Torino;Torino;Via Revel Ottavio;VIA REVEL OTTAVIO;8;VIA REVEL OTTAVIO 8;01/016;12720180;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Plava;VIA PLAVA;177/2;VIA PLAVA 177/2;10/217;12720045;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via Pozzo Strada;VIA POZZO STRADA;12-gen;VIA POZZO STRADA 42381;03/062;12720010;Anno specificare;Si;1926;No;1
+Comune;Torino;Torino;Via Rovereto;VIA ROVERETO;21;VIA ROVERETO 21;02/036;12720028;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Sidoli Giuditta;VIA SIDOLI GIUDITTA;10;VIA SIDOLI GIUDITTA 10;09/202;12720153;Anno specificare;Si;1981;No;1
+Comune;Torino;Torino;Via Rismondo Francesco;VIA RISMONDO FRANCESCO;68;VIA RISMONDO FRANCESCO 68;10/220;12720072;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Santarosa Santorre;VIA SANTAROSA SANTORRE;11;VIA SANTAROSA SANTORRE 11;08/186;12720086;Anno specificare;Si;1882;No;1
+Comune;Torino;Torino;Via Romita Giuseppe;VIA ROMITA GIUSEPPE;19;VIA ROMITA GIUSEPPE 19;02/033;12720157;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Tofane;VIA TOFANE;22;VIA TOFANE 22;03/067;12720189;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Sant'Ottavio;VIA SANT'OTTAVIO;7;VIA SANT'OTTAVIO 7;01/013;12720176;Anno specificare;Si;1926;No;1
+Comune;Torino;Torino;Via Stampini Ettore;VIA STAMPINI ETTORE;25;VIA STAMPINI ETTORE 25;05/117;12720200;Anno specificare;Si;1982;No;1
+Comune;Torino;Torino;Via Stelvio;VIA STELVIO;45;VIA STELVIO 45;03/063;12720011;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via San Marino;VIA SAN MARINO;107;VIA SAN MARINO 107;02/023;12720110;Anno specificare;Si;1970;No;1
+Comune;Torino;Torino;Via San Remo;VIA SAN REMO;46;VIA SAN REMO 46;02/031;12720136;Anno specificare;Si;1954;No;1
+Comune;Torino;Torino;Via Ricasoli Bettino;VIA RICASOLI BETTINO;30;VIA RICASOLI BETTINO 30;07/174;12720113;Anno specificare;Si;1912;No;1
+Comune;Torino;Torino;Via San Sebastiano Po;VIA SAN SEBASTIANO PO;6;VIA SAN SEBASTIANO PO 6;07/163;12720156;Anno specificare;Si;1967;No;1
+Comune;Torino;Torino;Via SanthiÃ ;VIA SANTHIÃ ;76;VIA SANTHIÃ  76;06/145;12720162;Anno specificare;Si;1966;No;1
+Comune;Torino;Torino;Via Sospello;VIA SOSPELLO;64;VIA SOSPELLO 64;05/108;12720154;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Terraneo Giovanni Tommaso;VIA TERRANEO GIOVANNI TOMMASO;1;VIA TERRANEO GIOVANNI TOMMASO 1;05/111;12720042;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Savigliano;VIA SAVIGLIANO;7;VIA SAVIGLIANO 7;04/093;12720038;Anno specificare;Si;1900;No;1
+Comune;Torino;Torino;Via Tiraboschi Gerolamo;VIA TIRABOSCHI GEROLAMO;33;VIA TIRABOSCHI GEROLAMO 33;05/119;12720174;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Ricasoli Bettino;VIA RICASOLI BETTINO;15;VIA RICASOLI BETTINO 15;07/152;12720194;Anno specificare;Si;1974;No;1
+Comune;Torino;Torino;Via Santhia';VIA SANTHIA';25;VIA SANTHIA' 25;06/142;12720298;Anno specificare;Si;1915;No;1
+Comune;Torino;Torino;Via Talucchi Giuseppe;VIA TALUCCHI GIUSEPPE;19;VIA TALUCCHI GIUSEPPE 19;04/091;12720071;Anno specificare;Si;1972;No;1
+Comune;Torino;Torino;Via Tofane;VIA TOFANE;28;VIA TOFANE 28;03/069;12720063;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Tollegno;VIA TOLLEGNO;83;VIA TOLLEGNO 83;06/133;12720060;Anno specificare;Si;1978;No;1
+Comune;Torino;Torino;Via Thouar Pietro;VIA THOUAR PIETRO;2;VIA THOUAR PIETRO 2;05/112;12720108;Anno specificare;Si;1930;No;1
+Comune;Torino;Torino;Via Torrazza Piemonte;VIA TORRAZZA PIEMONTE;10;VIA TORRAZZA PIEMONTE 10;10/218;12720073;Anno specificare;Si;1979;No;1
+Comune;Torino;Torino;Via Tolmino;VIA TOLMINO;30;VIA TOLMINO 30;03/056;12720056;Anno specificare;Si;1980;No;1
+Comune;Torino;Torino;Via Zumaglia;VIA ZUMAGLIA;41;VIA ZUMAGLIA 41;04/079;12720137;Anno specificare;Si;1984;No;1
+Comune;Torino;Torino;Via Tolmino;VIA TOLMINO;40;VIA TOLMINO 40;03/073;12720158;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via ValfrÃ¨ Beato Sebastiano;VIA VALFRÃ¨ BEATO SEBASTIANO;8;VIA VALFRÃ¨ BEATO SEBASTIANO 8;01/005;12720118;Anno specificare;Si;1891;No;1
+Comune;Torino;Torino;Via Verbene (Delle);VIA VERBENE (DELLE);6;VIA VERBENE (DELLE) 6;05/116;12720001;Anno specificare;Si;1961;No;1
+Comune;Torino;Torino;Via Vallauri;VIA VALLAURI;24;VIA VALLAURI 24;06/129;12720091;Anno specificare;Si;1982;No;1
+Comune;Torino;Torino;Via Tunisi;VIA TUNISI;102;VIA TUNISI 102;09/207;12720305;Anno specificare;Si;1963;No;1
+Comune;Torino;Torino;Via Valgioie;VIA VALGIOIE;72;VIA VALGIOIE 72;04/088;12720021;Anno specificare;Si;1973;No;1
+Comune;Torino;Torino;Via Venaria;VIA VENARIA;79/15;VIA VENARIA 79/15;05/105;12720211;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via Valenza;VIA VALENZA;71;VIA VALENZA 71;09/209;12720190;Anno specificare;Si;1984;No;1
+Comune;Torino;Torino;Via Ventimiglia;VIA VENTIMIGLIA;128;VIA VENTIMIGLIA 128;09/201;12720127;Anno specificare;Si;1971;No;1
+Comune;Torino;Torino;Via Vezzolano;VIA VEZZOLANO;20;VIA VEZZOLANO 20;07/175;12720112;Anno specificare;Si;1968;No;1
+Comune;Torino;Torino;Via VibÃ_;VIA VIBÃ_;62;VIA VIBÃ_ 62;05/121;12720064;Anno specificare;Si;1915;No;1
+Provincia;Torino;Torino;Corso Caduti sul Lavoro;CORSO CADUTI SUL LAVORO;11;CORSO CADUTI SUL LAVORO 11;PROVTO-74;12720225;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Corso Picco A.;CORSO PICCO A.;14;CORSO PICCO A. 14;PROVTO-145;12720270;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;CORSO PESCHIERA;CORSO PESCHIERA;230;CORSO PESCHIERA 230;PROVTO-39;12720268;Anno specificare;Si;1930;No;1
+Provincia;Torino;Torino;CORSO ALIGHIERI DANTE;CORSO ALIGHIERI DANTE;80;CORSO ALIGHIERI DANTE 80;PROVTO121A;12720317;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67);CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67);20;CORSO DUCA DEGLI ABRUZZI (CORSO MONTEVECCHIO 67) 20;PROVTO-25;12720216;Anno specificare;Si;1953;No;1
+Provincia;Torino;Torino;CORSO ALIGHIERI DANTE;CORSO ALIGHIERI DANTE;80;CORSO ALIGHIERI DANTE 80;PROVTO-121;12720262;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Corso Caio Plinio;CORSO CAIO PLINIO;2;CORSO CAIO PLINIO 2;PROVTO-126;12720280;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;Corso Novara;CORSO NOVARA;65;CORSO NOVARA 65;PROVTO-83;12720240;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;Corso Molise;CORSO MOLISE;58;CORSO MOLISE 58;PROVTO-111;12720266;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;Corso San Maurizio;CORSO SAN MAURIZIO;8;CORSO SAN MAURIZIO 8;PROVTO-123;12720260;Anno specificare;Si;1903;No;1
+Provincia;Torino;Torino;Strada Altessano/via sansovino;STRADA ALTESSANO/VIA SANSOVINO;52/3-150;STRADA ALTESSANO/VIA SANSOVINO 52/3-150;PROVTO-5;12720282;Anno specificare;Si;1977;No;1
+Provincia;Torino;Torino;Via Castelgomberto;VIA CASTELGOMBERTO;20;VIA CASTELGOMBERTO 20;PROVTO-57;12720232;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;Via Bologna;VIA BOLOGNA;183;VIA BOLOGNA 183;PROVTO-95;12720234;Anno specificare;Si;1850;No;1
+Provincia;Torino;Torino;Corso Tazzoli;CORSO TAZZOLI;209;CORSO TAZZOLI 209;PROVTO-54;12720244;Anno specificare;Si;1982;No;1
+Provincia;Torino;Torino;CORSO UNIONE SOVIETICA;CORSO UNIONE SOVIETICA;490;CORSO UNIONE SOVIETICA 490;PROVTO-134;12720274;Anno specificare;Si;1978;No;1
+Provincia;Torino;Torino;CORSO VENEZIA;CORSO VENEZIA;29;CORSO VENEZIA 29;PROVTO-142;12720271;Anno specificare;Si;1940;No;1
+Provincia;Torino;Torino;Via Alassio;VIA ALASSIO;20;VIA ALASSIO 20;PROVTO-129;12720278;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;Via Bidone;VIA BIDONE;11;VIA BIDONE 11;PROVTO-62;12720230;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Carcano;VIA CARCANO;31;VIA CARCANO 31;PROVTO-79;12720242;Anno specificare;Si;1993;No;1
+Provincia;Torino;Torino;Lungo Dora Napoli;LUNGO DORA NAPOLI;25;LUNGO DORA NAPOLI 25;PROVTO-113;12720264;Anno specificare;Si;1900;No;1
+Provincia;Torino;Torino;Corso Tassoni;CORSO TASSONI;15;CORSO TASSONI 15;PROVTO-11;12720220;Anno specificare;Si;1930;No;1
+Provincia;Torino;Torino;Piazza Robilant;PIAZZA ROBILANT;5;PIAZZA ROBILANT 5;PROVTO-34;12720251;Anno specificare;Si;1920;No;1
+Provincia;Torino;Torino;Via Braccini;VIA BRACCINI;11;VIA BRACCINI 11;PROVTO-1;12720283;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Bologna;VIA BOLOGNA;79;VIA BOLOGNA 79;PROVTO-84;12720239;Anno specificare;Si;1969;No;1
+Provincia;Torino;Torino;Via Casana;VIA CASANA;5;VIA CASANA 5;PROVTO-73;12720226;Anno specificare;Si;1981;No;1
+Provincia;Torino;Torino;VIA LAVAGNA;VIA LAVAGNA;8;VIA LAVAGNA 8;PROVTO-127;12720279;Anno specificare;Si;1959;No;1
+Provincia;Torino;Torino;Via Frattini;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64;12720228;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;VIA GAIDANO PAOLO;VIA GAIDANO PAOLO;126;VIA GAIDANO PAOLO 126;PROVTO-21;12720217;Anno specificare;Si;1974;No;1
+Provincia;Torino;Torino;Via Cittadella;VIA CITTADELLA;3;VIA CITTADELLA 3;PROVTO-33;12720252;Anno specificare;Si;1955;No;1
+Provincia;Torino;Torino;Via Figlie dei Militari;VIA FIGLIE DEI MILITARI;25;VIA FIGLIE DEI MILITARI 25;PROVTO-122;12720261;Anno specificare;Si;1884;No;1
+Provincia;Torino;Torino;Via Juvarra;VIA JUVARRA;14;VIA JUVARRA 14;PROVTO-44;12720245;5 - tra il 1946 ed il 1960;Si;;No;1
+Provincia;Torino;Torino;Via Chiomonte;VIA CHIOMONTE;4;VIA CHIOMONTE 4;PROVTO-35;12720250;Anno specificare;Si;1958;No;1
+Provincia;Torino;Torino;Via Della Cella;VIA DELLA CELLA;3;VIA DELLA CELLA 3;PROVTO-149;12720269;Anno specificare;Si;1954;No;1
+Provincia;Torino;Torino;Via lavagna;VIA LAVAGNA;8;VIA LAVAGNA 8;PROVTO127A;12720319;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Luini;VIA LUINI;123;VIA LUINI 123;PROVTO-6;12720215;Anno specificare;Si;1961;No;1
+Provincia;Torino;Torino;Via Duchessa Jolanda;VIA DUCHESSA JOLANDA;27 bis;VIA DUCHESSA JOLANDA 27 bis;PROVTO-3;12720285;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;VIA GENE' GIUSEPPE;VIA GENE' GIUSEPPE;dic-14;VIA GENE' GIUSEPPE 41974;PROVTO-133;12720275;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Via Don Grioli;VIA DON GRIOLI;43;VIA DON GRIOLI 43;PROVTO-58;12720231;Anno specificare;Si;1978;No;1
+Provincia;Torino;Torino;via giulia di barolo ;VIA GIULIA DI BAROLO ;33;VIA GIULIA DI BAROLO  33;PROVTO-27A;12720175;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Via Giulia di Barolo;VIA GIULIA DI BAROLO;33;VIA GIULIA DI BAROLO 33;PROVTO-27;12720257;Anno specificare;Si;1995;No;1
+Provincia;Torino;Torino;VIA FRATTINI;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64B;12720318;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Gorizia;VIA GORIZIA;7;VIA GORIZIA 7;PROVTO-55;12720243;Anno specificare;Si;1986;No;1
+Provincia;Torino;Torino;Via Maria Vittoria;VIA MARIA VITTORIA;39 bis;VIA MARIA VITTORIA 39 bis;PROVTO-28;12720256;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;Via frattini;VIA FRATTINI;nov-15;VIA FRATTINI 42309;PROVTO-64A;12720181;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Madonna delle Salette;VIA MADONNA DELLE SALETTE;29;VIA MADONNA DELLE SALETTE 29;PROVTO-29;12720255;Anno specificare;Si;1990;No;1
+Provincia;Torino;Torino;Via Montecorno;VIA MONTECORNO;34;VIA MONTECORNO 34;PROVTO-136;12720272;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Meucci;VIA MEUCCI;9;VIA MEUCCI 9;PROVTO-7;12720224;Anno specificare;Si;1906;No;1
+Provincia;Torino;Torino;Via Paganini;VIA PAGANINI;22;VIA PAGANINI 22;PROVTO-82;12720241;Anno specificare;Si;1947;No;1
+Provincia;Torino;Torino;Via Parini;VIA PARINI;8;VIA PARINI 8;PROVTO-15;12720218;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Parenzo;VIA PARENZO;46;VIA PARENZO 46;PROVTO-36;12720249;Anno specificare;Si;1980;No;1
+Provincia;Torino;Torino;VIA MONTECUCCOLI RAIMONDO;VIA MONTECUCCOLI RAIMONDO;12;VIA MONTECUCCOLI RAIMONDO 12;PROVTO-4;12720286;Anno specificare;Si;1908;No;1
+Provincia;Torino;Torino;Via Marinuzzi;VIA MARINUZZI;1;VIA MARINUZZI 1;PROVTO-89;12720236;Anno specificare;Si;1975;No;1
+Provincia;Torino;Torino;Via Moretta;VIA MORETTA;55;VIA MORETTA 55;PROVTO-8;12720223;Anno specificare;Si;1947;No;1
+Provincia;Torino;Torino;VIA PACINI GIOVANNI;VIA PACINI GIOVANNI;28;VIA PACINI GIOVANNI 28;PROVTO-94A;12720315;Anno specificare;Si;1967;No;1
+Provincia;Torino;Torino;Via Monginevro;VIA MONGINEVRO;291/293;VIA MONGINEVRO 291/293;PROVTO-114;12720263;Anno specificare;Si;1972;No;1
+Provincia;Torino;Torino;VIA NEGRI ADA;VIA NEGRI ADA;15;VIA NEGRI ADA 15;PROVTO-56;12720233;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Pacini;VIA PACINI;28;VIA PACINI 28;PROVTO-94;12720235;Anno specificare;Si;1967;No;1
+Provincia;Torino;Torino;Via Parini;VIA PARINI;8;VIA PARINI 8;PROVTO-15A;12720312;Anno specificare;Si;1971;No;1
+Provincia;Torino;Torino;Via Postumia;VIA POSTUMIA;57/60;VIA POSTUMIA 57/60;PROVTO-10;12720221;Anno specificare;Si;1973;No;1
+Provincia;Torino;Torino;via salerno;VIA SALERNO;60;VIA SALERNO 60;PROVTO130A;12720311;6 - tra il 1961 ed il 1975;Si;;No;1
+Provincia;Torino;Torino;Via Sostegno;VIA SOSTEGNO;41/10;VIA SOSTEGNO 41/10;PROVTO-9;12720222;Anno specificare;Si;1982;No;1
+Provincia;Torino;Torino;Via Salerno;VIA SALERNO;60;VIA SALERNO 60;PROVTO-130;12720277;Anno specificare;Si;1950;No;1
+Provincia;Torino;Torino;Via Pesaro;VIA PESARO;11;VIA PESARO 11;PROVTO-45;12720246;Anno specificare;Si;1969;No;1
+Provincia;Torino;Torino;Via Rocca (della);VIA ROCCA (DELLA);7;VIA ROCCA (DELLA) 7;PROVTO-32;12720253;2 - nell'Ottocento;Si;;No;1
+Provincia;Torino;Torino;Via Rocca (della);VIA ROCCA (DELLA);7;VIA ROCCA (DELLA) 7;PROTO-32A;12720321;Anno specificare;Si;1965;No;1
+Provincia;Torino;Torino;Via Rovigo;VIA ROVIGO;19;VIA ROVIGO 19;PROVTO-124;12720259;Anno specificare;Si;1968;No;1
+Provincia;Torino;Torino;Via Scotellaro;VIA SCOTELLARO;15;VIA SCOTELLARO 15;PROVTO-112;12720265;Anno specificare;Si;1974;No;1
+Provincia;Torino;Torino;Via Sant'Ottavio;VIA SANT'OTTAVIO;11;VIA SANT'OTTAVIO 11;PROVTO-26;12720258;4 - tra il 1921 ed il 1945;Si;;No;1
+Provincia;Torino;Torino;Via Pisacane;VIA PISACANE;72;VIA PISACANE 72;PROVTO-85;12720238;Anno specificare;Si;1964;No;1
+Provincia;Torino;Torino;VIA PONCHIELLI AMILCARE;VIA PONCHIELLI AMILCARE;56;VIA PONCHIELLI AMILCARE 56;PROVTO-86A;12720314;7 - dal 1976;Si;;No;1
+Provincia;Torino;Torino;Via Ponchielli;VIA PONCHIELLI;56;VIA PONCHIELLI 56;PROVTO-86;12720237;Anno specificare;Si;1950;No;1
+Provincia;Torino;Torino;Via Sostegno;VIA SOSTEGNO;41/a;VIA SOSTEGNO 41/a;PROVTO-30;12720254;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Valperga Caluso;VIA VALPERGA CALUSO;12;VIA VALPERGA CALUSO 12;PROVTO-72;12720227;4 - tra il 1921 ed il 1945;Si;;No;1
+Provincia;Torino;Torino;via s. ottavio ;VIA S. OTTAVIO ;09-nov;VIA S. OTTAVIO  42683;PROVTO-26A;12720313;Anno specificare;Si;1926;No;1
+Provincia;Torino;Torino;VIA VIGONE;VIA VIGONE;72;VIA VIGONE 72;PROVTO-40;12720248;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Veronese P.;VIA VERONESE P.;305;VIA VERONESE P. 305;PROVTO-104;12720267;Anno specificare;Si;1970;No;1
+Provincia;Torino;Torino;Via Tripoli;VIA TRIPOLI;82;VIA TRIPOLI 82;PROVTO-12;12720219;Anno specificare;Si;1962;No;1
+;Torino;Torino;Via Accademia Albertina;VIA ACCADEMIA ALBERTINA;6;VIA ACCADEMIA ALBERTINA 6;ACC_ALBERT;12720284;Anno specificare;Si;1820;No;1
